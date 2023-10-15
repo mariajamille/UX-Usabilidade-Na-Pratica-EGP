@@ -12,13 +12,13 @@
                 </a>
             </li>
 
-            <!-- <li class="menu">
+            <li class="menu">
                 <a href="topico01.php">
                     <span class="icon "><i class="bi bi-1-circle"></i>
                     </span>
-                    <span class="txt">Gestão de tempo</i></span>
+                    <span class="txt">Tópico 1</i></span>
                 </a>
-            </li> -->
+            </li>
 
             <!-- topico com Subtópico -->
             <button class="dropdown-btn">

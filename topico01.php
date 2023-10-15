@@ -30,7 +30,7 @@ include('layout/header.php');
 
         <!-- Botões de navegação -->
         <div class="text-center">
-            <a href="index.html" class="btn btn-outline-success" role="button" aria-pressed="true"> <i
+            <a href="index.php" class="btn btn-outline-success" role="button" aria-pressed="true"> <i
                     class="fa-solid fa-chevron-left"></i> Voltar </a>
             <a href="index.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
                     class="fa-solid fa-chevron-right"></i></a>
