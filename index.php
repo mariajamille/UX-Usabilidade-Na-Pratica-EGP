@@ -1,11 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+<?php
+include('layout/header.php');
+ ?>
 <body>
-    
+
+    <!-- NAV  -->
+    <?php
+    include('layout/nav.php');
+    ?>
+    <!-- FIM DA NAV -->
+
+    <!-- menu lateral  -->
+    <?php
+    include('layout/menu.php');
+    ?>
+
+    <div class="all-conteudo">
+        <section>
+            <div class="main-content container-fluid">
+
+
+
+                <div class="row">
+                    <!-- Begin row -->
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10 col-sm-8 container-fluid">
+
+                        <h2 class="Titulo fw-bolder">Apresentação</h2>
+                        <!-- tirei o hr por que o menu não estava ficando sobreposto -->
+                        <!-- <hr> -->
+
+        <!-- Botões de navegação -->
+        <div class="text-center">
+            <a href="topico01.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
+                    class="bi bi-chevron-right"></i></a>
+        </div>
+
+
+        <div id="progress-bar"></div>
+    </div>
+<?php
+include('layout/footer.php');
+?>
 </body>
+
 </html>
