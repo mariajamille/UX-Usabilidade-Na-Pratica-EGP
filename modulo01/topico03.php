@@ -36,6 +36,9 @@ include('layout/header.php');
                     class="fa-solid fa-chevron-right"></i></a>
         </div>
 
+        <!-- barra de progresso embaixo -->
+        <div id="progress-bar"></div>
+    </div>
 
     <!-- BUTTON BACK TO TOP (JAMILLE) -->
     <div id="back_to_top">

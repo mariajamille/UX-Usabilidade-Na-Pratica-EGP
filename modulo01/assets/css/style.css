@@ -193,7 +193,18 @@ ul li.menu a:hover {
 .menulateral:hover {
     width: 280px;
     z-index: 6;
+    overflow-y: auto;
 }
+.menulateral:hover::-webkit-scrollbar {
+    width: 7px;  
+  }
+.menulateral:hover::-webkit-scrollbar-track {
+    background: #EFF7F0; 
+  }
+.menulateral:hover::-webkit-scrollbar-thumb {
+    background-color: rgb(185, 185, 185); 
+    border-radius: 10px;
+  }
 /* ESTILO DO MENU RESPONSIVO */
 
 .offcanvas {
@@ -259,8 +270,7 @@ ul li.menu a:hover {
     padding-left: 1.2em;
     padding-top: 0.5em;
     padding-bottom: 0.3em;
-    transition: color 0.5s linear;
-    transition: background-color 0.5s linear;
+    transition: background-color 0.3s linear;
 }
 
 [data-theme="dark"] .dropdown-container a {
