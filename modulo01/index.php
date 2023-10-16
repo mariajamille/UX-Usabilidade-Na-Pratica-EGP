@@ -13,6 +13,7 @@ include('layout/header.php');
     <?php
     include('layout/menu.php');
     ?>
+    <!-- fim do menu lateral  -->
 
     <div class="all-conteudo">
         <section>
