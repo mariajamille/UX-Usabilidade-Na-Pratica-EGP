@@ -28,6 +28,8 @@ include('layout/header.php');
 
                         <div class="page-title">
 
+                        <!-- COMEÇO REFERÊNCIAS  -->
+
                             <h2 class="Titulo">REFERÊNCIAS</h2>
 
                             <br>
