@@ -118,6 +118,9 @@ body {
 ul {
     list-style: none;
 }
+ol li{
+    font-family: var(--FonteRaleway);
+}
 
 [data-theme="dark"] ul li.menu a {
     color: var(--color-light-50);
