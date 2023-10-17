@@ -120,6 +120,7 @@ ul {
 }
 ol li{
     font-family: var(--FonteRaleway);
+    font-size: 18px;
 }
 
 [data-theme="dark"] ul li.menu a {
@@ -855,6 +856,9 @@ form {
 h2,
 .Titulo {
     color: var(--color-green);
+}
+.Subtopico{
+    color: var(--CorVerdeClaro);
 }
 
 .none {
