@@ -49,17 +49,17 @@ include('layout/header.php');
                                 Rio de Janeiro. 2005. </p>
                             <p class="Texto"> <i class="bi bi-journals"></i>REBELO, Irla B.<strong>Usabilidade e suas metas.</strong> Apostila. Brasília, DF. Última
                                 atualização em novembro de 2009. Disponível em
-                                <irlabr.wordpresss.com>.
+                                <a href="irlabr.wordpresss.com">irlabr.wordpresss.com</a>.
                             </p>
                             <p class="Texto"> <i class="bi bi-journals"></i>NIELSEN, J. (2012, January 3). <strong>Usability 101: Introduction to Usability.</strong>
                                 Acessado em novembro de 2020. Disponível em
-                                < https: //www.nngroup.com/articles/usability-101-introduction-tousability />.
+                                <a href="https: //www.nngroup.com/articles/usability-101-introduction-tousability"> https: //www.nngroup.com/articles/usability-101-introduction-tousability</a>
                             </p>
                             <p class="Texto"> <i class="bi bi-journals"></i>BARBOSA, Simone; SILVA, Bruno. <strong>Interação humano-computador.</strong>
                                 Elsevier Brasil, 2010. </p>
                             <p class="Texto"> <i class="bi bi-journals"></i>NIELSEN, J. (1994, April 24). <strong> Usability Heuristics for User Interface
-                                    Design.</strong> Retrieved November 16, 2020, from https://www.nngroup.com/
-                                articles/ten-usability-heuristics/ </p>
+                                    Design.</strong> Retrieved November 16, 2020, from <a href="https://www.nngroup.com/"> https://www.nngroup.com/
+                                articles/ten-usability-heuristics/</a> </p>
 
 
 
