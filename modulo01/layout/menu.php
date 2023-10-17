@@ -7,7 +7,7 @@
     <ul>
         <li class="menu">
             <a href="index.php">
-                <span class="icon "><i class="bi bi-person-workspace"></i></span>
+                <span class="icon "><i class="bi bi-bullseye"></i></span>
                 <span class="txt">Objetivos</span>
             </a>
         </li>
