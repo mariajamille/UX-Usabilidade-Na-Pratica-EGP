@@ -4,6 +4,11 @@
 <?php
 include('layout/header.php');
 ?>
+<!-- PLUGIN DO FADE IN -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 <body>
 
@@ -535,7 +540,7 @@ include('layout/header.php');
                             aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div
                                 class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                                <div class="modal-content w-75">
+                                <div class="modal-content w-35">
                                     <img class="img-fluid" src="imgs/Figura08.png"
                                         alt="Características de qualidade de produto em ISO/IEC 25010">
                                 </div>

@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    
+
 <?php
 include('layout/header.php');
 ?>
+
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 
 <body>
 
@@ -47,6 +52,14 @@ include('layout/header.php');
                                 Aprender como avaliar usabilidade.
                             </li>
                         </ul>
+
+                        <!-- SCRIPT LIGHTBOX -->
+                        <script>
+                            $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+                                event.preventDefault();
+                                $(this).ekkoLightbox();
+                            });                    
+                        </script>
 
                         <!-- Botões de navegação -->
                         <div class="text-center">
