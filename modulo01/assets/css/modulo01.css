@@ -5,6 +5,6 @@
      margin-top: 5px;
      list-style: none;
  }
- [data-theme="dark"] .list02 li {
-   color: white;
-}
+ p.paragrafo{
+    margin-top: 5.8em;
+ }
