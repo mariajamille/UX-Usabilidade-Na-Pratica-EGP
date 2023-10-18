@@ -1,0 +1,7 @@
+ 
+ .list02 li {
+     font-family: var(--FonteRaleway);
+     font-size: 1.2rem;
+     margin-top: 5px;
+     list-style: none;
+ }

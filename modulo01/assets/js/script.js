@@ -59,7 +59,7 @@
 
 // fim do código do menu lateral
 
-//BOTÃO BACK TO TOP (JAMILLE)
+//BOTÃO BACK TO TOP
 let calcScrollValue = () => {
     let scrollProgress = document.getElementById("back_to_top")
     let progressValue = document.getElementById("btn_back")
@@ -99,7 +99,7 @@ window.addEventListener("scroll", function () {
 })
 
 
-//MODO ESCURO (JAMILLE)
+//MODO ESCURO 
 const btnDarkModeToggle = document.getElementById('btn_tema')
 const icon = document.getElementById('icone')
 const themeSystem = localStorage.getItem('themeSystem') || 'light'
@@ -132,7 +132,7 @@ function defineCurrentTheme(theme) {
 }
 
 defineCurrentTheme(themeSystem)
-//FIM DA FUNÇÃO MODO ESCURO (JAMILLE)
+//FIM DA FUNÇÃO MODO ESCURO 
 
 // script do ScrollReveal
 document.addEventListener('DOMContentLoaded', function () {

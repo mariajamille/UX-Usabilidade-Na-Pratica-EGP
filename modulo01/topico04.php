@@ -17,6 +17,13 @@ include('layout/header.php');
     ?>
     <!-- FIM DO MENU  -->
 
+        <!-- Botões de navegação -->
+        <div class="text-center">
+            <a href="topico03.php" class="btn btn-outline-success" role="button" aria-pressed="true"> <i
+                    class="fa-solid fa-chevron-left"></i> Voltar </a>
+            <a href="referencias.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
+                    class="fa-solid fa-chevron-right"></i></a>
+        </div>
 
     <!-- BUTTON BACK TO TOP (JAMILLE) -->
     <div id="back_to_top">

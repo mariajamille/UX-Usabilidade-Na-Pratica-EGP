@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +13,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <!-- nosso css -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/modulo01.css">
     <!-- link do font awesome  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <!-- link do script -->
@@ -25,5 +23,10 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="http://ava.egp.ce.gov.br/2018/desv/logo/favicon.png" />
 
-    <title>EGPCE | Design de experiência do usuário: usabilidade na prática</title>
+    <link rel="stylesheet" href="css/animate.css">
+
+
+ 
+
+    <title>EGPCE | UX - Usabilidade na Prática - Módulo 01</title>
 </head>
