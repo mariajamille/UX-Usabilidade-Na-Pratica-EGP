@@ -6,14 +6,6 @@ A FUNÇÃO [data-theme="dark"] ALTERA O CONTEÚDO PARA O MODO ESCURO. */
 
 /* estilo do menu lateral (feito pelo audi) */
 
-a {
-    text-decoration: none;
-}
-
-/* [data-theme="dark"] a{
-    color: rgb(153, 153, 156);
-} */
-
 :root {
     --CormenuLateral: #EFF7F0;
     --CorPreto: black;
@@ -64,6 +56,10 @@ a {
     --FonteRaleway: 'Raleway', sans-serif;
     --FonteVerdana: Verdana, Geneva, Tahoma, sans-serif;
     /*  */
+}
+
+a {
+    text-decoration: none;
 }
 
 * {
@@ -153,12 +149,16 @@ ol li {
 }
 
 
+[data-theme="dark"] .list li {
+   color: white;
+}
+
 .list li {
     font-family: var(--FonteRaleway);
     font-size: 1.2rem;
     margin-top: 5px;
-
 }
+
 
 [data-theme="dark"] ul li.menu a {
     color: var(--color-light-50);

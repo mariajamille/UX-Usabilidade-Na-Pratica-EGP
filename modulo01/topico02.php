@@ -217,7 +217,7 @@ include('layout/header.php');
 
                         <!-- INÍCIO DO SUBTÓPICO -->
                         <div data-spy="scroll" data-target="#spy" data-offset="0"></div>
-                        <a id="item1"></a>
+                        <a id="item2"></a>
 
                         <!-- subtopico título-->
                         <h3 class="Subtopico fw-bolder">02.2 - ISO/IEC 25000 (SQuaRE)</h3>
@@ -304,7 +304,8 @@ include('layout/header.php');
                                     <img src="imgs/Figura06.png" alt="Qualidade de uso em ISO/IEC 25010">
                                 </a>
                             </div>
-                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> adaptado de ISO/IEC 25010.</p>
+                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> adaptado de ISO/IEC
+                                25010.</p>
                         </div>
 
                         <!-- Imagem 06 - MODAL (Audi)-->
@@ -313,15 +314,238 @@ include('layout/header.php');
                             <div
                                 class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
                                 <div class="modal-content w-75">
-                                    <img class="img-fluid" src="imgs/Figura06.png" alt="Qualidade de uso em ISO/IEC 25010">
+                                    <img class="img-fluid" src="imgs/Figura06.png"
+                                        alt="Qualidade de uso em ISO/IEC 25010">
                                 </div>
                                 <div class="modal-footer w-75 bg-light justify-content-center">
-                                    <p class="text-secondary"><strong>Figura 06 - </strong> Qualidade de uso em ISO/IEC 25010/p>
+                                    <p class="text-secondary"><strong>Figura 06 - </strong> Qualidade de uso em ISO/IEC
+                                        25010/p>
                                 </div>
                             </div>
                         </div><br>
                         <!-- Imagem 06 - End  (Audi)-->
 
+                        <br>
+                        <p class="scrool">Na divisão ISO/IEC 2504n da série de normas, a especificação define um
+                            <strong>modelo de
+                                referência de avaliação</strong>, isto é, como avaliar tudo isso que foi apresentado
+                            utilizando como base as características e atributos. Essa norma da série apresenta uma
+                            seleção das métricas de qualidade de usabilidade.
+                        </p>
+
+                        <!-- CAIXA DE TEXTO SAIBA-MAIS -->
+                        <section class="container">
+                            <div class="accordion ">
+                                <section id="content">
+                                    <div class="caixaprincipal" id="tituloSaibaMais">
+                                        <div class="div_teste">
+                                            <div><i class="fa-solid fa-plus"></i> SAIBA MAIS </div>
+
+                                            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                                        </div>
+                                    </div> <!--caixa Principal-->
+                                    <div class="accordion-content" id="saibamais">
+                                        <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75">
+                                                    Passe o mouse acima
+                                                </strong></strong></p>
+                                        <p class="txt-caixasecundaria">Ficou curioso sobre as outras características de
+                                            qualidade de produto da SQuaRE? Veja na <strong>Figura 07</strong> quais
+                                            características de qualidade de produto são incluídas além de usabilidade.
+                                        </p><!--caixa secundaria-->
+                                    </div>
+                                </section>
+                        </section>
+                        <!-- FIM DA CAIXA SAIBA MAIS  -->
+
+                        <!-- IMAGEM NO SITE  -->
+                        <div class="text-center img-01">
+                            <div class="zoom">
+                                <a href="imgs/Figura07.png" data-bs-toggle="modal" data-bs-target="#Imagem07">
+                                    <img src="imgs/Figura07.png"
+                                        alt="Características de qualidade de produto em ISO/IEC 25010">
+                                </a>
+                            </div>
+                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> ISO/IEC 25010.</p>
+                        </div>
+
+                        <!-- Imagem 07 - MODAL (Audi)-->
+                        <div class="modal fade text-center" id="Imagem07" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div
+                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                <div class="modal-content w-75">
+                                    <img class="img-fluid" src="imgs/Figura07.png"
+                                        alt="Características de qualidade de produto em ISO/IEC 25010">
+                                </div>
+                                <div class="modal-footer w-75 bg-light justify-content-center">
+                                    <p class="text-secondary"><strong>Figura 07 - </strong> Características de qualidade
+                                        de produto em ISO/IEC 25010</p>
+                                </div>
+                            </div>
+                        </div><br>
+                        <!-- Imagem 07 - End  (Audi)-->
+
+                        <!-- INÍCIO DO SUBTÓPICO -->
+                        <div data-spy="scroll" data-target="#spy" data-offset="0"></div>
+                        <a id="item3"></a>
+
+                        <!-- subtopico título-->
+                        <h3 class="Subtopico fw-bolder">02.3 - Heurísticas de Nielsen</h3>
+                        <!-- subtopico título -->
+
+                        <br>
+                        <p class="scrool">Além das normas apresentadas, existem outras especificações que se relacionam
+                            com a definição
+                            de Usabilidade. As heurísticas de Nielsen são mais didáticas para uma aplicação prática de
+                            usabilidade, sendo mais apreciadas e usadas no contexto de design de sistemas
+                            computacionais. </p>
+
+                        <p class="scrool">Enquanto as normas buscam quantificar a usabilidade para definir qual o nível
+                            de conformidade
+                            com um modelo de qualidade, as heurísticas tratam a usabilidade de forma mais ampla e
+                            aberta, considerando aspectos da psicologia cognitiva e experimental. As heurísticas não tem
+                            como objetivo encontrar um valor dentro de uma escala para a usabilidade. <strong>Esta é a
+                                melhor forma de trabalhar com usabilidade? Depende da aplicação</strong>. Conheça todas
+                            as definições e formatos para enfim decidir como irá utilizá-la no contexto de um
+                            determinado produto e seu processo. O foco deste curso será nas heurísticas de Nielsen.</p>
+
+                        <!-- CAIXA DE TEXTO SAIBA-MAIS -->
+                        <section class="container">
+                            <div class="accordion ">
+                                <section id="content">
+                                    <div class="caixaprincipal" id="tituloSaibaMais">
+                                        <div class="div_teste">
+                                            <div><i class="fa-solid fa-plus"></i> SAIBA MAIS </div>
+
+                                            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                                        </div>
+                                    </div> <!--caixa Principal-->
+                                    <div class="accordion-content" id="saibamais">
+                                        <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75">
+                                                    Passe o mouse acima
+                                                </strong></strong></p>
+                                        <p class="txt-caixasecundaria">É importante ressaltar que as heurísticas de
+                                            Nielsen não foram nem são as únicas a tratar da usabilidade. Como mostra o
+                                            trabalho de Abreu (2005), há outros critérios ergonômicos de usabilidade:
+                                        </p>
+
+                                        <ul class="list02">
+                                            <ol class="txt-caixasecundaria">
+                                                <li class="wow fadeInLeft" data-wow-delay="0.3s"><i
+                                                        class="fa fa-dot-circle text-success"></i> Ben
+                                                    Shneiderman (1986): “Oito regras de ouro do design de diálogo”;</li>
+                                                <li class="wow fadeInLeft" data-wow-delay="0.6s"><i
+                                                        class="fa fa-dot-circle text-success"></i> Donald Norman
+                                                    (1988): “Princípios de orientação”;</li>
+                                                <li class="wow fadeInLeft" data-wow-delay="0.9s"><i
+                                                        class="fa fa-dot-circle text-success"></i> Jakob Nielsen
+                                                    (1993): “Heurísticas de usabilidade”;</li>
+                                                <li class="wow fadeInLeft" data-wow-delay="1.0s"><i
+                                                        class="fa fa-dot-circle text-success"></i> Bruce
+                                                    Tognazzini (1987): “Guidelines de Interface humana”;</li>
+                                                <li class="wow fadeInLeft" data-wow-delay="1.3s"><i
+                                                        class="fa fa-dot-circle text-success"></i> Christien
+                                                    Bastien &, Dominique Scapin (1993): “Critérios ergonômicos para
+                                                    avaliação de interfaces humano-computador”;</li>
+                                                <li class="wow fadeInLeft" data-wow-delay="1.6s"><i
+                                                        class="fa fa-dot-circle text-success"></i> Andrew Monk
+                                                    (1992) - Nokia (Equipe Nokia).</li>
+                                            </ol>
+                                        </ul><br>
+
+                                        <p class="txt-caixasecundaria">Neste trabalho, Abreu apresenta um comparativo
+                                            rico de
+                                            23 critérios, indicando, por exemplo, o quão semelhantes são as “oito regras
+                                            de ouro” de Shneiderman com as heurísticas de usabilidade Nielsen. Esta
+                                            lista permitiu a identificação de recomendações provenientes de pesquisas
+                                            consolidadas em HCI culminando em 23 critérios ergonômicos de usabilidade
+                                            para a avaliação de sistemas de telefones celulares.</p>
+                                        <!--caixa secundaria-->
+                                    </div>
+                                </section>
+                        </section>
+                        <!-- FIM DA CAIXA SAIBA MAIS  -->
+
+                        <br>
+                        <p>Para Nielsen, </p>
+
+                        <!-- CITAÇÃO -->
+                        <div class="bd-callout bd-callout-success fw-bold fst-italic">
+                            <p class="scrool">
+                                A usabilidade é o atributo de qualidade que avalia se uma interface de
+                                usuário é fácil de usar. Usabilidade também se refere ao método utilizado para
+                                melhorar a facilidade de uso no processo de design.
+                            </p>
+                        </div><br>
+
+                        <p>Nielsen complementa esta definição a partir de 5 fatores de usabilidade:</p>
+
+                        <ol>
+                            <br>
+                            <li><strong>Facilidade de aprendizado</strong> <em>(Learnability)</em>: Quão fácil é para os
+                                usuários realizarem tarefas básicas na primeira vez que se deparam com o design da
+                                interface? De forma prática, este fator diz respeito ao tempo que o usuário leva para
+                                aprender a realizar as principais atividades ou um conjunto mais amplo de atividades do
+                                sistema.</li>
+                            <br>
+                            <li><strong>Facilidade de recordação</strong> <em>(Memorability)</em>: Quando os usuários
+                                retornam ao sistema após um período sem usá-lo, com que facilidade eles podem
+                                restabelecer a proficiência de uso? Para avaliar este fator, é possível medir a
+                                porcentagem de tarefas que um usuário conseguiu lembrar ao usar uma aplicação que
+                                utiliza com baixa frequência. </li>
+                            <br>
+                            <li><strong>Eficiência</strong><em> (Efficiency)</em>: Depois de aprender como interagir com
+                                uma interface, com que rapidez os usuários podem executar as tarefas? Sobre este fator,
+                                é possível medir o tempo gasto para completar uma tarefa e a porcentagem de completude
+                                da tarefa.</li>
+                            <br>
+                            <li><strong>Segurança no uso</strong> <em>(Errors)</em>: Quantos erros os usuários cometem,
+                                quão graves são esses erros e com que facilidade eles podem se recuperar dos erros? Esse
+                                fator é bastante explorado nas avaliações que encontram problemas de usabilidade, onde é
+                                importante analisar se a interface auxilia o usuário a se recuperar de uma situação
+                                problemática. </li>
+                            <br>
+                            <li><strong>Satisfação do usuário</strong> <em>(Satisfaction)</em>: É prazeroso utilizar uma
+                                interface? A satisfação do usuário envolve prazer, diversão, entretenimento, interesse,
+                                motivação, estética, criatividade, surpresa e desafio.</li>
+                        </ol>
+
+                        <p>Além destas, Nielsen ressalta uma característica adicional à usabilidade: a
+                            <strong>utilidade</strong>, que se refere à funcionalidade em si e possibilita questionar o
+                            que <strong>o usuário realmente precisa</strong>. Usabilidade e utilidade são igualmente
+                            importantes e, juntos, determinam se algo é útil, afinal <storng>pouco importa que algo seja
+                                fácil de usar se não for o que você deseja</storng>. Também não é bom que o sistema
+                            possa fazer o que você quer realizar em uma interface muito difícil de se utilizar. Veja um
+                            resumo disto na Figura 08.
+                        </p>
+
+                        <!-- IMAGEM NO SITE  -->
+                        <div class="text-center img-01">
+                            <div class="zoom">
+                                <a href="imgs/Figura08.png" data-bs-toggle="modal" data-bs-target="#Imagem08">
+                                    <img src="imgs/Figura08.png"
+                                        alt="Características de qualidade de produto em ISO/IEC 25010">
+                                </a>
+                            </div>
+                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> ISO/IEC 25010.</p>
+                        </div>
+
+                        <!-- Imagem 08 - MODAL (Audi)-->
+                        <div class="modal fade text-center" id="Imagem08" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div
+                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                <div class="modal-content w-75">
+                                    <img class="img-fluid" src="imgs/Figura08.png"
+                                        alt="Características de qualidade de produto em ISO/IEC 25010">
+                                </div>
+                                <div class="modal-footer w-75 bg-light justify-content-center">
+                                    <p class="text-secondary"><strong>Figura 07 - </strong> Características de qualidade
+                                        de produto em ISO/IEC 25010</p>
+                                </div>
+                            </div>
+                        </div><br>
+                        <!-- Imagem 08 - End  (Audi)-->
 
 
                     </div>
