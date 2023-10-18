@@ -10,7 +10,7 @@
     <!-- Cdn do bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <!-- link do wow.js -->
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
     <!-- nosso css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/modulo01.css">
@@ -23,8 +23,9 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="http://ava.egp.ce.gov.br/2018/desv/logo/favicon.png" />
     <!-- cdn jquery  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script>
@@ -32,5 +33,14 @@
     </script>
 
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+<<<<<<< HEAD
+
+=======
+>>>>>>> cf7e40a9dccd1d0e2825ffdb59a3a034cc4a01e2
     <title>EGPCE | UX - Usabilidade na Prática - Módulo 01</title>
 </head>

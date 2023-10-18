@@ -6,11 +6,6 @@ include('layout/header.php');
 ?>
 
 <body>
-    <!-- PLUGIN DO FADE IN -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
 
     <!-- NAV  -->
     <?php
@@ -52,14 +47,6 @@ include('layout/header.php');
                                 Aprender como avaliar usabilidade.
                             </li>
                         </ul>
-
-                        <!-- SCRIPT LIGHTBOX -->
-                        <script>
-                            $(document).on('click', '[data-toggle="lightbox"]', function (event) {
-                                event.preventDefault();
-                                $(this).ekkoLightbox();
-                            });                    
-                        </script>
 
                         <!-- Botões de navegação -->
                         <div class="text-center">
