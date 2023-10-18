@@ -23,5 +23,5 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="http://ava.egp.ce.gov.br/2018/desv/logo/favicon.png" />
 
-    <title>EGPCE | Design de experiência do usuário: usabilidade na prática</title>
+    <title>EGPCE | UX - Usabilidade na Prática - Módulo 01</title>
 </head>

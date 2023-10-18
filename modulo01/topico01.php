@@ -73,7 +73,7 @@ include('layout/header.php');
                             considera-se usabilidade é: “Aberturas laterais para utilizar
                             fone de ouvido e carregador durante o uso”, como você pode ler na
                             <strong>Figura01.</strong>
-                        </p>
+                        </p><br>
 
                         <!-- IMAGEM NO SITE  -->
                         <div class="text-center img-01">
@@ -115,11 +115,23 @@ include('layout/header.php');
                                         <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75">
                                                     Passe o mouse acima
                                                 </strong></strong></p>
-                                        <p class="txt-caixasecundaria">Lorem ipsum dolor sit amet consectetur
-                                            adipisicing elit. Laudantium quis,
-                                            suscipit placeat unde labore, delectus aspernatur aperiam recusandae alias
-                                            beatae laboriosam nemo mollitia,
-                                            deleniti ea doloremque laborum id sed explicabo.</p><!--caixa secundaria-->
+                                        <p class="txt-caixasecundaria">Esse tipo de óculos de realidade virtual se
+                                            utiliza de um smartphone acoplado para gerar as imagens, já que ele próprio
+                                            não possui telas, somente lentes. Na Figura 02 é possível ver a estrutura de
+                                            acoplamento do dispositivo e as lentes que geram a sensação 3D. Esse formato
+                                            de óculos é comum no mercado, pois há uma redução de custo e um
+                                            aproveitamento dos dispositivos móveis, que possuem uma alta capacidade
+                                            computacional. O design é semelhante a outros óculos, por este motivo deve
+                                            haver uma busca para que as marcas melhorem questões relacionadas à
+                                            qualidade do dispositivo.<br><br>
+
+                                            Você já utilizou óculos de realidade virtual? Existem versões no mercado que
+                                            são feitas de papelão e tem custos muito acessíveis, são os <a
+                                                href="https://arvr.google.com/intl/pt-BR_pt/cardboard/"
+                                                target="_blank"><em>cardboards</em></a>
+                                            da
+                                            Google.
+                                        </p><!--caixa secundaria-->
                                     </div>
                                 </section>
                         </section>
@@ -127,10 +139,8 @@ include('layout/header.php');
 
                         <!-- IMAGEM NO SITE  -->
 
+                        <br>
                         <div class="text-center img-01">
-                            <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 1:</strong>
-                                Representação
-                                do tempo na mente humana</p>
                             <div class="zoom">
                                 <a href="imgs/Figura02.png" data-bs-toggle="modal" data-bs-target="#Imagem02">
                                     <img src="imgs/Figura02.png" alt=" Óculos 3D" id="img-1">
@@ -139,7 +149,7 @@ include('layout/header.php');
                             <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>Google.</p>
                         </div>
 
-                        <!-- Imagem 01 - MODAL (Audi)-->
+                        <!-- Imagem 02 - MODAL (Audi)-->
                         <div class="modal fade text-center" id="Imagem02" tabindex="-1"
                             aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div
@@ -152,7 +162,7 @@ include('layout/header.php');
                                 </div>
                             </div>
                         </div>
-                        <!-- Imagem 01 - End  (Audi)-->
+                        <!-- Imagem 02 - End  (Audi)-->
 
 
                         <br>
@@ -190,9 +200,9 @@ include('layout/header.php');
         </section>
         <!-- Botões de navegação -->
         <div class="text-center">
-            <a href="index.html" class="btn btn-outline-success" role="button" aria-pressed="true"> <i
+            <a href="index.php" class="btn btn-outline-success" role="button" aria-pressed="true"> <i
                     class="fa-solid fa-chevron-left"></i> Voltar </a>
-            <a href="topico02.html" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
+            <a href="topico02.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
                     class="fa-solid fa-chevron-right"></i></a>
         </div>
 

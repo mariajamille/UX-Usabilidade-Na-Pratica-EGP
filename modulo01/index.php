@@ -33,7 +33,7 @@ include('layout/header.php');
                         <!-- <hr> -->
                         <br>
 
-                        <ul class="none">
+                        <ul class="list">
                             <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i
                                     class="fa fa-dot-circle text-success"></i>
                                 Entender o que é usabilidade;

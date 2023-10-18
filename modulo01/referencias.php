@@ -69,7 +69,7 @@ include('layout/header.php');
                             <div class="text-center">
                                 <a href="topico04.php" class="btn btn-outline-success" role="button" aria-pressed="true">
                                     <i class="fa-solid fa-chevron-left"></i> Voltar </a>
-                                <a href="topico01.html" class="btn btn-outline-success" role="button" aria-pressed="true">Realizar a Atividade Avaliativa <i class="fa-solid fa-chevron-right"></i></a>
+                                <a href="topico01.php" class="btn btn-outline-success" role="button" aria-pressed="true">Realizar a Atividade Avaliativa <i class="fa-solid fa-chevron-right"></i></a>
                             </div>
                         </div>
                     </div>
