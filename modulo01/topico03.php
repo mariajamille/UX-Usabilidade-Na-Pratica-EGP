@@ -671,8 +671,9 @@ include('layout/header.php');
                         </div>
                         <!-- Imagem - End-->
 
-                        <p class="scrool">No exemplo da <strong> Figura 24 </strong>, vemos a prevenção de erro na ortografia de
-um termo buscado no buscador web da Google.
+                        <p class="scrool">No exemplo da <strong> Figura 24 </strong>, vemos a prevenção de erro na
+                            ortografia de
+                            um termo buscado no buscador web da Google.
                         </p>
 
 
