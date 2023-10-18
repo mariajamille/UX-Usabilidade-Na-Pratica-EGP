@@ -1,7 +1,10 @@
- 
+/* CONFIGURAÇÃO DAS LISTAS ORDENADAS DO TÓPICO 02 */
  .list02 li {
      font-family: var(--FonteRaleway);
      font-size: 1.2rem;
      margin-top: 5px;
      list-style: none;
  }
+ [data-theme="dark"] .list02 li {
+   color: white;
+}

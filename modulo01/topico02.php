@@ -89,8 +89,10 @@ include('layout/header.php');
                             entrega caraterísticas de qualidade de software, das quais uma é a usabilidade. Os próximos
                             subtópicos explicarão cada uma destas definições.</p>
 
-                        <!-- IMAGEM NO SITE  -->
+                        <!-- IMAGEM 03 -->
                         <div class="text-center img-01">
+                            <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 03 </strong> -
+                                Definições de usabilidade </div>
                             <div class="zoom">
                                 <a href="imags/Figura01.png" data-bs-toggle="modal" data-bs-target="#Imagem03">
                                     <img src="imgs/Figura03.png" alt="Definições de usabilidade">
@@ -115,11 +117,8 @@ include('layout/header.php');
                         <!-- Imagem 03 - End  (Audi)-->
 
                         <!-- INÍCIO DO SUBTÓPICO -->
-                        <div data-spy="scroll" data-target="#spy" data-offset="0"></div>
-                        <a id="item1"></a>
-
                         <!-- subtopico título-->
-                        <h3 class="Subtopico fw-bolder">02.1 - NBR ISO 9241-11</h3>
+                        <h3 class="Subtopico fw-bolder" id="item1">02.1 - NBR ISO 9241-11</h3>
                         <!-- subtopico título -->
 
 
@@ -132,8 +131,10 @@ include('layout/header.php');
                             de desempenho e satisfação do usuário. A ISO ainda cita como descrever o contexto de uso de
                             um produto para hardware, software ou serviços. </p><br>
 
-                        <!-- IMAGEM NO SITE  -->
+                        <!-- IMAGEM 04  -->
                         <div class="text-center img-01">
+                            <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 04 </strong> -
+                                ABNT NBR ISO 9241-11</div>
                             <div class="zoom">
                                 <a href="imags/Figura04.png" data-bs-toggle="modal" data-bs-target="#Imagem04">
                                     <img src="imgs/Figura04.png" alt="ABNT NBR ISO 9241-11">
@@ -174,7 +175,7 @@ include('layout/header.php');
                             três medidas
                             citadas pela norma são:</p>
 
-                        <ol>
+                        <ol class="list02">
                             <li class="wow fadeInLeft" data-wow-delay="0.3s"><strong>Efetividade:</strong> é a medida em
                                 que se verifica o quanto o usuário alcançou os objetivos iniciais de interação. Pode ser
                                 avaliada considerando a finalização de uma tarefa ou em termos de qualidade do resultado
@@ -195,8 +196,10 @@ include('layout/header.php');
                             erros.</p><br>
 
 
-                        <!-- IMAGEM NO SITE  -->
+                        <!-- IMAGEM 05  -->
                         <div class="text-center img-01">
+                            <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 05 </strong> -
+                                Estrutura de usabilidade</div>
                             <div class="zoom">
                                 <a href="imags/Figura05.png" data-bs-toggle="modal" data-bs-target="#Imagem05">
                                     <img src="imgs/Figura05.png" alt="Estrutura de usabilidade">
@@ -221,11 +224,8 @@ include('layout/header.php');
                         <!-- Imagem 05 - End  (Audi)-->
 
                         <!-- INÍCIO DO SUBTÓPICO -->
-                        <div data-spy="scroll" data-target="#spy" data-offset="0"></div>
-                        <a id="item2"></a>
-
                         <!-- subtopico título-->
-                        <h3 class="Subtopico fw-bolder">02.2 - ISO/IEC 25000 (SQuaRE)</h3>
+                        <h3 class="Subtopico fw-bolder" id="item2">02.2 - ISO/IEC 25000 (SQuaRE)</h3>
                         <!-- subtopico título -->
 
                         <br>
@@ -302,8 +302,10 @@ include('layout/header.php');
                                 06</strong>.
                         </p><br>
 
-                        <!-- IMAGEM NO SITE  -->
+                        <!-- IMAGEM 06  -->
                         <div class="text-center img-01">
+                            <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 06 </strong> -
+                                Qualidade de uso em ISO/IEC 25010</div>
                             <div class="zoom">
                                 <a href="imgs/Figura06.png" data-bs-toggle="modal" data-bs-target="#Imagem06">
                                     <img src="imgs/Figura06.png" alt="Qualidade de uso em ISO/IEC 25010">
@@ -324,7 +326,7 @@ include('layout/header.php');
                                 </div>
                                 <div class="modal-footer w-75 bg-light justify-content-center">
                                     <p class="text-secondary"><strong>Figura 06 - </strong> Qualidade de uso em ISO/IEC
-                                        25010/p>
+                                        25010</p>
                                 </div>
                             </div>
                         </div><br>
@@ -362,11 +364,13 @@ include('layout/header.php');
                         </section>
                         <!-- FIM DA CAIXA SAIBA MAIS  -->
 
-                        <!-- IMAGEM NO SITE  -->
+                        <!-- IMAGEM 07  -->
                         <div class="text-center img-01">
+                            <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 07 </strong> -
+                                Características de qualidade de produto em ISO/IEC 25010</div>
                             <div class="zoom">
                                 <a href="imgs/Figura07.png" data-bs-toggle="modal" data-bs-target="#Imagem07">
-                                    <img src="imgs/Figura07.png"
+                                    <img src="imgs/Figura07.png" class="d-lg"
                                         alt="Características de qualidade de produto em ISO/IEC 25010">
                                 </a>
                             </div>
@@ -391,11 +395,8 @@ include('layout/header.php');
                         <!-- Imagem 07 - End  (Audi)-->
 
                         <!-- INÍCIO DO SUBTÓPICO -->
-                        <div data-spy="scroll" data-target="#spy" data-offset="0"></div>
-                        <a id="item3"></a>
-
                         <!-- subtopico título-->
-                        <h3 class="Subtopico fw-bolder">02.3 - Heurísticas de Nielsen</h3>
+                        <h3 class="Subtopico fw-bolder" id="item3">02.3 - Heurísticas de Nielsen</h3>
                         <!-- subtopico título -->
 
                         <br>
@@ -487,75 +488,420 @@ include('layout/header.php');
 
                         <ol>
                             <br>
-                            <li><strong>Facilidade de aprendizado</strong> <em>(Learnability)</em>: Quão fácil é para os
-                                usuários realizarem tarefas básicas na primeira vez que se deparam com o design da
-                                interface? De forma prática, este fator diz respeito ao tempo que o usuário leva para
-                                aprender a realizar as principais atividades ou um conjunto mais amplo de atividades do
+                            <li><strong>Facilidade de aprendizado</strong> <em>(Learnability)</em>: Quão fácil é
+                                para os
+                                usuários realizarem tarefas básicas na primeira vez que se deparam com o design
+                                da
+                                interface? De forma prática, este fator diz respeito ao tempo que o usuário leva
+                                para
+                                aprender a realizar as principais atividades ou um conjunto mais amplo de
+                                atividades do
                                 sistema.</li>
                             <br>
-                            <li><strong>Facilidade de recordação</strong> <em>(Memorability)</em>: Quando os usuários
+                            <li><strong>Facilidade de recordação</strong> <em>(Memorability)</em>: Quando os
+                                usuários
                                 retornam ao sistema após um período sem usá-lo, com que facilidade eles podem
                                 restabelecer a proficiência de uso? Para avaliar este fator, é possível medir a
-                                porcentagem de tarefas que um usuário conseguiu lembrar ao usar uma aplicação que
+                                porcentagem de tarefas que um usuário conseguiu lembrar ao usar uma aplicação
+                                que
                                 utiliza com baixa frequência. </li>
                             <br>
-                            <li><strong>Eficiência</strong><em> (Efficiency)</em>: Depois de aprender como interagir com
-                                uma interface, com que rapidez os usuários podem executar as tarefas? Sobre este fator,
-                                é possível medir o tempo gasto para completar uma tarefa e a porcentagem de completude
+                            <li><strong>Eficiência</strong><em> (Efficiency)</em>: Depois de aprender como
+                                interagir com
+                                uma interface, com que rapidez os usuários podem executar as tarefas? Sobre este
+                                fator,
+                                é possível medir o tempo gasto para completar uma tarefa e a porcentagem de
+                                completude
                                 da tarefa.</li>
                             <br>
-                            <li><strong>Segurança no uso</strong> <em>(Errors)</em>: Quantos erros os usuários cometem,
-                                quão graves são esses erros e com que facilidade eles podem se recuperar dos erros? Esse
-                                fator é bastante explorado nas avaliações que encontram problemas de usabilidade, onde é
-                                importante analisar se a interface auxilia o usuário a se recuperar de uma situação
+                            <li><strong>Segurança no uso</strong> <em>(Errors)</em>: Quantos erros os usuários
+                                cometem,
+                                quão graves são esses erros e com que facilidade eles podem se recuperar dos
+                                erros? Esse
+                                fator é bastante explorado nas avaliações que encontram problemas de
+                                usabilidade, onde é
+                                importante analisar se a interface auxilia o usuário a se recuperar de uma
+                                situação
                                 problemática. </li>
                             <br>
-                            <li><strong>Satisfação do usuário</strong> <em>(Satisfaction)</em>: É prazeroso utilizar uma
-                                interface? A satisfação do usuário envolve prazer, diversão, entretenimento, interesse,
+                            <li><strong>Satisfação do usuário</strong> <em>(Satisfaction)</em>: É prazeroso
+                                utilizar uma
+                                interface? A satisfação do usuário envolve prazer, diversão, entretenimento,
+                                interesse,
                                 motivação, estética, criatividade, surpresa e desafio.</li>
-                        </ol>
+                            </ol>
 
                         <p>Além destas, Nielsen ressalta uma característica adicional à usabilidade: a
-                            <strong>utilidade</strong>, que se refere à funcionalidade em si e possibilita questionar o
-                            que <strong>o usuário realmente precisa</strong>. Usabilidade e utilidade são igualmente
-                            importantes e, juntos, determinam se algo é útil, afinal <storng>pouco importa que algo seja
-                                fácil de usar se não for o que você deseja</storng>. Também não é bom que o sistema
-                            possa fazer o que você quer realizar em uma interface muito difícil de se utilizar. Veja um
+                            <strong>utilidade</strong>, que se refere à funcionalidade em si e possibilita
+                            questionar o
+                            que <strong>o usuário realmente precisa</strong>. Usabilidade e utilidade são
+                            igualmente
+                            importantes e, juntos, determinam se algo é útil, afinal <storng>pouco importa que
+                                algo seja
+                                fácil de usar se não for o que você deseja</storng>. Também não é bom que o
+                            sistema
+                            possa fazer o que você quer realizar em uma interface muito difícil de se utilizar.
+                            Veja um
                             resumo disto na Figura 08.
                         </p>
 
-                        <!-- IMAGEM NO SITE  -->
+                        <!-- IMAGEM 08  -->
                         <div class="text-center img-01">
+                            <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 08 </strong>
+                                - Utilidade e usabilidade</div>
                             <div class="zoom">
                                 <a href="imgs/Figura08.png" data-bs-toggle="modal" data-bs-target="#Imagem08">
                                     <img src="imgs/Figura08.png"
                                         alt="Características de qualidade de produto em ISO/IEC 25010">
                                 </a>
                             </div>
-                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> ISO/IEC 25010.</p>
+                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> autor com
+                                base em o
+                                que o usuário realmente precisa.</p>
                         </div>
 
-                        <!-- Imagem 08 - MODAL (Audi)-->
+                        <!-- Imagem 08 - MODAL -->
                         <div class="modal fade text-center" id="Imagem08" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img class="img-fluid" src="imgs/Figura08.png"
+                                            alt="Qualidade de uso em ISO/IEC 25010">
+                                    </div>
+                                    <div class="modal-footer text-center">
+                                        <p class="TituloFigura"><strong>Figura 08</strong> - Utilidade e
+                                            usabilidade</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Imagem 08 - End -->
+
+                        <br>
+                        <p class="scrool">Em 1994 Nielsen publicou as 10 heurísticas de usabilidade, ainda hoje
+                            bastante utilizadas. As
+                            heurísticas de Nielsen, como são chamadas, são a base dos critérios de boas práticas
+                            de
+                            usabilidade. As heurísticas são utilizadas em vários momentos do processo de design.
+                            Junto
+                            com as heurísticas, Nielsen divulgou um método de inspeção de usabilidade que era
+                            barato,
+                            rápido e fácil de aplicar, que vamos explorar melhor na seção sobre avaliação. </p>
+
+                        <!-- CAIXA DE TEXTO SAIBA-MAIS -->
+                        <section class="container">
+                            <div class="accordion ">
+                                <section id="content">
+                                    <div class="caixaprincipal" id="tituloSaibaMais">
+                                        <div class="div_teste">
+                                            <div><i class="fa-solid fa-plus"></i> SAIBA MAIS </div>
+
+                                            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                                        </div>
+                                    </div> <!--caixa Principal-->
+                                    <div class="accordion-content" id="saibamais">
+                                        <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75">
+                                                    Passe o mouse acima
+                                                </strong></strong></p>
+                                        <p class="txt-caixasecundaria">De acordo com Nielsen, as heurísticas de
+                                            usabilidade propostas por ele são 10 princípios gerais para o design. Elas
+                                            são chamadas de "heurísticas" <strong>porque são regras genéricas e não
+                                                diretrizes
+                                                específicas de usabilidade.</strong></p><!--caixa secundaria-->
+                                    </div>
+                                </section>
+                        </section>
+                        <!-- FIM DA CAIXA SAIBA MAIS  -->
+
+                        <p class="srcool">Veja na <strong>Figura 09</strong> as 10 heurísticas de Nielsen
+                            de forma
+                            resumida. Na próxima seção iremos analisar cada uma das heurísticas.</p>
+
+
+                        <!-- IMAGEM 09  -->
+                        <div class="text-center img-01">
+                            <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 09 </strong>
+                                - 10 heurísticas de Nielsen</div>
+                            <div class="zoom">
+                                <a href="imgs/Figura09.png" data-bs-toggle="modal" data-bs-target="#Imagem09">
+                                    <img src="imgs/Figura09.png" alt=" 10 heurísticas de Nielsen">
+                                </a>
+                            </div>
+                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> <a
+                                    href="https://medium.com/signainfo/entendendo-as-10-heur%C3%ADsticas-de-nielsen-para-melhorar-a-experi%C3%AAncia-do-usu%C3%A1rio-86f3c14c0586"
+                                    target="_blank">Medium</a>.</p>
+                        </div>
+
+                        <!-- Imagem 09 - MODAL -->
+                        <div class="modal fade text-center" id="Imagem09" tabindex="-1"
                             aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div
                                 class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                                <div class="modal-content w-35">
-                                    <img class="img-fluid" src="imgs/Figura08.png"
-                                        alt="Características de qualidade de produto em ISO/IEC 25010">
+                                <div class="modal-content w-75">
+                                    <img class="img-fluid" src="imgs/Figura09.png" alt="10 heurísticas de Nielsen">
                                 </div>
                                 <div class="modal-footer w-75 bg-light justify-content-center">
-                                    <p class="text-secondary"><strong>Figura 07 - </strong> Características de qualidade
-                                        de produto em ISO/IEC 25010</p>
+                                    <p class="text-secondary"><strong>Figura 09 - </strong> 10 heurísticas de Nielsen
+                                    </p>
                                 </div>
                             </div>
                         </div><br>
-                        <!-- Imagem 08 - End  (Audi)-->
+                        <!-- Imagem 09 - End -->
 
+                        <br>
+                        <!-- INÍCIO DO SUBTÓPICO -->
+                        <!-- subtopico título-->
+                        <h3 class="Subtopico fw-bolder" id="item4"> 02.4 - O que não é usual?</h3>
+                        <!-- subtopico título -->
+
+                        <p class="scrool">Antes de passarmos às heurísticas de forma detalhada, é interessante
+                            reconhecer o que não é
+                            usual e como podemos identificar onde a usabilidade foi negligenciada. </p>
+
+                        <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
+                        <section class="container">
+                            <div class="accordion ">
+                                <section id="content">
+                                    <div class="caixaprincipal" id="titulofiqueatento">
+                                        <div class="div_teste">
+                                            <div><i class="fa-solid fa-person-circle-exclamation"></i> FIQUE ATENTO
+                                            </div>
+                                            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                                        </div>
+                                    </div> <!--caixa Principal-->
+                                    <div class="accordion-content" id="fiqueatento"><!--caixa secundaria-->
+                                        <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong>
+                                        </p>
+                                        <p class="txt-caixasecundaria">Assim como um musicista sofre com o desafinar
+                                            generalizado da hora dos parabéns em festas de aniversário, pessoas que
+                                            estudam design UX tendem a sofrer e questionar as interfaces do dia a dia.
+                                            Antecipo que será difícil desconsiderar a torneira que não “abre pro lado
+                                            certo” ou a porta que “não indica como deve ser aberta” ou a máquina de
+                                            lavar roupa que “tem programas de lavagem desnecessários e pouco
+                                            utilizados”. <strong>Usabilidade é um conhecimento prático, que pode atuar
+                                                na forma como você planeja sua vida, seu trabalho, suas atividades e
+                                                muito mais</strong>.</p>
+                                </section>
+                        </section>
+                        <!-- FIM DA CAIXA FIQUE ATENTO -->
+
+                        <p class="scrool">Um dos objetos cotidianos que chama muita atenção
+                            com relação à usabilidade é
+                            o elevador. Não é incomum pessoas passarem por experiências confusas em
+                            elevadores. Os elevadores em geral não possuem uma padronização de painel,
+                            dessa forma é comum encontrar um elevador que nos perdemos facilmente nas
+                            opções. Isso não seria um problema se os painéis fossem desenhados para
+                            facilitar a aprendizagem no uso.A <strong>Figura 10</strong> mostra um
+                            painel em que infringe o fator de <strong>segurança do uso</strong>,
+                            colocando uma mensagem para não entrar se a cabine não estiver bem
+                            posicionada. A mensagem, porém, está dentro do elevador, o que impede de
+                            evitar o real problema cuja mensagem está tentando evitar. O informe, apesar
+                            de ter um objetivo de segurança, perde o significado. </p>
+
+
+                        <!-- IMAGEM 10  -->
+                        <div class="text-center img-01">
+                            <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 10 </strong>
+                                - Painel do Elevador</div>
+                            <div class="zoom">
+                                <a href="imgs/Figura10.png" data-bs-toggle="modal" data-bs-target="#Imagem10">
+                                    <img src="imgs/Figura10.png" alt="Painel do Elevador">
+                                </a>
+                            </div>
+                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> autor.</p>
+                        </div>
+
+                        <!-- Imagem 10 - MODAL -->
+                        <div class="modal fade text-center" id="Imagem10" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div
+                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                <div class="modal-content w-75">
+                                    <img class="img-fluid" src="imgs/Figura10.png" alt="Painel do Elevador">
+                                </div>
+                                <div class="modal-footer w-75 bg-light justify-content-center">
+                                    <p class="text-secondary"><strong>Figura 10 - </strong> Painel do Elevador</p>
+                                </div>
+                            </div>
+                        </div><br>
+                        <!-- Imagem 10 - End -->
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>Como outro exemplo, temos interfaces que apresentam códigos e mensagens não
+                                    decifráveis para indicar um erro. Na <strong>Figura 11</strong> vemos uma mensagem
+                                    de erro que se destaca na tela pelo seu tamanho e por não ser facilmente
+                                    compreendida. Esta foi uma mensagem retornada pelo aplicativo Uber. Neste exemplo,
+                                    vemos que problemas de usabilidade podem ocorrer também em aplicativos muito bem
+                                    consolidados no mercado. Aplicativos móveis são feitos para rodar em muitas
+                                    plataformas, em muitos formatos de tela e com restrições distintas para cada tipo de
+                                    dispositivo. Garantir que não haja falhas no sistema e usabilidade para toda essa
+                                    diversidade de dispositivos torna a aplicação de sistemas um desafio à equipe de
+                                    desenvolvimento.</p>
+                            </div>
+
+                            <div class="col-md-6">
+                                <!-- Titulo Figura -->
+
+                                <!-- IMAGEM 11  -->
+                                <div class="text-center img-01">
+                                    <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 11 </strong>
+                                        - Mensagem de erro inapropriada</div>
+                                    <div class="zoom">
+                                        <a href="imgs/Figura11.png" data-bs-toggle="modal" data-bs-target="#Imagem11">
+                                            <img src="imgs/Figura11.png" class="w-50"
+                                                alt=" Mensagem de erro inapropriada">
+                                        </a>
+                                    </div>
+                                    <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> Autor.</p>
+                                </div>
+
+                                <!-- Imagem 11 - MODAL -->
+                                <div class="modal fade text-center" id="Imagem11" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div
+                                        class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                        <div class="modal-content w-50">
+                                            <img class="img-fluid" src="imgs/Figura11.png"
+                                                alt="10 heurísticas de Nielsen">
+                                        </div>
+                                        <div class="modal-footer w-50 bg-light justify-content-center">
+                                            <p class="text-secondary"><strong>Figura 11 - </strong> Mensagem de erro
+                                                inapropriada
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div><br>
+                                <!-- Imagem 11 - End -->
+
+                            </div>
+                        </div>
+
+                        <p class="scrool">O próximo exemplo (<strong>Figura 12</strong>) mostra uma resposta inesperada
+                            do sistema que
+                            causou confusão. Uma plataforma de submissão de artigos científicos apresentou uma mensagem
+                            de sucesso de submissão que dizia <em>“The file has been uploaded”</em>, que significa “O
+                            arquivo foi carregado!” e indicaria que tinha conseguido realizar a submissão corretamente,
+                            como esperado. Porém, a mensagem está em vermelho. Na produção de interfaces é comum
+                            tratarmos o olhar “de relance”, em inglês <em>“at a glance”</em>, que significa aquele olhar
+                            rápido em algo. Um olhar de relance fez com que o texto fosse escondido pela mensagem que a
+                            cor transmitiu: a de erro. <strong>A cor vermelha deve sempre ser usada com cautela</strong>
+                            em interfaces para que não ocorra algo semelhante.</p>
+                        </p>
+
+                        <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
+                        <section class="container">
+                            <div class="accordion ">
+                                <section id="content">
+                                    <div class="caixaprincipal" id="titulofiqueatento">
+                                        <div class="div_teste">
+                                            <div><i class="fa-solid fa-person-circle-exclamation"></i> FIQUE ATENTO
+                                            </div>
+                                            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                                        </div>
+                                    </div> <!--caixa Principal-->
+                                    <div class="accordion-content" id="fiqueatento"><!--caixa secundaria-->
+                                        <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong>
+                                        </p>
+                                        <p class="txt-caixasecundaria">As cores podem transmitir informações em
+                                            interfaces. Seja estabelecendo a hierarquia do conteúdo ou indicando
+                                            informações, como erro. As cores também estão relacionadas a interfaces com
+                                            relação à acessibilidade e devem, por exemplo, respeitar um nível de
+                                            contraste aceitável para facilitar a leitura.</p>
+                                    </div>
+                                </section>
+                        </section>
+                        <!-- FIM DA CAIXA FIQUE ATENTO -->
+
+                        <!-- IMAGEM 12  -->
+                        <div class="text-center img-01">
+                            <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 12 </strong>
+                                - Mensagem de erro inapropriada</div>
+                            <div class="zoom">
+                                <a href="imgs/Figura12.png" data-bs-toggle="modal" data-bs-target="#Imagem12">
+                                    <img src="imgs/Figura12.png" class="w-100"
+                                        alt="Mensagem de ação realizada com sucesso com cor inesperada">
+                                </a>
+                            </div>
+                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> Autor.</p>
+                        </div>
+
+                        <!-- Imagem 12 - MODAL -->
+                        <div class="modal fade text-center" id="Imagem12" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div
+                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                <div class="modal-content w-100">
+                                    <img class="img-fluid" src="imgs/Figura12.png"
+                                        alt=" Mensagem de ação realizada com sucesso com cor inesperada">
+                                </div>
+                                <div class="modal-footer w-100 bg-light justify-content-center">
+                                    <p class="text-secondary"><strong>Figura 12 - </strong> Mensagem de ação realizada
+                                        com sucesso com cor inesperada
+                                    </p>
+                                </div>
+                            </div>
+                        </div><br>
+                        <!-- Imagem 12 - End -->
+
+                        <!-- CAIXA DE TEXTO CURIOSIDADE -->
+                        <section class="container">
+                            <div class="accordion ">
+                                <section id="content">
+                                    <div class="caixaprincipal" id="tituloCuriosidade">
+                                        <div class="div_teste">
+                                            <div><i class="fa-solid fa-question"></i> CURIOSIDADE </div>
+
+                                            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                                        </div>
+                                    </div> <!--caixa Principal-->
+                                    <div class="accordion-content" id="Curiosidade">
+                                        <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75">
+                                                    Passe o mouse acima
+                                                </strong></strong></p>
+                                        <p class="txt-caixasecundaria">Veja na Figura 13 como o padrão <a
+                                                href="https://material.io/design/color/the-color-system.html"
+                                                target="_blank">Material Design</a>, para construção de interfaces,
+                                            organiza as cores utilizadas em aplicativos.</p>
+                                        <!--caixa secundaria-->
+                                    </div>
+                                </section>
+                        </section>
+                        <!-- FIM DA CAIXA DE TEXTO CURIOSIDADE -->
+
+                        <!-- IMAGEM 13  -->
+                        <div class="text-center img-01">
+                            <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 13 </strong>
+                                - O tema de cor do material de base</div>
+                            <div class="zoom">
+                                <a href="imgs/Figura13.png" data-bs-toggle="modal" data-bs-target="#Imagem13">
+                                    <img src="imgs/Figura13.png"
+                                        alt="O tema de cor do material de base">
+                                </a>
+                            </div>
+                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> Material Design.</p>
+                        </div>
+
+                        <!-- Imagem 12 - MODAL -->
+                        <div class="modal fade text-center" id="Imagem13" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div
+                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                <div class="modal-content w-75">
+                                    <img class="img-fluid" src="imgs/Figura13.png"
+                                        alt="O tema de cor do material de base">
+                                </div>
+                                <div class="modal-footer w-75 bg-light justify-content-center">
+                                    <p class="text-secondary"><strong>Figura 13 - </strong> O tema de cor do material de base
+                                    </p>
+                                </div>
+                            </div>
+                        </div><br>
+                        <!-- Imagem 13 - End -->
 
                     </div>
                 </div>
-
         </section>
         <!-- Botões de navegação -->
         <div class="text-center">

@@ -5,12 +5,12 @@
 include('layout/header.php');
 ?>
 
-<script src="js/wow.min.js"></script>
-<script>
-    new WOW().init();
-</script>
-
 <body>
+    <!-- PLUGIN DO FADE IN -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <!-- NAV  -->
     <?php

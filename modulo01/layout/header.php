@@ -23,10 +23,10 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="http://ava.egp.ce.gov.br/2018/desv/logo/favicon.png" />
 
-    <link rel="stylesheet" href="css/animate.css">
-
-
- 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 
     <title>EGPCE | UX - Usabilidade na Prática - Módulo 01</title>
 </head>
