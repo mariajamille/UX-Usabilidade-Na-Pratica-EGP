@@ -64,6 +64,7 @@ A FUNÇÃO [data-theme="dark"] ALTERA O CONTEÚDO PARA O MODO ESCURO. */
 
 a {
     text-decoration: none;
+    color: #4a71f1;
 }
 
 * {
@@ -152,6 +153,9 @@ ol li {
     margin-bottom: 10px;
 }
 
+[data-theme="dark"] ol li {
+    color: white;
+}
 
 [data-theme="dark"] .list li {
    color: white;

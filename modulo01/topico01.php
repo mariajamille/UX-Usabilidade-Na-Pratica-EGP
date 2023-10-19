@@ -75,8 +75,11 @@ include('layout/header.php');
                             <strong>Figura01.</strong>
                         </p><br>
 
-                        <!-- IMAGEM NO SITE  -->
+                        <!-- IMAGEM 01  -->
                         <div class="text-center img-01">
+                            <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 01 - </strong>Caixa de
+                                óculos 3D
+                                Descrição de cima</div>
                             <div class="zoom">
                                 <a href="imags/Figura01.png" data-bs-toggle="modal" data-bs-target="#Imagem01">
                                     <img src="imgs/Figura01.png" alt="Caixa de óculos 3D">
@@ -137,10 +140,11 @@ include('layout/header.php');
                         </section>
                         <!-- FIM DA CAIXA DE TEXTO CURIOSIDADE -->
 
-                        <!-- IMAGEM NO SITE  -->
-
+                        <!-- IMAGEM 02  -->
                         <br>
                         <div class="text-center img-01">
+                            <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 02 </strong> -
+                                Óculos 3D </div>
                             <div class="zoom">
                                 <a href="imgs/Figura02.png" data-bs-toggle="modal" data-bs-target="#Imagem02">
                                     <img src="imgs/Figura02.png" alt=" Óculos 3D" id="img-1">
@@ -163,7 +167,6 @@ include('layout/header.php');
                             </div>
                         </div>
                         <!-- Imagem 02 - End  (Audi)-->
-
 
                         <br>
                         <p class="scrool">A frase sobre usabilidade é curta a ponto de não entendermos qual a relação
