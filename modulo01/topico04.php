@@ -37,7 +37,7 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder"> 04.1 - Por que avaliar?</h3>
+                        <h3 class="Subtopico fw-bolder" id="item4.1"> 04.1 - Por que avaliar?</h3>
                         <!-- subtopico -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
@@ -60,7 +60,7 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder"> 04.2 - Como Avaliar</h3>
+                        <h3 class="Subtopico fw-bolder" id="item4.2"> 04.2 - Como Avaliar</h3>
                         <!-- subtopico -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
@@ -139,6 +139,137 @@ include('layout/header.php');
                         <!-- Subsubtopico  -->
                         <h2 class="subsubtopico fw-bolder"> 04.2.1 - Avaliação Heurística</h2>
                         <!-- fim do subsubtopico  -->
+
+                        <!-- Parágrafo com a biblioteca de animação  -->
+                        <p class="scrool">A avaliação heurística, também chamada de inspeção heurística, é um
+                            método de avaliação de IHC criado para encontrar problemas de usabilidade
+                            durante um processo interativo. Foi proposto juntamente com as heurísticas
+                            de usabilidade de Nielsen com a finalidade de ser um <strong> método simples,
+                                rápido e de baixo custo.</strong> Um menor rigor implica tanto em maior praticidade
+                            na aplicação, quanto na possibilidade de imprecisão do método. Por isso,
+                            deve ser realizado de forma estruturada e bem planejada.
+                        </p>
+                        <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+                        <!-- Parágrafo com a biblioteca de animação  -->
+                        <p class="scrool"> Esse método orienta os avaliadores a realizarem uma inspeção
+                            sistemática da interface seguindo atividades especificadas anteriormente. O avaliador
+                            realiza as atividades ao mesmo tempo que busca problemas de
+                            usabilidade baseados nas heurísticas.
+                        </p>
+                        <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+                        <!-- Parágrafo com a biblioteca de animação  -->
+                        <p class="scrool">Para cada problema encontrado é comum estabelecer um nível de
+                            severidade que segue a <strong>Tabela 01.</strong> Além do grau de severidade, o problema
+                            pode conter descrição, sugestão de melhoria, local (tela) onde ocorreu e a
+                            atividade relacionada.
+                        </p>
+                        <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+                        <!-- IMAGEM NO SITE  -->
+
+                        <div class="text-center img-01">
+                            <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 1:</strong>
+                                Descrição de cima</p>
+                            <div class="zoom">
+                                <a href="imgs/Tabela01.png" data-bs-toggle="modal" data-bs-target="#Tabela01">
+                                    <img class="tabela" src="imgs/Tabela01.png" alt="Imagem" id="img-1">
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Imagem - MODAL-->
+                        <div class="modal fade text-center" id="Tabela01" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div
+                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                <div class="modal-content w-75">
+                                    <img class="img-fluid" src="imgs/Tabela01.png" alt="Alt da imagem fica aqui">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Imagem - End-->
+
+                        <!-- Parágrafo com a biblioteca de animação  -->
+                        <p class="scrool">Apesar de parecer óbvio, <strong> uma avaliação heurística encontra
+                                problemas.</strong> Por que é importante ressaltar isto? Porque nem sempre uma
+                            equipe ou um projeto está pronto para receber um conjunto de problemas.
+                            Se estes problemas não forem analisados e corrigidos, esta avaliação pode ter
+                            acontecido em vão. <strong> Dica: sempre que decidirem realizar uma avaliação de
+                                usabilidade ressaltem que encontrarão problemas e não elogios </strong> e
+                            apresentem a expectativa do que deve acontecer com essa lista de
+                            problemas. Isso também faz partedo planejamento. A comunicação é a chave
+                            do design.
+                        </p>
+                        <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+                        <!-- Parágrafo com a biblioteca de animação  -->
+                        <p class="scrool"> Uma avaliação heurística pode utilizar-se de outras heurísticas ou regras.
+                            É comum existirem conjuntos específicos para cada tipo de sistema, por
+                            exemplo, para aplicativos móveis ou sistemas de realidade virtual. Busque
+                            sempre um mais apropriado ao sistema ou se baseie nos mais genéricos.
+                        </p>
+                        <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+                        <!-- IMAGEM NO SITE  -->
+
+                        <div class="text-center img-01">
+                            <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 32:</strong>
+                                Interface frustrante da Bagaar</p>
+                            <div class="zoom">
+                                <a href="imgs/Figura32.png" data-bs-toggle="modal" data-bs-target="#Imagem32">
+                                    <img src="imgs/Figura32.png" alt="Imagem" id="img-32">
+                                </a>
+                            </div>
+                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>Bagaar.</p>
+                        </div>
+
+                        <!-- Imagem - MODAL-->
+                        <div class="modal fade text-center" id="Imagem32" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div
+                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                <div class="modal-content w-75">
+                                    <img class="img-fluid" src="imgs/Figura32.png" alt="Alt da imagem fica aqui">
+                                </div>
+                                <div class="modal-footer w-75 bg-light justify-content-center">
+                                    <p class="text-secondary"><strong>Fonte:</strong>Bagaar.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Imagem - End-->
+
+                        <!-- FIM DA IMAGEM NO SITE  -->
+
+                        <!-- CAIXA DE TEXTO CURIOSIDADE -->
+                        <section class="container">
+                            <div class="accordion ">
+                                <section id="content">
+                                    <div class="caixaprincipal" id="tituloCuriosidade">
+                                        <div class="div_teste">
+                                            <div><i class="fa-solid fa-question"></i> CURIOSIDADE </div>
+
+                                            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                                        </div>
+                                    </div> <!--caixa Principal-->
+                                    <div class="accordion-content" id="Curiosidade">
+                                        <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75">
+                                                    Passe o mouse acima
+                                                </strong></strong></p>
+                                        <p class="txt-caixasecundaria">Abra e copie (ou baixe) esta planilha de suporte
+                                            à <a href="https://docs.google.com/spreadsheets/d/1ebC2JqwTi7q7uxejL7TuhDoqoUGFVGthjwAu7B979ts/edit#gid=1283962207">avaliação heurística:</a> 
+                                            Avaliação Heurística.
+                                            Realize uma avaliação heurística neste sistema: <a href="https://userinyerface.com/"> User Inyerface - A worst
+                                            practice UI experiment.</a> Este é um site onde uma empresa de tecnologia,
+                                            Bagaar, criou um excelente exemplo de interface frustrante.
+
+                                        </p>
+                                        <!--caixa secundaria-->
+                                    </div>
+                                </section>
+                        </section>
+                        <!-- FIM DA CAIXA DE TEXTO CURIOSIDADE -->
 
 
 

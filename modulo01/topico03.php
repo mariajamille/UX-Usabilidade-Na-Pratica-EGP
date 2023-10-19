@@ -55,7 +55,7 @@ include('layout/header.php');
                         </ol>
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item1">03.1 - Visibilidade de qual estado estamos no sistema</h3>
+                        <h3 class="Subtopico fw-bolder" id="item3.1">03.1 - Visibilidade de qual estado estamos no sistema</h3>
                         <!-- subtopico -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
@@ -76,7 +76,7 @@ include('layout/header.php');
                                 Botão indicando o andar no elevador</p>
                             <div class="zoom">
                                 <a href="imagens/Figura01.png" data-bs-toggle="modal" data-bs-target="#Imagem01">
-                                    <img class="w-50" src="imgs/figura14.png" alt="Imagem que remete a organização"
+                                    <img class="w-50" src="imgs/figura14.png" alt="Imagem"
                                         id="img-1">
                                 </a>
                             </div>
@@ -153,14 +153,14 @@ include('layout/header.php');
 
                                     <div class="zoom col">
                                         <a href="imgs/Figura15.png" data-bs-toggle="modal" data-bs-target="#Imagem15">
-                                            <img src="imgs/Figura15.png" alt="Imagem que remete a organização"
+                                            <img src="imgs/Figura15.png" alt="Imagem"
                                                 id="img-15">
                                         </a>
                                     </div>
                                     <div class="zoom col">
                                         <a href="imgs/Figura15_1.png" data-bs-toggle="modal"
                                             data-bs-target="#Imagem15_1">
-                                            <img src="imgs/Figura15_1.png" alt="Imagem que remete a organização"
+                                            <img src="imgs/Figura15_1.png" alt="Imagem"
                                                 id="img-15_1">
                                         </a>
                                     </div>
@@ -168,7 +168,7 @@ include('layout/header.php');
                             </div>
                             <div class="zoom img15_2">
                                 <a href="imgs/Figura15_2.png" data-bs-toggle="modal" data-bs-target="#Imagem15_2">
-                                    <img src="imgs/Figura15_2.png" alt="Imagem que remete a organização" id="img-15_2">
+                                    <img src="imgs/Figura15_2.png" alt="Imagem" id="img-15_2">
                                 </a>
                             </div>
 
@@ -231,7 +231,7 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item2">03.2 - Correspondência entre o sistema e o mundo real
+                        <h3 class="Subtopico fw-bolder" id="item3.2">03.2 - Correspondência entre o sistema e o mundo real
                         </h3>
                         <!-- subtopico -->
 
@@ -261,7 +261,7 @@ include('layout/header.php');
                                 Ícones para parada de ônibus</p>
                             <div class="zoom">
                                 <a href="imgs/Figura16.png" data-bs-toggle="modal" data-bs-target="#Imagem16">
-                                    <img src="imgs/Figura16.png" alt="Imagem que remete a organização" id="img-16">
+                                    <img src="imgs/Figura16.png" alt="Imagem" id="img-16">
                                 </a>
                             </div>
                             <p class="FonteFigura FonteMenor text-secondary mb-5"><strong>Fonte:</strong>Google.</p>
@@ -293,14 +293,14 @@ include('layout/header.php');
 
                                     <div class="zoom col">
                                         <a href="imgs/Figura17.png" data-bs-toggle="modal" data-bs-target="#Imagem17">
-                                            <img src="imgs/Figura17.png" alt="Imagem que remete a organização"
+                                            <img src="imgs/Figura17.png" alt="Imagem"
                                                 id="img-17">
                                         </a>
                                     </div>
                                     <div class="zoom col">
                                         <a href="imgs/Figura17.1.png" data-bs-toggle="modal"
                                             data-bs-target="#Imagem17.1">
-                                            <img src="imgs/Figura17.1.png" alt="Imagem que remete a organização"
+                                            <img src="imgs/Figura17.1.png" alt="Imagem"
                                                 id="img-17.1">
                                         </a>
                                     </div>
@@ -377,7 +377,7 @@ include('layout/header.php');
                                 Ícone da lixeira no Windows</p>
                             <div class="zoom">
                                 <a href="imgs/Figura18.png" data-bs-toggle="modal" data-bs-target="#Imagem18">
-                                    <img src="imgs/Figura18.png" alt="Imagem que remete a organização" id="img-18">
+                                    <img src="imgs/Figura18.png" alt="Imagem" id="img-18">
                                 </a>
                             </div>
                             <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>Autor em
@@ -422,7 +422,7 @@ include('layout/header.php');
                                 do tempo na mente humana</p>
                             <div class="zoom">
                                 <a href="imgs/Figura19.png" data-bs-toggle="modal" data-bs-target="#Imagem19">
-                                    <img src="imgs/Figura19.png" alt="Imagem que remete a organização" id="img-19">
+                                    <img src="imgs/Figura19.png" alt="Imagem" id="img-19">
                                 </a>
                             </div>
                             <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong><a
@@ -489,7 +489,7 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item3">03.3 - Liberdade de controle fácil pro usuário</h3>
+                        <h3 class="Subtopico fw-bolder" id="item3.3">03.3 - Liberdade de controle fácil pro usuário</h3>
                         <!-- subtopico -->
 
                         <p class="scrool">O usuário deve controlar o sistema e <strong> poder a qualquer momento
@@ -509,7 +509,7 @@ include('layout/header.php');
                                 Atalho para desfazer uma ação</p>
                             <div class="zoom">
                                 <a href="imgs/Figura20.png" data-bs-toggle="modal" data-bs-target="#Imagem20">
-                                    <img src="imgs/Figura20.png" alt="Imagem que remete a organização" id="img-20">
+                                    <img src="imgs/Figura20.png" alt="Imagem" id="img-20">
                                 </a>
                             </div>
                             <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>autor em Google
@@ -559,7 +559,7 @@ include('layout/header.php');
                             </p>
                             <div class="zoom">
                                 <a href="imgs/Figura21.png" data-bs-toggle="modal" data-bs-target="#Imagem21">
-                                    <img src="imgs/Figura21.png" alt="Imagem que remete a organização" id="img-21">
+                                    <img src="imgs/Figura21.png" alt="Imagem" id="img-21">
                                 </a>
                             </div>
                             <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>autor em
@@ -591,7 +591,7 @@ include('layout/header.php');
                         </p>
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item4">03.4 - Consistência e Padrões</h3>
+                        <h3 class="Subtopico fw-bolder" id="item3.4">03.4 - Consistência e Padrões</h3>
                         <!-- subtopico -->
 
                         <p class="scrool"><strong>Um mesmo comando ou ação deve ter sempre o mesmo efeito. </strong>
@@ -620,7 +620,7 @@ include('layout/header.php');
                             </p>
                             <div class="zoom">
                                 <a href="imgs/Figura22.png" data-bs-toggle="modal" data-bs-target="#Imagem22">
-                                    <img src="imgs/Figura22.png" alt="Imagem que remete a organização" id="img-22">
+                                    <img src="imgs/Figura22.png" alt="Imagem" id="img-22">
                                 </a>
                             </div>
                             <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> <a
@@ -680,7 +680,7 @@ include('layout/header.php');
 
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item5">03.5 - Prevenção de Erros
+                        <h3 class="Subtopico fw-bolder" id="item3.5">03.5 - Prevenção de Erros
                         </h3>
                         <!-- subtopico -->
 
@@ -707,7 +707,7 @@ include('layout/header.php');
                                 Exemplos de cadastro indicando possíveis erros</p>
                             <div class="zoom">
                                 <a href="imgs/Figura23.png" data-bs-toggle="modal" data-bs-target="#Imagem23">
-                                    <img src="imgs/Figura23.png" alt="Imagem que remete a organização" id="img-23">
+                                    <img src="imgs/Figura23.png" alt="Imagem" id="img-23">
                                 </a>
                             </div>
                             <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>Autor.</p>
@@ -740,7 +740,7 @@ include('layout/header.php');
                                 Exemplo de prevenção de erro em buscador web</p>
                             <div class="zoom">
                                 <a href="imgs/Figura24.png" data-bs-toggle="modal" data-bs-target="#Imagem24">
-                                    <img src="imgs/Figura24.png" alt="Imagem que remete a organização" id="img-24">
+                                    <img src="imgs/Figura24.png" alt="Imagem" id="img-24">
                                 </a>
                             </div>
                             <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>Google.</p>
@@ -775,7 +775,7 @@ include('layout/header.php');
 
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item6"> 03.6 - Reconhecimento em vez de memorização</h3>
+                        <h3 class="Subtopico fw-bolder" id="item3.6"> 03.6 - Reconhecimento em vez de memorização</h3>
                         <!-- subtopico -->
 
                         <p class="scrool"> Você conhece todos os programas da sua máquina de lavar roupa? Você
@@ -796,7 +796,7 @@ include('layout/header.php');
                                 Torneira com abertura diferenciada</p>
                             <div class="zoom">
                                 <a href="imgs/Figura25.png" data-bs-toggle="modal" data-bs-target="#Imagem25">
-                                    <img src="imgs/Figura25.png" alt="Imagem que remete a organização" id="img-25">
+                                    <img src="imgs/Figura25.png" alt="Imagem" id="img-25">
                                 </a>
                             </div>
                             <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> <a
@@ -882,7 +882,7 @@ include('layout/header.php');
                                 Campo autocomplete</p>
                             <div class="zoom">
                                 <a href="imgs/Figura26.png" data-bs-toggle="modal" data-bs-target="#Imagem1">
-                                    <img src="imgs/Figura26.png" alt="Imagem que remete a organização" id="img-1">
+                                    <img src="imgs/Figura26.png" alt="Imagem" id="img-1">
                                 </a>
                             </div>
                             <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong><a
@@ -908,7 +908,7 @@ include('layout/header.php');
                         <!-- FIM DA IMAGEM NO SITE  -->
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item7"> 03.7 - Flexibilidade e Eficiência de Uso</h3>
+                        <h3 class="Subtopico fw-bolder" id="item3.7"> 03.7 - Flexibilidade e Eficiência de Uso</h3>
                         <!-- subtopico -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
@@ -945,7 +945,7 @@ include('layout/header.php');
                                 Atalhos do Microsoft Word</p>
                             <div class="zoom">
                                 <a href="imgs/Figura27.png" data-bs-toggle="modal" data-bs-target="#Imagem27">
-                                    <img src="imgs/Figura27.png" alt="Imagem que remete a organização" id="img-27">
+                                    <img src="imgs/Figura27.png" alt="Imagem" id="img-27">
                                 </a>
                             </div>
                             <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong><a
@@ -973,7 +973,7 @@ include('layout/header.php');
                         <!-- FIM DA IMAGEM NO SITE  -->
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item8"> 03.8 - Estética e design minimalista</h3>
+                        <h3 class="Subtopico fw-bolder" id="item3.8"> 03.8 - Estética e design minimalista</h3>
                         <!-- subtopico -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
@@ -1012,7 +1012,7 @@ include('layout/header.php');
                                 Evolução da interface do buscador Google</p>
                             <div class="zoom">
                                 <a href="imgs/Figura28.png" data-bs-toggle="modal" data-bs-target="#Imagem28">
-                                    <img src="imgs/Figura28.png" alt="Imagem que remete a organização" id="img-28">
+                                    <img src="imgs/Figura28.png" alt="Imagem" id="img-28">
                                 </a>
                             </div>
                             <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong><a
@@ -1040,7 +1040,7 @@ include('layout/header.php');
                         <!-- FIM DA IMAGEM NO SITE  -->
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item9">03.9 - Ajude os Usuários a Reconhecerem, Diagnosticarem e
+                        <h3 class="Subtopico fw-bolder" id="item3.9">03.9 - Ajude os Usuários a Reconhecerem, Diagnosticarem e
                             Recuperarem-se de Erros</h3>
                         <!-- subtopico -->
 
@@ -1095,7 +1095,7 @@ include('layout/header.php');
                                 Interface antiga de detecção do antivírus AVG</p>
                             <div class="zoom">
                                 <a href="imgs/Figura29.png" data-bs-toggle="modal" data-bs-target="#Imagem29">
-                                    <img src="imgs/Figura29.png" alt="Imagem que remete a organização" id="img-29">
+                                    <img src="imgs/Figura29.png" alt="Imagem" id="img-29">
                                 </a>
                             </div>
                             <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> Dribbble.</p>
@@ -1186,7 +1186,7 @@ include('layout/header.php');
                                         Erro 404 do Dribbble</p>
                                     <div class="zoom">
                                         <a href="imgs/Figura30.jpg" data-bs-toggle="modal" data-bs-target="#Imagem30">
-                                            <img class="w-50" src="imgs/Figura30.jpg" alt="Imagem que remete a organização"
+                                            <img class="w-50" src="imgs/Figura30.jpg" alt="Imagem"
                                                 id="img-30">
                                         </a>
                                     </div>
@@ -1251,7 +1251,7 @@ include('layout/header.php');
                                 <!-- FIM DA CAIXA DE TEXTO CURIOSIDADE -->
 
                                 <!-- subtopico -->
-                                <h3 class="Subtopico fw-bolder" id="item10"> 03.10 - Ajuda e Documentação</h3>
+                                <h3 class="Subtopico fw-bolder" id="item3.10"> 03.10 - Ajuda e Documentação</h3>
                                 <!-- subtopico -->
 
                                 <p class="scrool">O ideal é que o sistema não precise de documentação extra para que
@@ -1295,7 +1295,7 @@ include('layout/header.php');
                                         Exemplo de ajuda contextual no iFood</p>
                                     <div class="zoom">
                                         <a href="imgs/Figura31.jpg" data-bs-toggle="modal" data-bs-target="#Imagem31">
-                                            <img class="w-50" src="imgs/Figura31.jpg" alt="Imagem que remete a organização"
+                                            <img class="w-50" src="imgs/Figura31.jpg" alt="Imagem"
                                                 id="img-31">
                                         </a>
                                     </div>
