@@ -118,7 +118,7 @@ include('layout/header.php');
 
                         <!-- INÍCIO DO SUBTÓPICO -->
                         <!-- subtopico título-->
-                        <h3 class="Subtopico fw-bolder" id="item1">02.1 - NBR ISO 9241-11</h3>
+                        <h3 class="Subtopico fw-bolder" id="item2.1">02.1 - NBR ISO 9241-11</h3>
                         <!-- subtopico título -->
 
 
@@ -225,7 +225,7 @@ include('layout/header.php');
 
                         <!-- INÍCIO DO SUBTÓPICO -->
                         <!-- subtopico título-->
-                        <h3 class="Subtopico fw-bolder" id="item2">02.2 - ISO/IEC 25000 (SQuaRE)</h3>
+                        <h3 class="Subtopico fw-bolder" id="item2.2">02.2 - ISO/IEC 25000 (SQuaRE)</h3>
                         <!-- subtopico título -->
 
                         <br>
@@ -385,7 +385,7 @@ include('layout/header.php');
 
                         <!-- INÍCIO DO SUBTÓPICO -->
                         <!-- subtopico título-->
-                        <h3 class="Subtopico fw-bolder" id="item3">02.3 - Heurísticas de Nielsen</h3>
+                        <h3 class="Subtopico fw-bolder" id="item2.3">02.3 - Heurísticas de Nielsen</h3>
                         <!-- subtopico título -->
 
                         <br>
@@ -635,7 +635,7 @@ include('layout/header.php');
                         <br>
                         <!-- INÍCIO DO SUBTÓPICO -->
                         <!-- subtopico título-->
-                        <h3 class="Subtopico fw-bolder" id="item4"> 02.4 - O que não é usual?</h3>
+                        <h3 class="Subtopico fw-bolder" id="item2.4"> 02.4 - O que não é usual?</h3>
                         <!-- subtopico título -->
 
                         <p class="scrool">Antes de passarmos às heurísticas de forma detalhada, é interessante
