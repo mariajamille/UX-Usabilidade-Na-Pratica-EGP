@@ -34,7 +34,7 @@ include('layout/header.php');
                         <br>
 
                         <ul class="list">
-                            <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i
+                            <li class="img-fluid wow fadeInLeft" data-wow-delay="0.1s"><i
                                     class="fa fa-dot-circle text-success"></i>
                                 Entender o que é usabilidade;
                             </li>

@@ -39,7 +39,7 @@ include('layout/header.php');
                         </p>
 
                         <!-- CAIXA DE TEXTO IMPORTANTE -->
-                        <section class="container">
+                        <section class="container scrool">
                             <div class="accordion">
 
                                 <section id="content">
@@ -76,7 +76,7 @@ include('layout/header.php');
                         </p><br>
 
                         <!-- IMAGEM 01  -->
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 scrool">
                             <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 01 - </strong>Caixa de
                                 óculos 3D
                                 Descrição de cima</div>
@@ -104,7 +104,7 @@ include('layout/header.php');
                         <!-- Imagem 01 - End  (Audi)-->
 
                         <!-- CAIXA DE TEXTO CURIOSIDADE -->
-                        <section class="container">
+                        <section class="container scrool">
                             <div class="accordion ">
                                 <section id="content">
                                     <div class="caixaprincipal" id="tituloCuriosidade">
@@ -142,7 +142,7 @@ include('layout/header.php');
 
                         <!-- IMAGEM 02  -->
                         <br>
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 scrool">
                             <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 02 </strong> -
                                 Óculos 3D </div>
                             <div class="zoom">

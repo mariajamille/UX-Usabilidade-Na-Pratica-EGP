@@ -90,7 +90,7 @@ include('layout/header.php');
                             subtópicos explicarão cada uma destas definições.</p>
 
                         <!-- IMAGEM 03 -->
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 scrool">
                             <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 03 </strong> -
                                 Definições de usabilidade </div>
                             <div class="zoom">
@@ -132,7 +132,7 @@ include('layout/header.php');
                             um produto para hardware, software ou serviços. </p><br>
 
                         <!-- IMAGEM 04  -->
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 scrool">
                             <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 04 </strong> -
                                 ABNT NBR ISO 9241-11</div>
                             <div class="zoom">
@@ -175,16 +175,16 @@ include('layout/header.php');
                             três medidas
                             citadas pela norma são:</p>
 
-                        <ol class="list02">
-                            <li class="wow fadeInLeft" data-wow-delay="0.3s"><strong>Efetividade:</strong> é a medida em
+                        <ol class="list02 scrool">
+                            <li><strong>Efetividade:</strong> é a medida em
                                 que se verifica o quanto o usuário alcançou os objetivos iniciais de interação. Pode ser
                                 avaliada considerando a finalização de uma tarefa ou em termos de qualidade do resultado
                                 obtido.</li>
-                            <li class="wow fadeInLeft" data-wow-delay="0.6s"><strong>Eficiência:</strong> se refere à
+                            <li><strong>Eficiência:</strong> se refere à
                                 quantidade de esforço e recursos necessários para se chegar a um determinado objetivo.
                                 Os desvios que o usuário faz durante a interação e a quantidade de erros cometidos podem
                                 servir para avaliar o nível de eficiência do site.</li>
-                            <li class="wow fadeInLeft" data-wow-delay="0.9s"><strong>Satisfação do usuário:</strong>
+                            <li><strong>Satisfação do usuário:</strong>
                                 considerada a mais difícil de medir, esta medida se refere ao nível de conforto que o
                                 usuário sente ao utilizar a interface e qual o nível de aceitação.</li>
                         </ol>
@@ -197,7 +197,7 @@ include('layout/header.php');
 
 
                         <!-- IMAGEM 05  -->
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 scrool">
                             <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 05 </strong> -
                                 Estrutura de usabilidade</div>
                             <div class="zoom">
@@ -236,21 +236,16 @@ include('layout/header.php');
                                 linha de produtos de software</strong>. Esse conjunto de normas é dividida da seguinte
                             forma: </p>
 
-                        <ul class="list">
-                            <li class="wow fadeInLeft" data-wow-delay="0.3s"><i
-                                    class="fa fa-dot-circle text-success"></i> ISO/IEC 2500n – Divisão de Gestão
+                        <ul class="list scrool">
+                            <li><i class="fa fa-dot-circle text-success"></i> ISO/IEC 2500n – Divisão de Gestão
                                 da Qualidade;</li>
-                            <li class="wow fadeInLeft" data-wow-delay="0.6s"><i
-                                    class="fa fa-dot-circle text-success"></i> ISO/IEC 2501n – Divisão de Modelo
+                            <li><i class="fa fa-dot-circle text-success"></i> ISO/IEC 2501n – Divisão de Modelo
                                 de Qualidade;</li>
-                            <li class="wow fadeInLeft" data-wow-delay="0.9s"><i
-                                    class="fa fa-dot-circle text-success"></i> ISO/IEC 2502n – Divisão de Medição
+                            <li><i class="fa fa-dot-circle text-success"></i> ISO/IEC 2502n – Divisão de Medição
                                 de Qualidade;</li>
-                            <li class="wow fadeInLeft" data-wow-delay="1.0s"><i
-                                    class="fa fa-dot-circle text-success"></i> ISO/IEC 2503n – Divisão de
+                            <li><i class="fa fa-dot-circle text-success"></i> ISO/IEC 2503n – Divisão de
                                 Requisitos de Qualidade;</li>
-                            <li class="wow fadeInLeft" data-wow-delay="1.3s"><i
-                                    class="fa fa-dot-circle text-success"></i> ISO/IEC 2504n – Divisão de
+                            <li><i class="fa fa-dot-circle text-success"></i> ISO/IEC 2504n – Divisão de
                                 Avaliação da Qualidade.</li>
                         </ul><br>
 
@@ -274,22 +269,16 @@ include('layout/header.php');
                             seguintes
                             subcaracterísticas:</p><br>
 
-                        <ul class="list">
-                            <li class="wow fadeInLeft" data-wow-delay="0.3s"><i
-                                    class="fa fa-dot-circle text-success"></i> Reconhecimento de Adequabilidade;
+                        <ul class="list scrool">
+                            <li><i class="fa fa-dot-circle text-success"></i> Reconhecimento de Adequabilidade;
                             </li>
-                            <li class="wow fadeInLeft" data-wow-delay="0.6s"><i
-                                    class="fa fa-dot-circle text-success"></i> Aprendizagem;</li>
-                            <li class="wow fadeInLeft" data-wow-delay="0.9s"><i
-                                    class="fa fa-dot-circle text-success"></i> Operacionalidade;</li>
-                            <li class="wow fadeInLeft" data-wow-delay="1.0s"><i
-                                    class="fa fa-dot-circle text-success"></i> Proteção Contra Erros do Usuário;
+                            <li><i class="fa fa-dot-circle text-success"></i> Aprendizagem;</li>
+                            <li><i class="fa fa-dot-circle text-success"></i> Operacionalidade;</li>
+                            <li><i class="fa fa-dot-circle text-success"></i> Proteção Contra Erros do Usuário;
                             </li>
-                            <li class="wow fadeInLeft" data-wow-delay="1.3s"><i
-                                    class="fa fa-dot-circle text-success"></i> Estética da Interface do Usuário;
+                            <li><i class="fa fa-dot-circle text-success"></i> Estética da Interface do Usuário;
                             </li>
-                            <li class="wow fadeInLeft" data-wow-delay="1.6s"><i
-                                    class="fa fa-dot-circle text-success"></i> Acessibilidade.</li>
+                            <li><i class="fa fa-dot-circle text-success"></i> Acessibilidade.</li>
                         </ul>
 
                         <p class="scrool">
@@ -303,7 +292,7 @@ include('layout/header.php');
                         </p><br>
 
                         <!-- IMAGEM 06  -->
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 scrool">
                             <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 06 </strong> -
                                 Qualidade de uso em ISO/IEC 25010</div>
                             <div class="zoom">
@@ -341,7 +330,7 @@ include('layout/header.php');
                         </p>
 
                         <!-- CAIXA DE TEXTO SAIBA-MAIS -->
-                        <section class="container">
+                        <section class="container scrool">
                             <div class="accordion ">
                                 <section id="content">
                                     <div class="caixaprincipal" id="tituloSaibaMais">
@@ -365,7 +354,7 @@ include('layout/header.php');
                         <!-- FIM DA CAIXA SAIBA MAIS  -->
 
                         <!-- IMAGEM 07  -->
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 scrool">
                             <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 07 </strong> -
                                 Características de qualidade de produto em ISO/IEC 25010</div>
                             <div class="zoom">
@@ -437,24 +426,18 @@ include('layout/header.php');
 
                                         <ul class="list02">
                                             <ol class="txt-caixasecundaria">
-                                                <li class="wow fadeInLeft" data-wow-delay="0.3s"><i
-                                                        class="fa fa-dot-circle text-success"></i> Ben
+                                                <li><i class="fa fa-dot-circle text-success"></i> Ben
                                                     Shneiderman (1986): “Oito regras de ouro do design de diálogo”;</li>
-                                                <li class="wow fadeInLeft" data-wow-delay="0.6s"><i
-                                                        class="fa fa-dot-circle text-success"></i> Donald Norman
+                                                <li><i class="fa fa-dot-circle text-success"></i> Donald Norman
                                                     (1988): “Princípios de orientação”;</li>
-                                                <li class="wow fadeInLeft" data-wow-delay="0.9s"><i
-                                                        class="fa fa-dot-circle text-success"></i> Jakob Nielsen
+                                                <li><i class="fa fa-dot-circle text-success"></i> Jakob Nielsen
                                                     (1993): “Heurísticas de usabilidade”;</li>
-                                                <li class="wow fadeInLeft" data-wow-delay="1.0s"><i
-                                                        class="fa fa-dot-circle text-success"></i> Bruce
+                                                <li><i class="fa fa-dot-circle text-success"></i> Bruce
                                                     Tognazzini (1987): “Guidelines de Interface humana”;</li>
-                                                <li class="wow fadeInLeft" data-wow-delay="1.3s"><i
-                                                        class="fa fa-dot-circle text-success"></i> Christien
+                                                <li><i class="fa fa-dot-circle text-success"></i> Christien
                                                     Bastien &, Dominique Scapin (1993): “Critérios ergonômicos para
                                                     avaliação de interfaces humano-computador”;</li>
-                                                <li class="wow fadeInLeft" data-wow-delay="1.6s"><i
-                                                        class="fa fa-dot-circle text-success"></i> Andrew Monk
+                                                <li><i class="fa fa-dot-circle text-success"></i> Andrew Monk
                                                     (1992) - Nokia (Equipe Nokia).</li>
                                             </ol>
                                         </ul><br>
@@ -473,7 +456,7 @@ include('layout/header.php');
                         <!-- FIM DA CAIXA SAIBA MAIS  -->
 
                         <br>
-                        <p>Para Nielsen, </p>
+                        <p class="scrool">Para Nielsen, </p>
 
                         <!-- CITAÇÃO -->
                         <div class="bd-callout bd-callout-success fw-bold fst-italic">
@@ -484,9 +467,9 @@ include('layout/header.php');
                             </p>
                         </div><br>
 
-                        <p>Nielsen complementa esta definição a partir de 5 fatores de usabilidade:</p>
+                        <p class="scrool">Nielsen complementa esta definição a partir de 5 fatores de usabilidade:</p>
 
-                        <ol>
+                        <ol class="scrool">
                             <br>
                             <li><strong>Facilidade de aprendizado</strong> <em>(Learnability)</em>: Quão fácil é
                                 para os
@@ -529,9 +512,9 @@ include('layout/header.php');
                                 interface? A satisfação do usuário envolve prazer, diversão, entretenimento,
                                 interesse,
                                 motivação, estética, criatividade, surpresa e desafio.</li>
-                            </ol>
+                        </ol>
 
-                        <p>Além destas, Nielsen ressalta uma característica adicional à usabilidade: a
+                        <p class="scrool">Além destas, Nielsen ressalta uma característica adicional à usabilidade: a
                             <strong>utilidade</strong>, que se refere à funcionalidade em si e possibilita
                             questionar o
                             que <strong>o usuário realmente precisa</strong>. Usabilidade e utilidade são
@@ -546,7 +529,7 @@ include('layout/header.php');
                         </p>
 
                         <!-- IMAGEM 08  -->
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 scrool">
                             <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 08 </strong>
                                 - Utilidade e usabilidade</div>
                             <div class="zoom">
@@ -620,7 +603,7 @@ include('layout/header.php');
 
 
                         <!-- IMAGEM 09  -->
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 scrool">
                             <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 09 </strong>
                                 - 10 heurísticas de Nielsen</div>
                             <div class="zoom">
@@ -701,7 +684,7 @@ include('layout/header.php');
 
 
                         <!-- IMAGEM 10  -->
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 scrool">
                             <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 10 </strong>
                                 - Painel do Elevador</div>
                             <div class="zoom">
@@ -729,7 +712,8 @@ include('layout/header.php');
 
                         <div class="row">
                             <div class="col-md-6">
-                                <p>Como outro exemplo, temos interfaces que apresentam códigos e mensagens não
+                                <p class="scrool">Como outro exemplo, temos interfaces que apresentam códigos e
+                                    mensagens não
                                     decifráveis para indicar um erro. Na <strong>Figura 11</strong> vemos uma mensagem
                                     de erro que se destaca na tela pelo seu tamanho e por não ser facilmente
                                     compreendida. Esta foi uma mensagem retornada pelo aplicativo Uber. Neste exemplo,
@@ -745,12 +729,12 @@ include('layout/header.php');
                                 <!-- Titulo Figura -->
 
                                 <!-- IMAGEM 11  -->
-                                <div class="text-center img-01">
+                                <div class="text-center img-01 scrool">
                                     <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 11 </strong>
                                         - Mensagem de erro inapropriada</div>
                                     <div class="zoom">
                                         <a href="imgs/Figura11.png" data-bs-toggle="modal" data-bs-target="#Imagem11">
-                                            <img src="imgs/Figura11.png" class="w-50"
+                                            <img src="imgs/Figura11.png" id="img-modal11"
                                                 alt=" Mensagem de erro inapropriada">
                                         </a>
                                     </div>
@@ -762,7 +746,7 @@ include('layout/header.php');
                                     aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div
                                         class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                                        <div class="modal-content w-50">
+                                        <div class="modal-content">
                                             <img class="img-fluid" src="imgs/Figura11.png"
                                                 alt="10 heurísticas de Nielsen">
                                         </div>
@@ -815,7 +799,7 @@ include('layout/header.php');
                         <!-- FIM DA CAIXA FIQUE ATENTO -->
 
                         <!-- IMAGEM 12  -->
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 scrool">
                             <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 12 </strong>
                                 - Mensagem de erro inapropriada</div>
                             <div class="zoom">
@@ -876,11 +860,11 @@ include('layout/header.php');
                                 - O tema de cor do material de base</div>
                             <div class="zoom">
                                 <a href="imgs/Figura13.png" data-bs-toggle="modal" data-bs-target="#Imagem13">
-                                    <img src="imgs/Figura13.png"
-                                        alt="O tema de cor do material de base">
+                                    <img src="imgs/Figura13.png" alt="O tema de cor do material de base">
                                 </a>
                             </div>
-                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> Material Design.</p>
+                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> Material Design.
+                            </p>
                         </div>
 
                         <!-- Imagem 12 - MODAL -->
@@ -893,7 +877,8 @@ include('layout/header.php');
                                         alt="O tema de cor do material de base">
                                 </div>
                                 <div class="modal-footer w-75 bg-light justify-content-center">
-                                    <p class="text-secondary"><strong>Figura 13 - </strong> O tema de cor do material de base
+                                    <p class="text-secondary"><strong>Figura 13 - </strong> O tema de cor do material de
+                                        base
                                     </p>
                                 </div>
                             </div>
