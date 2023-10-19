@@ -53,14 +53,14 @@
                         <div class="dropdown-container" id="spy">
                             <a href="topico02.php">
                                 <i class="fa-regular fa-pen-to-square circulo"></i>Início</a>
-                            <a href="#item1">
-                                <i class="fa-regular fa-pen-to-square circulo"></i>NBR ISO 9241-11</a>
-                            <a href="#item2">
-                                <i class="fa-regular fa-pen-to-square circulo"></i>ISO/IEC 25000 (SQuaRE)</a>
-                            <a href="#item3">
-                                <i class="fa-regular fa-pen-to-square circulo"></i>Heurísticas de Nielsen</a>
-                            <a href="#item4">
-                                <i class="fa-regular fa-pen-to-square circulo"></i>O que não é usual?</a>
+                            <a href="#item2.1">
+                                <i class="fa-regular fa-pen-to-square circulo"></i>2.1 - NBR ISO 9241-11</a>
+                            <a href="#item2.2">
+                                <i class="fa-regular fa-pen-to-square circulo"></i>2.2 -ISO/IEC 25000 (SQuaRE)</a>
+                            <a href="#item2.3">
+                                <i class="fa-regular fa-pen-to-square circulo"></i>2.3 - Heurísticas de Nielsen</a>
+                            <a href="#item2.4">
+                                <i class="fa-regular fa-pen-to-square circulo"></i>2.4 - O que não é usual?</a>
                         </div>
 
                         <!-- topico com Subtópico -->
@@ -77,32 +77,34 @@
                         <div class="dropdown-container" id="spy">
                             <a href="topico03.php">
                                 <i class="fa-regular fa-pen-to-square circulo"></i>Início</a>
-                            <a href="#item1">
-                                <i class="fa-regular fa-pen-to-square circulo"></i>Visibilidade de qual estado estamos
-                                no sistema</a>
-                            <a href="#item2">
-                                <i class="fa-regular fa-pen-to-square circulo"></i>Correspondência entre o sistema e o
-                                mundo real</a>
-                            <a href="#item3">
-                                <i class="fa-regular fa-pen-to-square circulo"></i>Liberdade de controle fácil pro
+                            <a href="#item3.1">
+                                <i class="fa-regular fa-pen-to-square circulo"></i>3.1 - Visibilidade de qual estado
+                                estamos no sistema</a>
+                            <a href="#item3.2">
+                                <i class="fa-regular fa-pen-to-square circulo"></i>3.2 - Correspondência entre o sistema
+                                e o mundo real</a>
+                            <a href="#item3.3">
+                                <i class="fa-regular fa-pen-to-square circulo"></i>3.3 - Liberdade de controle fácil pro
                                 usuário</a>
-                            <a href="#item4">
-                                <i class="fa-regular fa-pen-to-square circulo"></i>Consistência e Padrões</a>
-                            <a href="#item5">
-                                <i class="fa-regular fa-pen-to-square circulo"></i>Prevenção de Erros</a>
-                            <a href="#item6">
-                                <i class="fa-regular fa-pen-to-square circulo"></i>Reconhecimento em vez de
+                            <a href="#item3.4">
+                                <i class="fa-regular fa-pen-to-square circulo"></i>3.4 - Consistência e Padrões</a>
+                            <a href="#item3.5">
+                                <i class="fa-regular fa-pen-to-square circulo"></i>3.5 - Prevenção de Erros</a>
+                            <a href="#item3.6">
+                                <i class="fa-regular fa-pen-to-square circulo"></i>3.6 - Reconhecimento em vez de
                                 memorização</a>
-                            <a href="#item7">
-                                <i class="fa-regular fa-pen-to-square circulo"></i>Flexibilidade e Eficiência de Uso</a>
-                            <a href="#item8">
-                                <i class="fa-regular fa-pen-to-square circulo"></i>Estética e design minimalista</a>
-                            <a href="#item9">
-                                <i class="fa-regular fa-pen-to-square circulo"></i>Ajude os Usuários a Reconhecerem,
-                                Diagnosticarem e
+                            <a href="#item3.7">
+                                <i class="fa-regular fa-pen-to-square circulo"></i>3.7 - Flexibilidade e Eficiência de
+                                Uso</a>
+                            <a href="#item3.8">
+                                <i class="fa-regular fa-pen-to-square circulo"></i>3.8 - Estética e design
+                                minimalista</a>
+                            <a href="#item3.9">
+                                <i class="fa-regular fa-pen-to-square circulo"></i>3.9 - Ajude os Usuários a
+                                Reconhecerem, Diagnosticarem e
                                 Recuperarem-se de Erros</a>
-                            <a href="#item10">
-                                <i class="fa-regular fa-pen-to-square circulo"></i>Ajuda e Documentação</a>
+                            <a href="#item3.10">
+                                <i class="fa-regular fa-pen-to-square circulo"></i>3.10 - Ajuda e Documentação</a>
                         </div>
 
                         <!-- topico com Subtópico -->
@@ -119,10 +121,10 @@
                         <div class="dropdown-container" id="spy">
                             <a href="topico04.php">
                                 <i class="fa-regular fa-pen-to-square circulo"></i>Início</a>
-                            <a href="#item1">
-                                <i class="fa-regular fa-pen-to-square circulo"></i>Por que avaliar?</a>
-                            <a href="#item2">
-                                <i class="fa-regular fa-pen-to-square circulo"></i> Como Avaliar</a>
+                            <a href="#item4.1">
+                                <i class="fa-regular fa-pen-to-square circulo"></i>4.1 - Por que avaliar?</a>
+                            <a href="#item4.2">
+                                <i class="fa-regular fa-pen-to-square circulo"></i>4.2 - Como Avaliar</a>
                         </div>
 
                         <li class="menu">
