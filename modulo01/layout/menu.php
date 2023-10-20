@@ -20,8 +20,22 @@
             </a>
         </li>
 
+        <!-- <li class="menu">
+            <a class="dropdown" title="menu dropdown">
+                <span class="icon space"><i class="bi bi-2-circle"></i></span>
+                <span class="txt">Poder de decisão<i class="bi bi-caret-down-fill barra-sub"></i></span>
+            </a>
+        </li>
+            <ul class="dropDown" id="spy">
+                <li><a class="dropdown-item" href="topico02.php">
+                        <i class="fa-regular fa-pen-to-square circulo"></i>Inicío</a></li></li>
+                    <li><a class="dropdown-item" href="#item2.1"><i
+                            class="fa-regular fa-pen-to-square circulo"></i>Subtópico</a></li>
+                </li>
+            </ul> -->
+
         <!-- topico com Subtópico -->
-        <button class="dropdown-btn">
+        <!-- <button class="dropdown-btn">
             <li class="menu">
                 <a data-valor="topico02.php">
                     <span class="icon space"><i class="bi bi-2-circle"></i></span>
@@ -29,9 +43,9 @@
                         <i class="bi bi-caret-down-fill barra-sub"></i></span>
                 </a>
             </li>
-        </button>
+        </button> -->
         <!-- subtopicos aqui  -->
-        <div class="dropdown-container" id="spy">
+        <!-- <div class="dropdown-container" id="spy">
             <a href="topico02.php">
                 <i class="fa-regular fa-pen-to-square circulo"></i>Início</a>
             <a href="#item2.1">
@@ -42,10 +56,25 @@
                 <i class="fa-regular fa-pen-to-square circulo"></i>2.3 - Heurísticas de Nielsen</a>
             <a href="#item2.4">
                 <i class="fa-regular fa-pen-to-square circulo"></i>2.4 - O que não é usual?</a>
-        </div>
+        </div> -->
+
+        <li class="menu">
+            <a class="dropdown" title="menu dropdown">
+                <span class="icon space"><i class="bi bi-3-circle"></i></span>
+                <span class="txt">Poder de decisão<i class="bi bi-caret-down-fill barra-sub"></i></span>
+            </a>
+        </li>
+            <ul class="dropDown">
+                <li><a class="dropdown-item" href="topico03.phpgi">
+                        <i class="fa-regular fa-pen-to-square circulo"></i>Inicío</a></li></li>
+
+                    <li><a class="dropdown-item" href="#item3.1"><i
+                            class="fa-regular fa-pen-to-square circulo"></i>Subtópico</a></li>
+                </li>
+            </ul>
 
         <!-- topico com Subtópico -->
-        <button class="dropdown-btn">
+        <!-- <button class="dropdown-btn">
             <li class="menu">
                 <a data-valor="topico03.php">
                     <span class="icon space"><i class="bi bi-3-circle"></i></span>
@@ -53,9 +82,9 @@
                         <i class="bi bi-caret-down-fill barra-sub"></i></span>
                 </a>
             </li>
-        </button>
+        </button> -->
         <!-- subtopicos aqui  -->
-        <div class="dropdown-container" id="spy">
+        <!-- <div class="dropdown-container" id="spy">
             <a href="topico03.php">
                 <i class="fa-regular fa-pen-to-square circulo"></i>Início</a>
             <a href="#item3.1">
@@ -79,10 +108,10 @@
                 Recuperarem-se de Erros</a>
             <a href="#item3.10">
                 <i class="fa-regular fa-pen-to-square circulo"></i>3.10 - Ajuda e Documentação</a>
-        </div>
+        </div> -->
 
         <!-- topico com Subtópico -->
-        <button class="dropdown-btn">
+        <!-- <button class="dropdown-btn">
             <li class="menu">
                 <a data-valor="topico4.php">
                     <span class="icon space"><i class="bi bi-4-circle"></i></span>
@@ -90,16 +119,16 @@
                         <i class="bi bi-caret-down-fill barra-sub"></i></span>
                 </a>
             </li>
-        </button>
+        </button> -->
         <!-- subtopicos aqui  -->
-        <div class="dropdown-container" id="spy">
+        <!-- <div class="dropdown-container" id="spy">
             <a href="topico04.php">
                 <i class="fa-regular fa-pen-to-square circulo"></i>Início</a>
             <a href="#item4.1">
                 <i class="fa-regular fa-pen-to-square circulo"></i>4.1 - Por que avaliar?</a>
             <a href="#item4.2">
                 <i class="fa-regular fa-pen-to-square circulo"></i>4.2 - Como Avaliar</a>
-        </div>
+        </div> -->
 
         <li class="menu">
             <a href="referencias.php">

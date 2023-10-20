@@ -218,3 +218,47 @@ for (i = 0; i < dropdown.length; i++) {
     }
   });
 }
+
+// SUBTÓPICO COM JQUERY
+$(document).ready(function () {
+    var botao = $('.menu');
+    var dropDown = $('.dropDown');
+
+    botao.on('click', function (event) {
+        dropDown.stop(true, true).slideToggle();
+
+        // remove o tooltip ao clicar no dropdown
+        $('.tooltip').remove();
+
+        event.stopPropagation();
+
+        // fecha o dropdown no evento "mouseleave" na ul "dropDown"
+        $('.menulateral').mouseleave(function () {
+            dropDown.slideUp();
+        });
+    });
+});
+
+//Efeito Tooltip
+$(document).ready(function () {
+    // Tooltip only Text
+    $('.tp').hover(function () {
+        // Hover over code
+        var title = $(this).attr('title');
+        $(this).data('tipText', title).removeAttr('title');
+        $('<p class="tooltip"></p>')
+            .text(title)
+            .appendTo('body')
+            .fadeIn('fast');
+    }, function () {
+        // Hover out code
+        $(this).attr('title', $(this).data('tipText'));
+        $('.tooltip').remove();
+    }).mousemove(function (e) {
+        var mousex = e.pageX + 5; //Get X coordinates
+        var mousey = e.pageY + 5; //Get Y coordinates
+        $('.tooltip')
+            .css({ top: mousey, left: mousex })
+    });
+});
+// FIM DO SUBTÓPICO COM JQUERY
