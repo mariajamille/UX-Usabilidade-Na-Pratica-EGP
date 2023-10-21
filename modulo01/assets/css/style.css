@@ -17,7 +17,7 @@ A FUNÇÃO [data-theme="dark"] ALTERA O CONTEÚDO PARA O MODO ESCURO. */
     /* cores do estado */
 
     /* CORES DOS TITULOS  */
-    --CorSubSubtopico: rgb(86, 161, 86) ;
+    --CorSubSubtopico: rgb(86, 161, 86);
     --CorSubtopico: rgb(39, 156, 61);
 
 
@@ -158,7 +158,7 @@ ol li {
 }
 
 [data-theme="dark"] .list li {
-   color: white;
+    color: white;
 }
 
 .list li {
@@ -294,75 +294,30 @@ ul li.menu a:hover {
 }
 
 /* CONFIGURAÇÃO DO SUBTÓPICO */
-.botao {
-    display: block;
-    width: 160px;
-    height: 30px;
-    font-size: 14px;
-    background: #e1e1e1;
-    border-bottom: 2px solid #333;
-    text-align: center;
-    font-family: 'Arial';
-    text-transform: uppercase;
-    line-height: 30px;
-    color: #333;
-    font-weight: bold;
-    text-decoration: none;
- }
- 
- .botao:hover {
-    background: #999;
-    color: #fff;
- }
- 
- .dropDown {
+.dropDown {
     display: none;
-    list-style: none;
-    float: left;
-    width: 160px;
-    height: auto;
- }
- 
- .dropDown li {
-    display: block;
-    width: 100%;
-    height: auto;
-    color: white;
- }
- 
- .dropDown li a {
-    display: block;
-    float: center;
-    width: 90%;
+}
+
+.dropDown a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     text-decoration: none;
     color: #44833D;
     width: 100%;
-    font-size: 20px;
+    font-size: 1.2rem;
     margin-bottom: 0.7rem;
     cursor: pointer;
+    position: relative;
+    padding-left: 1.1em;
+    padding-top: 0.5em;
     padding-bottom: 0.3em;
-    transition: background-color 0.3s linear;
-    padding: 4% 0 4% 10%;
- }
- 
- .dropDown li a:hover {
-    background: #000;
-    color: #fff;
- 
- }
- 
- .tooltip {
-    display: none;
-    position: absolute;
-    border: 1px solid #333;
-    background-color: #161616;
-    border-radius: 5px;
-    padding: 5px;
-    color: #fff;
-    font-size: 12px Arial;
- }
-/* CONFIGURAÇÃO DO SUBTÓPICO END */
+}
 
+.dropDown a:hover {
+    color: white;
+    background-color: #1a9c60;
+}
 
 .dropdown-btn {
     text-decoration: none;
@@ -379,37 +334,18 @@ ul li.menu a:hover {
     color: #ffffff;
 }
 
-.dropdown-container {
-    display: none;
-}
-
-.dropdown-container a {
-    display: flex;
-    justify-content: flex-start;
-    text-decoration: none;
-    color: #44833D;
-    width: 100%;
-    font-size: 20px;
-    margin-bottom: 0.7rem;
-    cursor: pointer;
-    position: relative;
-    padding-left: 1.2em;
-    padding-top: 0.5em;
-    padding-bottom: 0.3em;
-    transition: background-color 0.3s linear;
-}
-
-[data-theme="dark"] .dropdown-container a {
-    color: white;
-}
-
-.dropdown-container a:hover {
+.dropDown a:hover {
     color: white;
     background-color: #1a9c60;
+    width: 100%;
 }
 
-[data-theme="dark"] .dropdown-container a:hover {
+[data-theme="dark"] .dropDown a:hover {
     background-color: #3be3e2;
+    color: #040504;
+}
+[data-theme="dark"] .dropDown a {
+    color: white;
 }
 
 .circulo {
@@ -422,6 +358,7 @@ ul li.menu a:hover {
     display: flex;
     align-items: center;
 }
+/* FIM DA CONFIGURAÇÃO DO SUBTÓPICO*/
 
 [data-theme="dark"] ul li.menu a:hover {
     color: rgb(0, 0, 0);
@@ -1016,12 +953,13 @@ h2,
     border-bottom: 1px solid rgb(185, 185, 185);
     padding-bottom: 20px;
 }
-.subsubtopico{
-color: var(--CorSubSubtopico);
-font-size: 25px;
-border-bottom: 1px solid rgb(185, 185, 185);
-padding-bottom: 10px;
-margin: 20px 0;
+
+.subsubtopico {
+    color: var(--CorSubSubtopico);
+    font-size: 25px;
+    border-bottom: 1px solid rgb(185, 185, 185);
+    padding-bottom: 10px;
+    margin: 20px 0;
 }
 
 [data-theme="dark"] .Subtopico {
