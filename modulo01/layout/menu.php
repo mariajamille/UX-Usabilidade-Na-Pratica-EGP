@@ -25,7 +25,7 @@
             <li class="menu">
                 <a data-valor="topico02.php">
                     <span class="icon space"><i class="bi bi-2-circle"></i></span>
-                    <span class="txt">Usabilidade<i class="bi bi-caret-down-fill barra-sub"></i></span>
+                    <span class="txt">Usabilidade</span>
                     <i class="bi bi-caret-down-fill barra-sub"></i></span>
                 </a>
             </li>
@@ -46,12 +46,11 @@
         <!-- fim do tópico com Subtópico-->
 
         <!-- tópico com Subtópico-->
-        <button class="dropdown-btn">
+        <button class="dropdown-btn" id="align">
             <li class="menu">
                 <a class="dropdown" data-valor="topico03.php">
                     <span class="icon space"><i class="bi bi-3-circle"></i></span>
-                    <span class="txt">Heurísticas de Nielsen
-                        <i class="bi bi-caret-down-fill barra-sub"></i></span>
+                    <span class="txt">Heurísticas de Nielsen<i class="bi bi-caret-down-fill barra-sub"></i></span>
                 </a>
             </li>
         </button>
@@ -87,7 +86,7 @@
         <!-- fim do tópico com Subtópico-->
 
         <!-- tópico com Subtópico-->
-        <button class="dropdown-btn">
+        <button class="dropdown-btn" id="align04">
             <li class="menu">
                 <a data-valor="topico4.php">
                     <span class="icon space"><i class="bi bi-4-circle"></i></span>
@@ -107,7 +106,7 @@
         </div>
         <!-- fim do tópico com Subtópico-->
 
-        <li class="menu">
+        <li class="menu" id="align">
             <a href="referencias.php">
                 <span class="icon"><i class="bi bi-book-half"></i></span>
                 <span class="txt">Referências</span>

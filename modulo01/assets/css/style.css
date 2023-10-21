@@ -175,13 +175,13 @@ ol li {
 ul li.menu a {
     color: #44833D;
     text-decoration: none;
-    font-size: 20px;
-    padding: 10px 0%;
+    font-size: 1.3rem;
+    padding: 18px 0%;
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
     cursor: pointer;
-    transition: 0.4s;
+    transition: 0.2s;
     height: fit-content;
     width: 100%;
     /* border: 1px solid red; */
@@ -195,7 +195,7 @@ ul li.menu a {
 }
 
 ul li.menu a .txt {
-    margin-left: 2.5rem;
+    margin-left: 2.2rem;
     display: flex;
     text-align: left;
     width: 100%;
@@ -322,7 +322,8 @@ ul li.menu a:hover {
 .dropdown-btn {
     text-decoration: none;
     color: #44833D;
-    display: block;
+    display: flex;
+    align-items: center;
     border: none;
     background: none;
     width: 100%;
