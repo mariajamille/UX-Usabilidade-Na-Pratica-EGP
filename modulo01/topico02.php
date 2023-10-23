@@ -175,7 +175,7 @@ include('layout/header.php');
                             três medidas
                             citadas pela norma são:</p>
 
-                        <ol class="list02 scrool">
+                        <ol class="list2-1 scrool">
                             <li><strong>Efetividade:</strong> é a medida em
                                 que se verifica o quanto o usuário alcançou os objetivos iniciais de interação. Pode ser
                                 avaliada considerando a finalização de uma tarefa ou em termos de qualidade do resultado
@@ -735,7 +735,7 @@ include('layout/header.php');
                                     <div class="zoom">
                                         <a href="imgs/Figura11.png" data-bs-toggle="modal" data-bs-target="#Imagem11">
                                             <img src="imgs/Figura11.png" id="img-modal11"
-                                                alt=" Mensagem de erro inapropriada">
+                                                alt=" Mensagem de erro inapropriada" class="w-50">
                                         </a>
                                     </div>
                                     <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> Autor.</p>
@@ -745,12 +745,12 @@ include('layout/header.php');
                                 <div class="modal fade text-center" id="Imagem11" tabindex="-1"
                                     aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div
-                                        class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                        class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column w-25">
                                         <div class="modal-content">
                                             <img class="img-fluid" src="imgs/Figura11.png"
                                                 alt="10 heurísticas de Nielsen">
                                         </div>
-                                        <div class="modal-footer w-50 bg-light justify-content-center">
+                                        <div class="modal-footer w-100 bg-light justify-content-center">
                                             <p class="text-secondary"><strong>Figura 11 - </strong> Mensagem de erro
                                                 inapropriada
                                             </p>
@@ -895,10 +895,6 @@ include('layout/header.php');
             <a href="topico03.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
                     class="fa-solid fa-chevron-right"></i></a>
         </div>
-
-        <!-- barra de progresso embaixo -->
-        <div id="progress-bar"></div>
-    </div>
 
     <!-- BUTTON BACK TO TOP -->
     <!-- INÍCIO DAS CONFIGURAÇÕES DO BOTÃO BACK TO TOP -->

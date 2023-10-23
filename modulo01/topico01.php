@@ -209,10 +209,6 @@ include('layout/header.php');
                     class="fa-solid fa-chevron-right"></i></a>
         </div>
 
-        <!-- barra de progresso embaixo -->
-        <div id="progress-bar"></div>
-    </div>
-
     <!-- BUTTON BACK TO TOP -->
     <!-- INÍCIO DAS CONFIGURAÇÕES DO BOTÃO BACK TO TOP -->
     <!-- BOTÃO BACK TO TOP COM UMA BARRA DE PROGRESSO -->

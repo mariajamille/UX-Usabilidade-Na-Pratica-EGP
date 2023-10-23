@@ -1,33 +1,48 @@
 /* CONFIGURAÇÃO DAS LISTAS ORDENADAS DO TÓPICO 02 */
- #img-modal11{
-   width: 14rem;
-   margin-top: -20px;
+#img-modal11 {
+  width: 14rem;
+  margin-top: -20px;
 }
 
-[data-theme="dark"]   .list02 li {
-    color: black;
+[data-theme="dark"] .list02 li {
+ color: black;
 }
 
- .list02 li {
-     font-family: var(--FonteRaleway);
-     font-size: 1.2rem;
-     margin-top: 5px;
-     list-style: none;
-     color: black;
- }
- p.paragrafo{
-    margin-top: 5.8em;
- }
- .tabela{
-    margin-bottom: 3rem;
- }
+.list02 li {
+  font-family: var(--FonteRaleway);
+  font-size: 1.2rem;
+  margin-top: 5px;
+  list-style: none;
+  color: black;
+}
 
- #align{
-   margin-top: -10px;
- }
+p.paragrafo {
+  margin-top: 5.8em;
+}
 
- #align04{
-   margin-top: -20px;
- }
+.tabela {
+  margin-bottom: 3rem;
+}
 
- 
+.list2-1 {
+  color: black;
+  font-family: var(--FonteRaleway);
+  font-size: 1.2rem;
+  margin-top: 5px;
+  list-style: none;
+}
+
+#align04 {
+  margin-top: -20px;
+}
+
+.bi-caret-down-fill {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* #bi-caret2{
+  color: black;
+  justify-content: flex-end;
+  padding-left: 5rem;
+} */

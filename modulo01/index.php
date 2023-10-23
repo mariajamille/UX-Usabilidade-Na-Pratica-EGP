@@ -54,9 +54,6 @@ include('layout/header.php');
                                 aria-pressed="true">Próximo <i class="bi bi-chevron-right"></i></a>
                         </div>
 
-
-                        <div id="progress-bar"></div>
-                    </div>
                     <?php
                     include('layout/footer.php');
                     ?>

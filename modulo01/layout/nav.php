@@ -23,6 +23,7 @@
 
                 <!-- CONTEÚDO DO MENU LATERAL RESPONSIVO -->
                 <nav class="menulateral-responsivo">
+                    <!-- os topicos começam aqui  -->
                     <ul>
                         <li class="menu">
                             <a href="index.php">
@@ -45,12 +46,12 @@
                                 <a data-valor="topico02.php">
                                     <span class="icon space"><i class="bi bi-2-circle"></i></span>
                                     <span class="txt">Usabilidade
-                                        <i class="bi bi-caret-down-fill barra-sub"></i></span>
+                                        <i class="bi bi-caret-down-fill barra-sub" id=""></i></span>
                                 </a>
                             </li>
                         </button>
                         <!-- subtopicos aqui  -->
-                        <div class="dropdown-container" id="spy">
+                        <div class="dropdown-container">
                             <a href="topico02.php">
                                 <i class="fa-regular fa-pen-to-square circulo"></i>Início</a>
                             <a href="#item2.1">
@@ -74,7 +75,7 @@
                             </li>
                         </button>
                         <!-- subtopicos aqui  -->
-                        <div class="dropdown-container" id="spy">
+                        <div class="dropdown-container">
                             <a href="topico03.php">
                                 <i class="fa-regular fa-pen-to-square circulo"></i>Início</a>
                             <a href="#item3.1">
@@ -110,7 +111,7 @@
                         <!-- topico com Subtópico -->
                         <button class="dropdown-btn">
                             <li class="menu">
-                                <a data-valor="topico4.php">
+                                <a data-valor="topico04.php">
                                     <span class="icon space"><i class="bi bi-4-circle"></i></span>
                                     <span class="txt">Avaliação de Usabilidade
                                         <i class="bi bi-caret-down-fill barra-sub"></i></span>
@@ -118,7 +119,7 @@
                             </li>
                         </button>
                         <!-- subtopicos aqui  -->
-                        <div class="dropdown-container" id="spy">
+                        <div class="dropdown-container">
                             <a href="topico04.php">
                                 <i class="fa-regular fa-pen-to-square circulo"></i>Início</a>
                             <a href="#item4.1">

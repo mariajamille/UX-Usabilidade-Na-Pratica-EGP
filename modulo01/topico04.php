@@ -258,10 +258,14 @@ include('layout/header.php');
                                                     Passe o mouse acima
                                                 </strong></strong></p>
                                         <p class="txt-caixasecundaria">Abra e copie (ou baixe) esta planilha de suporte
-                                            à <a href="https://docs.google.com/spreadsheets/d/1ebC2JqwTi7q7uxejL7TuhDoqoUGFVGthjwAu7B979ts/edit#gid=1283962207">avaliação heurística:</a> 
+                                            à <a
+                                                href="https://docs.google.com/spreadsheets/d/1ebC2JqwTi7q7uxejL7TuhDoqoUGFVGthjwAu7B979ts/edit#gid=1283962207">avaliação
+                                                heurística:</a>
                                             Avaliação Heurística.
-                                            Realize uma avaliação heurística neste sistema: <a href="https://userinyerface.com/"> User Inyerface - A worst
-                                            practice UI experiment.</a> Este é um site onde uma empresa de tecnologia,
+                                            Realize uma avaliação heurística neste sistema: <a
+                                                href="https://userinyerface.com/"> User Inyerface - A worst
+                                                practice UI experiment.</a> Este é um site onde uma empresa de
+                                            tecnologia,
                                             Bagaar, criou um excelente exemplo de interface frustrante.
 
                                         </p>
@@ -283,9 +287,6 @@ include('layout/header.php');
     <!-- FIM DO CONTEUDO INICIO  -->
 
 
-
-
-
     <!-- Botões de navegação -->
     <div class="text-center">
         <a href="topico03.php" class="btn btn-outline-success" role="button" aria-pressed="true"> <i
@@ -294,12 +295,14 @@ include('layout/header.php');
                 class="fa-solid fa-chevron-right"></i></a>
     </div>
 
-    <!-- BUTTON BACK TO TOP (JAMILLE) -->
+    <!-- INÍCIO DAS CONFIGURAÇÕES DO BOTÃO BACK TO TOP -->
+    <!-- BOTÃO BACK TO TOP COM UMA BARRA DE PROGRESSO -->
     <div id="back_to_top">
         <div id="btn_back">
             <i id="icon_up" class="fa-solid fa-arrow-up"></i>
         </div>
     </div>
+    <!-- FIM DAS CONFIGURAÇÕES DO BOTÃO BACK TO TOP-->
 
     <!-- COMEÇO DO FOOTER  -->
     <?php

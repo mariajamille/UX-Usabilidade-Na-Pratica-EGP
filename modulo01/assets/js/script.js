@@ -225,7 +225,7 @@ $(document).ready(function () {
     // Adicione um evento de clique a todos os botões de dropdown
     $(".dropdown-btn").click(function (event) {
         // Encontre o conteúdo de dropdown associado a este botão
-        var dropdown = $(this).next('.dropDown');
+        var dropdown = $(this).next('.dropdown-container');
 
         // Exiba ou oculte o dropdown associado ao botão clicado
         dropdown.toggle();
