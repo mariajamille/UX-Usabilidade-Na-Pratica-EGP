@@ -45,8 +45,8 @@
                             <li class="menu">
                                 <a data-valor="topico02.php">
                                     <span class="icon space"><i class="bi bi-2-circle"></i></span>
-                                    <span class="txt">Usabilidade
-                                        <i class="bi bi-caret-down-fill barra-sub" id=""></i></span>
+                                    <span class="txt">Usabilidade</span>
+                                        <i class="bi bi-caret-down-fill barra-sub" id=""></i>
                                 </a>
                             </li>
                         </button>
@@ -69,8 +69,8 @@
                             <li class="menu">
                                 <a data-valor="topico03.php">
                                     <span class="icon space"><i class="bi bi-3-circle"></i></span>
-                                    <span class="txt">Heurísticas de Nielsen
-                                        <i class="bi bi-caret-down-fill barra-sub"></i></span>
+                                    <span class="txt">Heurísticas de Nielsen</span>
+                                        <i class="bi bi-caret-down-fill barra-sub"></i>
                                 </a>
                             </li>
                         </button>
@@ -113,8 +113,8 @@
                             <li class="menu">
                                 <a data-valor="topico04.php">
                                     <span class="icon space"><i class="bi bi-4-circle"></i></span>
-                                    <span class="txt">Avaliação de Usabilidade
-                                        <i class="bi bi-caret-down-fill barra-sub"></i></span>
+                                    <span class="txt">Avaliação de Usabilidade</span>
+                                        <i class="bi bi-caret-down-fill barra-sub"></i>
                                 </a>
                             </li>
                         </button>
