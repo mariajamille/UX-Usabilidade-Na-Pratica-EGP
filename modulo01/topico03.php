@@ -1,21 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
 <?php
 include('layout/header.php');
 ?>
 
 <body>
-
-    <!-- NAV  -->
+    <!-- COMEÇO DA NAV  -->
     <?php
     include('layout/nav.php');
     ?>
-    <!-- FIM DA NAV -->
+    <!-- FIM DA NAV  -->
 
-
-    <!-- MENU LATERAL COMEÇO -->
+    <!-- COMEÇO DO MENU  -->
     <?php
     include('layout/menu.php');
     ?>
-    <!-- FIM MENU LATERAL  -->
+    <!-- FIM DO MENU  -->
 
     <!-- CONTEUDO INICIO -->
     <div class="all-conteudo">
@@ -55,7 +55,8 @@ include('layout/header.php');
                         </ol>
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item3.1">03.1 - Visibilidade de qual estado estamos no sistema</h3>
+                        <h3 class="Subtopico fw-bolder" id="item3.1">03.1 - Visibilidade de qual estado estamos no
+                            sistema</h3>
                         <!-- subtopico -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
@@ -76,8 +77,7 @@ include('layout/header.php');
                                 Botão indicando o andar no elevador</p>
                             <div class="zoom">
                                 <a href="imagens/Figura01.png" data-bs-toggle="modal" data-bs-target="#Imagem01">
-                                    <img class="w-50" src="imgs/figura14.png" alt="Imagem"
-                                        id="img-1">
+                                    <img class="w-50" src="imgs/figura14.png" alt="Imagem" id="img-1">
                                 </a>
                             </div>
                             <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>Google.</p>
@@ -153,15 +153,13 @@ include('layout/header.php');
 
                                     <div class="zoom col">
                                         <a href="imgs/Figura15.png" data-bs-toggle="modal" data-bs-target="#Imagem15">
-                                            <img src="imgs/Figura15.png" alt="Imagem"
-                                                id="img-15">
+                                            <img src="imgs/Figura15.png" alt="Imagem" id="img-15">
                                         </a>
                                     </div>
                                     <div class="zoom col">
                                         <a href="imgs/Figura15_1.png" data-bs-toggle="modal"
                                             data-bs-target="#Imagem15_1">
-                                            <img src="imgs/Figura15_1.png" alt="Imagem"
-                                                id="img-15_1">
+                                            <img src="imgs/Figura15_1.png" alt="Imagem" id="img-15_1">
                                         </a>
                                     </div>
                                 </div>
@@ -231,7 +229,8 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item3.2">03.2 - Correspondência entre o sistema e o mundo real
+                        <h3 class="Subtopico fw-bolder" id="item3.2">03.2 - Correspondência entre o sistema e o mundo
+                            real
                         </h3>
                         <!-- subtopico -->
 
@@ -293,15 +292,13 @@ include('layout/header.php');
 
                                     <div class="zoom col">
                                         <a href="imgs/Figura17.png" data-bs-toggle="modal" data-bs-target="#Imagem17">
-                                            <img src="imgs/Figura17.png" alt="Imagem"
-                                                id="img-17">
+                                            <img src="imgs/Figura17.png" alt="Imagem" id="img-17">
                                         </a>
                                     </div>
                                     <div class="zoom col">
                                         <a href="imgs/Figura17.1.png" data-bs-toggle="modal"
                                             data-bs-target="#Imagem17.1">
-                                            <img src="imgs/Figura17.1.png" alt="Imagem"
-                                                id="img-17.1">
+                                            <img src="imgs/Figura17.1.png" alt="Imagem" id="img-17.1">
                                         </a>
                                     </div>
 
@@ -1040,7 +1037,8 @@ include('layout/header.php');
                         <!-- FIM DA IMAGEM NO SITE  -->
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item3.9">03.9 - Ajude os Usuários a Reconhecerem, Diagnosticarem e
+                        <h3 class="Subtopico fw-bolder" id="item3.9">03.9 - Ajude os Usuários a Reconhecerem,
+                            Diagnosticarem e
                             Recuperarem-se de Erros</h3>
                         <!-- subtopico -->
 
@@ -1166,166 +1164,161 @@ include('layout/header.php');
                         <!-- FIM DA CAIXA SAIBA MAIS  -->
 
 
-                                <!-- Parágrafo com a biblioteca de animação  -->
-                                <p class="scrool col paragrafo">Uma abordagem interessante para
-                                    mensagens de erro, é torná-la mais
-                                    amigável e interativa, diferente da que
-                                    vimos na interface antiga do AVG <strong>(Figura
-                                        27).</strong> Veja o exemplo da página de erro 404
-                                    do Dribbble na <strong> Figura 30 </strong> ou clicando no
-                                    link: <a href="https://dribbble.com/shots/3429843--Reality">mensagem de erro do
-                                        Dribbble</a>
-                                    .
-                                </p>
-                                <!--  Fim do Parágrafo com a biblioteca de animação -->
+                        <!-- Parágrafo com a biblioteca de animação  -->
+                        <p class="scrool col paragrafo">Uma abordagem interessante para
+                            mensagens de erro, é torná-la mais
+                            amigável e interativa, diferente da que
+                            vimos na interface antiga do AVG <strong>(Figura
+                                27).</strong> Veja o exemplo da página de erro 404
+                            do Dribbble na <strong> Figura 30 </strong> ou clicando no
+                            link: <a href="https://dribbble.com/shots/3429843--Reality">mensagem de erro do
+                                Dribbble</a>
+                            .
+                        </p>
+                        <!--  Fim do Parágrafo com a biblioteca de animação -->
 
-                                <!-- IMAGEM NO SITE  -->
+                        <!-- IMAGEM NO SITE  -->
 
-                                <div class="text-center img-01 col">
-                                    <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 30:</strong>
-                                        Erro 404 do Dribbble</p>
-                                    <div class="zoom">
-                                        <a href="imgs/Figura30.jpg" data-bs-toggle="modal" data-bs-target="#Imagem30">
-                                            <img class="w-50" src="imgs/Figura30.jpg" alt="Imagem"
-                                                id="img-30">
-                                        </a>
-                                    </div>
-                                    <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>Dribbble.
-                                    </p>
+                        <div class="text-center img-01 col">
+                            <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 30:</strong>
+                                Erro 404 do Dribbble</p>
+                            <div class="zoom">
+                                <a href="imgs/Figura30.jpg" data-bs-toggle="modal" data-bs-target="#Imagem30">
+                                    <img class="w-50" src="imgs/Figura30.jpg" alt="Imagem" id="img-30">
+                                </a>
+                            </div>
+                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>Dribbble.
+                            </p>
+                        </div>
+
+                        <!-- Imagem - MODAL-->
+                        <div class="modal fade text-center" id="Imagem30" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div
+                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                <div class="modal-content w-75">
+                                    <img class="img-fluid" src="imgs/Figura30.jpg" alt="Alt da imagem fica aqui">
                                 </div>
-
-                                <!-- Imagem - MODAL-->
-                                <div class="modal fade text-center" id="Imagem30" tabindex="-1"
-                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div
-                                        class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                                        <div class="modal-content w-75">
-                                            <img class="img-fluid" src="imgs/Figura30.jpg"
-                                                alt="Alt da imagem fica aqui">
-                                        </div>
-                                        <div class="modal-footer w-75 bg-light justify-content-center">
-                                            <p class="text-secondary"><strong>Fonte:</strong>Dribbble.</p>
-                                        </div>
-                                    </div>
+                                <div class="modal-footer w-75 bg-light justify-content-center">
+                                    <p class="text-secondary"><strong>Fonte:</strong>Dribbble.</p>
                                 </div>
-                                <!-- Imagem - End-->
-
-                                <!-- FIM DA IMAGEM NO SITE  -->
-
-
-                                <!-- CAIXA DE TEXTO CURIOSIDADE -->
-                                <section class="container">
-                                    <div class="accordion ">
-                                        <section id="content">
-                                            <div class="caixaprincipal" id="tituloCuriosidade">
-                                                <div class="div_teste">
-                                                    <div><i class="fa-solid fa-question"></i> CURIOSIDADE </div>
-
-                                                    <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-                                                </div>
-                                            </div> <!--caixa Principal-->
-                                            <div class="accordion-content" id="Curiosidade">
-                                                <p class="txt-aviso"><strong class="opacity-75"><strong
-                                                            class="opacity-75">
-                                                            Passe o mouse acima
-                                                        </strong></strong></p>
-                                                <p class="txt-caixasecundaria">O erro 404 significa Not Found, em
-                                                    português
-                                                    “não
-                                                    encontrado”. Esta
-                                                    falha aparece quando a URL (link) pesquisada não foi encontrada no
-                                                    domínio
-                                                    buscado, o que também chamamos de link quebrado. Uma causa comum
-                                                    para esse erro é a digitação errada, mas também pode acontecer
-                                                    quando há
-                                                    links desatualizados nas páginas. Outros erros comuns em navegação
-                                                    são
-                                                    400 - Bad Request, que indica problema na conexão; 401 -
-                                                    Authorization
-                                                    Required e 403 - Forbidden, que indicam problema de permissão de
-                                                    acesso.
-                                                </p><!--caixa secundaria-->
-                                            </div>
-                                        </section>
-                                </section>
-                                <!-- FIM DA CAIXA DE TEXTO CURIOSIDADE -->
-
-                                <!-- subtopico -->
-                                <h3 class="Subtopico fw-bolder" id="item3.10"> 03.10 - Ajuda e Documentação</h3>
-                                <!-- subtopico -->
-
-                                <p class="scrool">O ideal é que o sistema não precise de documentação extra para que
-                                    seja utilizado. Usabilidade em sua essência é justamente a interface ser auto
-                                    explicável. <strong> Quando necessário, porém, é importante que este conteúdo
-                                        seja também fácil de usar e entender. </strong> Além disso, deve ser fácil de
-                                    ser
-                                    encontrado e se for longo deve ser fácil de pesquisar algo dentro dele.
-                                </p>
-                                <!--  Fim do Parágrafo com a biblioteca de animação -->
-
-                                <p class="scrool">O título desta heurística lembra longos documentos de instruções, como
-                                    bulas de remédios ou os antigos manuais de instruções que recebíamos com
-                                    uma TV nova. Entretanto, vale lembrar que esta heurística não diz respeito a
-                                    todo tipo de documentação de software. Ela trata de <strong> informações de ajuda
-                                        na interação com usuário </strong>, que devem ser concisas e diretas. Não há
-                                    espaço
-                                    nessa comunicação para informações extras ou complexas, como uma
-                                    documentação técnica da equipe de desenvolvimento.
-                                </p>
-                                <!--  Fim do Parágrafo com a biblioteca de animação -->
-
-                                <p class="scrool">A forma de aplicação contextual é considerada pelos especialistas
-                                    como a forma mais apropriada. Esse formato acontece quando a
-                                    informação de ajuda para uma atividade aparece no momento desta
-                                    atividade e não fica em um local separado, como em uma tela de ajuda. Veja
-                                    na <strong> Figura 31 </strong> um exemplo prático de ajuda contextual. No exemplo
-                                    vemos
-                                    um modal de ajuda que explica sobre um campo específico da adição do
-                                    cartão de crédito. Essa informação é contextual pois se encontra no local
-                                    onde o próprio cartão está adicionado, como pode ser visto na tela de fundo.
-                                    Desta forma não é necessário sair desta tela e parar a atividade para tirar uma
-                                    dúvida.
-                                </p>
-                                <!--  Fim do Parágrafo com a biblioteca de animação -->
-
-                                <!-- IMAGEM NO SITE  -->
-
-                                <div class="text-center img-01">
-                                    <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 31:</strong>
-                                        Exemplo de ajuda contextual no iFood</p>
-                                    <div class="zoom">
-                                        <a href="imgs/Figura31.jpg" data-bs-toggle="modal" data-bs-target="#Imagem31">
-                                            <img class="w-50" src="imgs/Figura31.jpg" alt="Imagem"
-                                                id="img-31">
-                                        </a>
-                                    </div>
-                                    <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong><a
-                                            href="https://www.ifood.com.br/">iFood.</a></p>
-                                </div>
-
-                                <!-- Imagem - MODAL-->
-                                <div class="modal fade text-center" id="Imagem31" tabindex="-1"
-                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div
-                                        class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                                        <div class="modal-content w-75">
-                                            <img class="img-fluid " src="imgs/Figura31.jpg"
-                                                alt="Alt da imagem fica aqui">
-                                        </div>
-                                        <div class="modal-footer w-75 bg-light justify-content-center">
-                                            <p class="text-secondary"><strong>Fonte:</strong><a
-                                                    href="https://www.ifood.com.br/">iFood.</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Imagem - End-->
-
-                                <!-- FIM DA IMAGEM NO SITE  -->
-
-
                             </div>
                         </div>
+                        <!-- Imagem - End-->
+
+                        <!-- FIM DA IMAGEM NO SITE  -->
+
+
+                        <!-- CAIXA DE TEXTO CURIOSIDADE -->
+                        <section class="container">
+                            <div class="accordion ">
+                                <section id="content">
+                                    <div class="caixaprincipal" id="tituloCuriosidade">
+                                        <div class="div_teste">
+                                            <div><i class="fa-solid fa-question"></i> CURIOSIDADE </div>
+
+                                            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                                        </div>
+                                    </div> <!--caixa Principal-->
+                                    <div class="accordion-content" id="Curiosidade">
+                                        <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75">
+                                                    Passe o mouse acima
+                                                </strong></strong></p>
+                                        <p class="txt-caixasecundaria">O erro 404 significa Not Found, em
+                                            português
+                                            “não
+                                            encontrado”. Esta
+                                            falha aparece quando a URL (link) pesquisada não foi encontrada no
+                                            domínio
+                                            buscado, o que também chamamos de link quebrado. Uma causa comum
+                                            para esse erro é a digitação errada, mas também pode acontecer
+                                            quando há
+                                            links desatualizados nas páginas. Outros erros comuns em navegação
+                                            são
+                                            400 - Bad Request, que indica problema na conexão; 401 -
+                                            Authorization
+                                            Required e 403 - Forbidden, que indicam problema de permissão de
+                                            acesso.
+                                        </p><!--caixa secundaria-->
+                                    </div>
+                                </section>
+                        </section>
+                        <!-- FIM DA CAIXA DE TEXTO CURIOSIDADE -->
+
+                        <!-- subtopico -->
+                        <h3 class="Subtopico fw-bolder" id="item3.10"> 03.10 - Ajuda e Documentação</h3>
+                        <!-- subtopico -->
+
+                        <p class="scrool">O ideal é que o sistema não precise de documentação extra para que
+                            seja utilizado. Usabilidade em sua essência é justamente a interface ser auto
+                            explicável. <strong> Quando necessário, porém, é importante que este conteúdo
+                                seja também fácil de usar e entender. </strong> Além disso, deve ser fácil de
+                            ser
+                            encontrado e se for longo deve ser fácil de pesquisar algo dentro dele.
+                        </p>
+                        <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+                        <p class="scrool">O título desta heurística lembra longos documentos de instruções, como
+                            bulas de remédios ou os antigos manuais de instruções que recebíamos com
+                            uma TV nova. Entretanto, vale lembrar que esta heurística não diz respeito a
+                            todo tipo de documentação de software. Ela trata de <strong> informações de ajuda
+                                na interação com usuário </strong>, que devem ser concisas e diretas. Não há
+                            espaço
+                            nessa comunicação para informações extras ou complexas, como uma
+                            documentação técnica da equipe de desenvolvimento.
+                        </p>
+                        <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+                        <p class="scrool">A forma de aplicação contextual é considerada pelos especialistas
+                            como a forma mais apropriada. Esse formato acontece quando a
+                            informação de ajuda para uma atividade aparece no momento desta
+                            atividade e não fica em um local separado, como em uma tela de ajuda. Veja
+                            na <strong> Figura 31 </strong> um exemplo prático de ajuda contextual. No exemplo
+                            vemos
+                            um modal de ajuda que explica sobre um campo específico da adição do
+                            cartão de crédito. Essa informação é contextual pois se encontra no local
+                            onde o próprio cartão está adicionado, como pode ser visto na tela de fundo.
+                            Desta forma não é necessário sair desta tela e parar a atividade para tirar uma
+                            dúvida.
+                        </p>
+                        <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+                        <!-- IMAGEM NO SITE  -->
+
+                        <div class="text-center img-01">
+                            <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 31:</strong>
+                                Exemplo de ajuda contextual no iFood</p>
+                            <div class="zoom">
+                                <a href="imgs/Figura31.jpg" data-bs-toggle="modal" data-bs-target="#Imagem31">
+                                    <img class="w-50" src="imgs/Figura31.jpg" alt="Imagem" id="img-31">
+                                </a>
+                            </div>
+                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong><a
+                                    href="https://www.ifood.com.br/">iFood.</a></p>
+                        </div>
+
+                        <!-- Imagem - MODAL-->
+                        <div class="modal fade text-center" id="Imagem31" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div
+                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                <div class="modal-content w-75">
+                                    <img class="img-fluid " src="imgs/Figura31.jpg" alt="Alt da imagem fica aqui">
+                                </div>
+                                <div class="modal-footer w-75 bg-light justify-content-center">
+                                    <p class="text-secondary"><strong>Fonte:</strong><a
+                                            href="https://www.ifood.com.br/">iFood.</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Imagem - End-->
+
+                        <!-- FIM DA IMAGEM NO SITE  -->
+
+
                     </div>
+                </div>
+            </div>
         </section>
     </div>
 
@@ -1346,9 +1339,11 @@ include('layout/header.php');
     </div>
     <!-- FIM DAS CONFIGURAÇÕES DO BOTÃO BACK TO TOP-->
 
+    <!-- COMEÇO DO FOOTER  -->
     <?php
     include('layout/footer.php');
     ?>
+    <!-- FIM DO FOOTER  -->
 </body>
 
 </html>
