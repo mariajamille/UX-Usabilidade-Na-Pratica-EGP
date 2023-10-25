@@ -34,6 +34,7 @@ include('layout/header.php');
 
                             <br>
 
+                            <!-- ADICIONEI NOVOS ÍCONES NAS REFERÊNCIAS -->
                             <p class="Texto"> <i class="bi bi-book "></i> ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR
                                 9241-11:
                                 <strong>Requisitos ergonômicos para trabalho de escritórios com
