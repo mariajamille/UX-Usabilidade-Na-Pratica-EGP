@@ -31,18 +31,3 @@ p.paragrafo {
   margin-top: 5px;
   list-style: none;
 }
-
-#align04 {
-  margin-top: -20px;
-}
-
-.bi-caret-down-fill {
-  display: flex;
-  justify-content: flex-end;
-}
-
-/* #bi-caret2{
-  color: black;
-  justify-content: flex-end;
-  padding-left: 5rem;
-} */

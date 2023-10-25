@@ -227,8 +227,9 @@ $(document).ready(function () {
         // Encontre o conteúdo de dropdown associado a este botão
         var dropdown = $(this).next('.dropdown-container');
 
-        // Exiba ou oculte o dropdown associado ao botão clicado
-        dropdown.toggle();
+        dropdown.stop(true,true).slideToggle();
+
+         event.stopPropagation();
 
         //    fecha o dropdown no evento "mouseleave" na ul "dropDown"
         $('.menulateral').mouseleave(function () {
@@ -237,26 +238,4 @@ $(document).ready(function () {
     });
 });
 
-//Efeito Tooltip
-$(document).ready(function () {
-    // Tooltip only Text
-    $('.tp').hover(function () {
-        // Hover over code
-        var title = $(this).attr('title');
-        $(this).data('tipText', title).removeAttr('title');
-        $('<p class="tooltip"></p>')
-            .text(title)
-            .appendTo('body')
-            .fadeIn('fast');
-    }, function () {
-        // Hover out code
-        $(this).attr('title', $(this).data('tipText'));
-        $('.tooltip').remove();
-    }).mousemove(function (e) {
-        var mousex = e.pageX + 5; //Get X coordinates
-        var mousey = e.pageY + 5; //Get Y coordinates
-        $('.tooltip')
-            .css({ top: mousey, left: mousex })
-    });
-});
 // FIM DO SUBTÓPICO COM JQUERY
