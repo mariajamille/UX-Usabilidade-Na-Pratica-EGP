@@ -259,11 +259,11 @@ include('layout/header.php');
                                                 </strong></strong></p>
                                         <p class="txt-caixasecundaria">Abra e copie (ou baixe) esta planilha de suporte
                                             à <a
-                                                href="https://docs.google.com/spreadsheets/d/1ebC2JqwTi7q7uxejL7TuhDoqoUGFVGthjwAu7B979ts/edit#gid=1283962207">avaliação
+                                                href="https://docs.google.com/spreadsheets/d/1ebC2JqwTi7q7uxejL7TuhDoqoUGFVGthjwAu7B979ts/edit#gid=1283962207" target="_blank">avaliação
                                                 heurística:</a>
                                             Avaliação Heurística.
                                             Realize uma avaliação heurística neste sistema: <a
-                                                href="https://userinyerface.com/"> User Inyerface - A worst
+                                                href="https://userinyerface.com/" target="_blank"> User Inyerface - A worst
                                                 practice UI experiment.</a> Este é um site onde uma empresa de
                                             tecnologia,
                                             Bagaar, criou um excelente exemplo de interface frustrante.

@@ -621,7 +621,7 @@ include('layout/header.php');
                                 </a>
                             </div>
                             <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> <a
-                                    href="https://m3.material.io/"> Material Design.</a></p>
+                                    href="https://m3.material.io/" target="_blank"> Material Design.</a></p>
                         </div>
 
                         <!-- Imagem - MODAL-->
@@ -633,7 +633,7 @@ include('layout/header.php');
                                     <img class="img-fluid" src="imgs/Figura22.png" alt="Alt da imagem fica aqui">
                                 </div>
                                 <div class="modal-footer w-75 bg-light justify-content-center">
-                                    <p class="text-secondary"><strong>Fonte:</strong><a href="https://m3.material.io/">
+                                    <p class="text-secondary"><strong>Fonte:</strong><a href="https://m3.material.io/" target="_blank">
                                             Material Design.</a></p>
                                 </div>
                             </div>
@@ -667,7 +667,7 @@ include('layout/header.php');
                                             Design, chamados de
                                             Material Studies, e veja como um padrão pode tomar diferentes formatos:
                                             <a
-                                                href="https://m2.material.io/design/material-studies/about-our-material-studies.html">Material
+                                                href="https://m2.material.io/design/material-studies/about-our-material-studies.html" target="_blank">Material
                                                 Studies.</a>
                                         </p><!--caixa secundaria-->
                                     </div>
@@ -797,7 +797,7 @@ include('layout/header.php');
                                 </a>
                             </div>
                             <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> <a
-                                    href="https://bemlegaus.com/page/4">Bem Legaus.</a></p>
+                                    href="https://bemlegaus.com/page/4" target="_blank">Bem Legaus.</a></p>
                         </div>
 
                         <!-- Imagem - MODAL-->
@@ -810,7 +810,7 @@ include('layout/header.php');
                                 </div>
                                 <div class="modal-footer w-75 bg-light justify-content-center">
                                     <p class="text-secondary"><strong>Fonte:</strong><a
-                                            href="https://bemlegaus.com/page/4">Bem Legaus.</a></p>
+                                            href="https://bemlegaus.com/page/4" target="_blank">Bem Legaus.</a></p>
                                 </div>
                             </div>
                         </div>
@@ -839,7 +839,7 @@ include('layout/header.php');
                                             quebrarem
                                             a lógica, isto é, fugir dos modelos mentais que temos dos objetos, os
                                             exemplos são divertidos. Conheça algumas peças do livro em <a
-                                                href="https://www.laboiteverte.fr/les-objets-introuvables-de-jacques-carelman/">“Les
+                                                href="https://www.laboiteverte.fr/les-objets-introuvables-de-jacques-carelman/" target="_blank">“Les
                                                 objets
                                                 introuvables de Jacques Carelman”.</a>
                                         </p><!--caixa secundaria-->
@@ -883,7 +883,7 @@ include('layout/header.php');
                                 </a>
                             </div>
                             <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong><a
-                                    href="https://jqueryui.com/autocomplete/">JQueryUi.</a></p>
+                                    href="https://jqueryui.com/autocomplete/" target="_blank">JQueryUi.</a></p>
                         </div>
 
                         <!-- Imagem - MODAL-->
@@ -896,7 +896,7 @@ include('layout/header.php');
                                 </div>
                                 <div class="modal-footer w-75 bg-light justify-content-center">
                                     <p class="text-secondary"><strong>Fonte:</strong><a
-                                            href="https://jqueryui.com/autocomplete/">JQueryUi.</a></p>
+                                            href="https://jqueryui.com/autocomplete/" target="_blank">JQueryUi.</a></p>
                                 </div>
                             </div>
                         </div>
@@ -929,7 +929,7 @@ include('layout/header.php');
 
                         <!-- Parágrafo com a biblioteca de animação  -->
                         <p class="scrool">Um exemplo prático são os atalhos que utilizamos em sistemas para
-                            edição de texto, como <a href="https://www.microsoft.com/pt-br/microsoft-365/word">Microsoft
+                            edição de texto, como <a href="https://www.microsoft.com/pt-br/microsoft-365/word" target="_blank">Microsoft
                                 Word</a> . A <strong>Figura 27</strong> apresenta atalhos usados
                             com frequência no sistema. Quantos destes você sabe de cor?
                         </p>
@@ -946,7 +946,7 @@ include('layout/header.php');
                                 </a>
                             </div>
                             <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong><a
-                                    href="https://support.microsoft.com/pt-br/office/atalhos-de-teclado-do-word-95ef89dd-7142-4b50-afb2-f762f663ceb2">
+                                    href="https://support.microsoft.com/pt-br/office/atalhos-de-teclado-do-word-95ef89dd-7142-4b50-afb2-f762f663ceb2" target="_blank">
                                     Atalhos de teclado do Word - Suporte do Office .</a></p>
                         </div>
 
@@ -960,7 +960,7 @@ include('layout/header.php');
                                 </div>
                                 <div class="modal-footer w-75 bg-light justify-content-center">
                                     <p class="text-secondary"><strong>Fonte:</strong><a
-                                            href="https://support.microsoft.com/pt-br/office/atalhos-de-teclado-do-word-95ef89dd-7142-4b50-afb2-f762f663ceb2">
+                                            href="https://support.microsoft.com/pt-br/office/atalhos-de-teclado-do-word-95ef89dd-7142-4b50-afb2-f762f663ceb2" target="_blank">
                                             Atalhos de teclado do Word - Suporte do Office .</a></p>
                                 </div>
                             </div>
@@ -1013,7 +1013,7 @@ include('layout/header.php');
                                 </a>
                             </div>
                             <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong><a
-                                    href="https://hackernoon.com/the-past-present-and-the-future-of-design-thinking-2a07d02193c7">Hackernoon.</a>
+                                    href="https://hackernoon.com/the-past-present-and-the-future-of-design-thinking-2a07d02193c7" target="_blank">Hackernoon.</a>
                             </p>
                         </div>
 
@@ -1027,7 +1027,7 @@ include('layout/header.php');
                                 </div>
                                 <div class="modal-footer w-75 bg-light justify-content-center">
                                     <p class="text-secondary"><strong>Fonte:</strong><a
-                                            href="https://hackernoon.com/the-past-present-and-the-future-of-design-thinking-2a07d02193c7">Hackernoon.</a>
+                                            href="https://hackernoon.com/the-past-present-and-the-future-of-design-thinking-2a07d02193c7" target="_blank">Hackernoon.</a>
                                     </p>
                                 </div>
                             </div>
@@ -1074,7 +1074,7 @@ include('layout/header.php');
                             usuários, ou pelo menos não os assustem. A <strong>Figura 29</strong> apresenta um
                             exemplo clássico de interface indevida para um vírus detectado. O modal era
                             utilizado em uma versão antiga do software antivírus <a
-                                href="https://www.avg.com/pt-br/homepage#pc">AVG</a> . O problema,
+                                href="https://www.avg.com/pt-br/homepage#pc" target="_blank">AVG</a> . O problema,
                             detecção de um vírus, está apresentado de forma clara e a solução mais
                             rápida está no botão Move to Vault, que traduzido é mover para quarentena.
                             Apesar de ter um valor sentimental daqueles que utilizaram computadores
@@ -1171,7 +1171,7 @@ include('layout/header.php');
                             vimos na interface antiga do AVG <strong>(Figura
                                 27).</strong> Veja o exemplo da página de erro 404
                             do Dribbble na <strong> Figura 30 </strong> ou clicando no
-                            link: <a href="https://dribbble.com/shots/3429843--Reality">mensagem de erro do
+                            link: <a href="https://dribbble.com/shots/3429843--Reality" target="_blank">mensagem de erro do
                                 Dribbble</a>
                             .
                         </p>
@@ -1294,7 +1294,7 @@ include('layout/header.php');
                                 </a>
                             </div>
                             <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong><a
-                                    href="https://www.ifood.com.br/">iFood.</a></p>
+                                    href="https://www.ifood.com.br/" target="_blank">iFood.</a></p>
                         </div>
 
                         <!-- Imagem - MODAL-->
@@ -1302,12 +1302,12 @@ include('layout/header.php');
                             aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div
                                 class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                                <div class="modal-content w-75">
+                                <div class="modal-content w-50">
                                     <img class="img-fluid " src="imgs/Figura31.jpg" alt="Alt da imagem fica aqui">
                                 </div>
-                                <div class="modal-footer w-75 bg-light justify-content-center">
+                                <div class="modal-footer w-50 bg-light justify-content-center">
                                     <p class="text-secondary"><strong>Fonte:</strong><a
-                                            href="https://www.ifood.com.br/">iFood.</a></p>
+                                            href="https://www.ifood.com.br/" target="_blank">iFood.</a></p>
                                 </div>
                             </div>
                         </div>
