@@ -204,7 +204,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // teste do menu lateral
 
-// var dropdown = document.getElementsByClassName("dropdown-btn");
+// var d/ropdown = document.getElementsByClassName("dropdown-btn");
 // var i;
 
 // for (i = 0; i < dropdown.length; i++) {
