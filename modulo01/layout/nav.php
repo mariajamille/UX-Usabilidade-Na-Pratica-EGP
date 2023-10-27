@@ -13,8 +13,7 @@
         <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
             id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
             <div class="offcanvas-header text-center">
-                <h5 class="offcanvas-title " id="offcanvasScrollingLabel"><img src="imgsmodulo01/logoEGP2.png"
-                        alt="logo" id="img_logo">
+                <h5 class="offcanvas-title " id="offcanvasScrollingLabel"><a href="https://www.egp.ce.gov.br/" target="_blank"><img src="imgs/logoEGP2.png" alt="logo"  id="img_logo"></a>
                 </h5>
                 <button type="button" class="btn-close" id="close" data-bs-dismiss="offcanvas"
                     aria-label="Close"></button>
