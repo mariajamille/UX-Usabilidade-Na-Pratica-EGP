@@ -27,7 +27,7 @@ include('layout/header.php');
                     <div class="col-md-10 col-sm-8 container-fluid">
 
                         <!--  Título Pricipal -->
-                        <h2 class="Titulo fw-bolder">03 - Heurísticas de Nielsen</h2>
+                        <h2 class="Titulo fw-bolder">3 - Heurísticas de Nielsen</h2>
 
                         <!-- paragrafo com scroll reveal  -->
                         <p class="scrool">Como já foi dito anteriormente, Nielsen consolidou um conjunto de 10
@@ -55,7 +55,7 @@ include('layout/header.php');
                         </ol>
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item3.1">03.1 - Visibilidade de qual estado estamos no
+                        <h3 class="Subtopico fw-bolder" id="item3.1">3.1 - Visibilidade de qual estado estamos no
                             sistema</h3>
                         <!-- subtopico -->
 
@@ -229,7 +229,7 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item3.2">03.2 - Correspondência entre o sistema e o mundo
+                        <h3 class="Subtopico fw-bolder" id="item3.2">3.2 - Correspondência entre o sistema e o mundo
                             real
                         </h3>
                         <!-- subtopico -->
@@ -486,7 +486,7 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item3.3">03.3 - Liberdade de controle fácil pro usuário</h3>
+                        <h3 class="Subtopico fw-bolder" id="item3.3">3.3 - Liberdade de controle fácil pro usuário</h3>
                         <!-- subtopico -->
 
                         <p class="scrool">O usuário deve controlar o sistema e <strong> poder a qualquer momento
@@ -588,7 +588,7 @@ include('layout/header.php');
                         </p>
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item3.4">03.4 - Consistência e Padrões</h3>
+                        <h3 class="Subtopico fw-bolder" id="item3.4">3.4 - Consistência e Padrões</h3>
                         <!-- subtopico -->
 
                         <p class="scrool"><strong>Um mesmo comando ou ação deve ter sempre o mesmo efeito. </strong>
@@ -677,7 +677,7 @@ include('layout/header.php');
 
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item3.5">03.5 - Prevenção de Erros
+                        <h3 class="Subtopico fw-bolder" id="item3.5">3.5 - Prevenção de Erros
                         </h3>
                         <!-- subtopico -->
 
@@ -772,7 +772,7 @@ include('layout/header.php');
 
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item3.6"> 03.6 - Reconhecimento em vez de memorização</h3>
+                        <h3 class="Subtopico fw-bolder" id="item3.6">3.6 - Reconhecimento em vez de memorização</h3>
                         <!-- subtopico -->
 
                         <p class="scrool"> Você conhece todos os programas da sua máquina de lavar roupa? Você
@@ -905,7 +905,7 @@ include('layout/header.php');
                         <!-- FIM DA IMAGEM NO SITE  -->
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item3.7"> 03.7 - Flexibilidade e Eficiência de Uso</h3>
+                        <h3 class="Subtopico fw-bolder" id="item3.7">3.7 - Flexibilidade e Eficiência de Uso</h3>
                         <!-- subtopico -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
@@ -970,7 +970,7 @@ include('layout/header.php');
                         <!-- FIM DA IMAGEM NO SITE  -->
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item3.8"> 03.8 - Estética e design minimalista</h3>
+                        <h3 class="Subtopico fw-bolder" id="item3.8">3.8 - Estética e design minimalista</h3>
                         <!-- subtopico -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
@@ -1037,7 +1037,7 @@ include('layout/header.php');
                         <!-- FIM DA IMAGEM NO SITE  -->
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item3.9">03.9 - Ajude os Usuários a Reconhecerem,
+                        <h3 class="Subtopico fw-bolder" id="item3.9">3.9 - Ajude os Usuários a Reconhecerem,
                             Diagnosticarem e
                             Recuperarem-se de Erros</h3>
                         <!-- subtopico -->
@@ -1246,7 +1246,7 @@ include('layout/header.php');
                         <!-- FIM DA CAIXA DE TEXTO CURIOSIDADE -->
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item3.10"> 03.10 - Ajuda e Documentação</h3>
+                        <h3 class="Subtopico fw-bolder" id="item3.10">3.10 - Ajuda e Documentação</h3>
                         <!-- subtopico -->
 
                         <p class="scrool">O ideal é que o sistema não precise de documentação extra para que

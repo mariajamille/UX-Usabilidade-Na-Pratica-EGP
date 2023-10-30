@@ -27,7 +27,7 @@ include('layout/header.php');
                     <!-- Begin row -->
                     <div class="col-md-1"></div>
                     <div class="col-md-10 col-sm-8 container-fluid">
-                        <h2 class="Titulo fw-bolder">01 - Apresentação</h2>
+                        <h2 class="Titulo fw-bolder">1 - Apresentação</h2>
                         <br>
 
                         <p class="scrool"><strong>Objetivo:</strong> Antes de iniciar este curso, é recomendado que
