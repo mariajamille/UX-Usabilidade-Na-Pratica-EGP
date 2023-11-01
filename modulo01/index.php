@@ -28,7 +28,7 @@ include('layout/header.php');
                     <div class="col-md-1"></div>
                     <div class="col-md-10 col-sm-8 container-fluid">
 
-                        <h2 class="Titulo fw-bolder">Objetivos</h2>
+                        <h2 class="Titulo fw-bolder wow fadeIn" data-wow-delay="0.3s" >Objetivos</h2>
                         <!-- tirei o hr por que o menu não estava ficando sobreposto -->
                         <!-- <hr> -->
                         <br>

@@ -27,10 +27,10 @@ include('layout/header.php');
                     <!-- Begin row -->
                     <div class="col-md-1"></div>
                     <div class="col-md-10 col-sm-8 container-fluid">
-                        <h2 class="Titulo fw-bolder">01 - Apresentação</h2>
+                        <h2 class="Titulo fw-bolder wow fadeIn" data-wow-delay="0.3s">01 - Apresentação</h2>
                         <br>
 
-                        <p class="scrool"><strong>Objetivo:</strong> Antes de iniciar este curso, é recomendado que
+                        <p class="wow fadeIn" data-wow-delay="0.3s"><strong>Objetivo:</strong> Antes de iniciar este curso, é recomendado que
                             veja curso “O que design ux?”, onde são apresentados os conceitos fundamentais de design UX.
                             Ao longo deste material vamos utilizar o termo “design UX”, que é comumente utilizado em
                             tecnologia da informação. UX é um acrônimo do termo inglês User eXperience, que em português
@@ -39,7 +39,7 @@ include('layout/header.php');
                         </p>
 
                         <!-- CAIXA DE TEXTO IMPORTANTE -->
-                        <section class="container scrool">
+                        <section class="container wow fadeIn" data-wow-delay="0.3s">
                             <div class="accordion">
 
                                 <section id="content">
@@ -65,7 +65,7 @@ include('layout/header.php');
                         </section>
 
                         <br>
-                        <p class="scrool">Usabilidade deixou de ser um termo próprio do mundo do design de
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Usabilidade deixou de ser um termo próprio do mundo do design de
                             sistemas. Hoje é possível encontrá-lo escrito em caixas de produtos, como na
                             <strong>Figura 01.</strong> Neste exemplo, o produto é um óculos 3D para
                             realidade virtual
@@ -76,7 +76,7 @@ include('layout/header.php');
                         </p><br>
 
                         <!-- IMAGEM 01  -->
-                        <div class="text-center img-01 scrool">
+                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
                             <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 01 - </strong>Caixa de
                                 óculos 3D
                                 Descrição de cima</div>
@@ -104,7 +104,7 @@ include('layout/header.php');
                         <!-- Imagem 01 - End  (Audi)-->
 
                         <!-- CAIXA DE TEXTO CURIOSIDADE -->
-                        <section class="container scrool">
+                        <section class="container wow fadeIn" data-wow-delay="0.3s">
                             <div class="accordion ">
                                 <section id="content">
                                     <div class="caixaprincipal" id="tituloCuriosidade">
@@ -142,7 +142,7 @@ include('layout/header.php');
 
                         <!-- IMAGEM 02  -->
                         <br>
-                        <div class="text-center img-01 scrool">
+                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
                             <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 02 </strong> -
                                 Óculos 3D </div>
                             <div class="zoom">
@@ -169,13 +169,13 @@ include('layout/header.php');
                         <!-- Imagem 02 - End  (Audi)-->
 
                         <br>
-                        <p class="scrool">A frase sobre usabilidade é curta a ponto de não entendermos qual a relação
+                        <p class="wow fadeIn" data-wow-delay="0.3s">A frase sobre usabilidade é curta a ponto de não entendermos qual a relação
                             dela com a essência do termo. O objetivo já é mais claro, a usabilidade como é apresentada é
                             considerada como uma vantagem do produto. Antes mesmo de conhecermos mais sobre usabilidade,
                             é possível se perguntar sobre alguns pontos:
                         </p><br>
 
-                        <ol class="scrool" id="txt_final">
+                        <ol class="wow fadeIn" data-wow-delay="0.3s"id="txt_final">
                             <li>Quem decidiu agregar conceitos de usabilidade ao dispositivo?</li>
                             <li>Qual metodologia que envolve usabilidade foi utilizada para chegar na escolha desse
                                 comportamento?</li>
@@ -190,7 +190,7 @@ include('layout/header.php');
                         </ol>
 
                         <br>
-                        <p class="scrool">Não vamos antecipar aqui definições formais de usabilidade, mas vamos trazer
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Não vamos antecipar aqui definições formais de usabilidade, mas vamos trazer
                             ao longo deste material as respostas para cada uma destas perguntas. Existem diversas
                             características de qualidade que podemos aplicar aos sistemas e dispositivos. A decisão de
                             acrescentar um nível de qualidade em alguma destas características pode ter impacto em como
