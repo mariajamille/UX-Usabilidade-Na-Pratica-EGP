@@ -27,7 +27,7 @@ include('layout/header.php');
                     <div class="col-md-10 col-sm-8 container-fluid">
 
                         <!--  Título Pricipal -->
-                        <h2 class="Titulo fw-bolder"> 04 - Avaliação de Usabilidade</h2>
+                        <h2 class="Titulo fw-bolder"> 4 - Avaliação de Usabilidade</h2>
                         <!--  Título Principal -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
@@ -37,7 +37,7 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item4.1"> 04.1 - Por que avaliar?</h3>
+                        <h3 class="Subtopico fw-bolder" id="item4.1"> 4.1 - Por que avaliar?</h3>
                         <!-- subtopico -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
@@ -60,7 +60,7 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item4.2"> 04.2 - Como Avaliar</h3>
+                        <h3 class="Subtopico fw-bolder" id="item4.2"> 4.2 - Como Avaliar</h3>
                         <!-- subtopico -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
@@ -137,7 +137,7 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- Subsubtopico  -->
-                        <h2 class="subsubtopico fw-bolder"> 04.2.1 - Avaliação Heurística</h2>
+                        <h2 class="subsubtopico fw-bolder">4.2.1 - Avaliação Heurística</h2>
                         <!-- fim do subsubtopico  -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->

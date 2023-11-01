@@ -356,6 +356,7 @@ ul li.menu a:hover {
 
 [data-theme="dark"] .dropdown-container a:hover {
     background-color: #3be3e2;
+    color: #040504;
 }
 
 .circulo {
