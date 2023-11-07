@@ -27,14 +27,10 @@ include('layout/header.php');
                     <!-- Begin row -->
                     <div class="col-md-1"></div>
                     <div class="col-md-10 col-sm-8 container-fluid">
-<<<<<<< HEAD
-                        <h2 class="Titulo fw-bolder wow fadeIn" data-wow-delay="0.3s">01 - Apresentação</h2>
-=======
-                        <h2 class="Titulo fw-bolder">1 - Apresentação</h2>
->>>>>>> 24f1498929ddf2adfe394c8b5cfa278144d4be2c
-                        <br>
 
-                        <p class="wow fadeIn" data-wow-delay="0.3s"><strong>Objetivo:</strong> Antes de iniciar este curso, é recomendado que
+                        <h2 class="Titulo fw-bolder wow fadeIn" data-wow-delay="0.3s">01 - Apresentação</h2>
+
+                        <p><strong>Objetivo:</strong> Antes de iniciar este curso, é recomendado que
                             veja curso “O que design ux?”, onde são apresentados os conceitos fundamentais de design UX.
                             Ao longo deste material vamos utilizar o termo “design UX”, que é comumente utilizado em
                             tecnologia da informação. UX é um acrônimo do termo inglês User eXperience, que em português
