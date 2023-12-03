@@ -36,14 +36,16 @@ include('layout/header.php');
                         <br>
 
                         <br>
-                        <p class="scrool">Você já conhecia o termo usabilidade? Se você fez o curso de “O que design
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Você já conhecia o termo usabilidade? Se você fez o
+                            curso de “O que design
                             ux?” se deparou
                             com o termo algumas vezes no material. Vamos recordar? Em 1994, as Heurísticas de Nielsen
                             trouxeram critérios de boas práticas de usabilidade e apresentaram um método de avaliação de
                             inspeção para garantir sua aplicação. Porém, antes desse período, já se utilizava o termo
                             precursor da usabilidade: a <strong>ergonomia</strong>. </p>
 
-                        <p class="scrool">Quando imaginamos ergonomia, pensamos em cadeiras ajustadas, visores na altura
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Quando imaginamos ergonomia, pensamos em cadeiras
+                            ajustadas, visores na altura
                             dos olhos,
                             carregamento de peso de forma correta ou outras atividades físicas do dia a dia. Porém a
                             ergonomia hoje engloba muitas outras áreas de aplicação. De acordo com a <a
@@ -55,7 +57,7 @@ include('layout/header.php');
                             com as necessidades, habilidades e limitações das pessoas. </p>
 
                         <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
-                        <section class="container">
+                        <section class="container wow fadeIn" data-wow-delay="0.3s">
                             <div class="accordion ">
                                 <section id="content">
                                     <div class="caixaprincipal" id="titulofiqueatento">
@@ -81,16 +83,9 @@ include('layout/header.php');
                         <!-- FIM DA CAIXA FIQUE ATENTO -->
 
                         <br>
-                        <p class="scrool">Dentro do contexto de usabilidade, há diversas definições formais do termo.
-                            Três definições
-                            são importantes para o contexto de desenvolvimento de sistemas: o da NBR 9241-11, o da ISO
-                            25000 e a partir das heurísticas de Nielsen (<strong>Figura 3</strong>). Cada uma destas
-                            definições entrega um conjunto genérico a se considerar, como, por exemplo, a ISO 25000
-                            entrega caraterísticas de qualidade de software, das quais uma é a usabilidade. Os próximos
-                            subtópicos explicarão cada uma destas definições.</p>
 
                         <!-- IMAGEM 03 -->
-                        <div class="text-center img-01 scrool">
+                        <div class="text-center img-01 scrool wow fadeIn" data-wow-delay="0.3s" id="img-left">
                             <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 03 </strong> -
                                 Definições de usabilidade </div>
                             <div class="zoom">
@@ -116,23 +111,27 @@ include('layout/header.php');
                         </div><br>
                         <!-- Imagem 03 - End  (Audi)-->
 
+                        <p class="wow fadeIn" data-wow-delay="0.3s" id="text-left">Dentro do contexto de usabilidade, há
+                            diversas definições
+                            formais do termo.
+                            Três definições
+                            são importantes para o contexto de desenvolvimento de sistemas: o da NBR 9241-11, o da ISO
+                            25000 e a partir das heurísticas de Nielsen (<strong>Figura 3</strong>). Cada uma destas
+                            definições entrega um conjunto genérico a se considerar, como, por exemplo, a ISO 25000
+                            entrega caraterísticas de qualidade de software, das quais uma é a usabilidade. Os próximos
+                            subtópicos explicarão cada uma destas definições.</p>
+
+                        <br><br><br><br><br>
+
                         <!-- INÍCIO DO SUBTÓPICO -->
                         <!-- subtopico título-->
-                        <h3 class="Subtopico fw-bolder" id="item2.1">2.1 - NBR ISO 9241-11</h3>
+                        <h3 class="Subtopico fw-bolder wow fadeIn" data-wow-delay="0.3s" id="item2.1">2.1 - NBR ISO
+                            9241-11</h3>
                         <!-- subtopico título -->
 
 
-                        <br>
-                        <p class="scrool">A ABNT NBR ISO 9241-11 (<strong>Figura 04</strong>) é uma norma consolidada
-                            pela <a href="https://www.abnt.org.br/" target="_blank">ABNT – Associação Brasileira de
-                                Normas
-                                Técnicas</a> que tem como base a ISO 9241-11:1998. Esta norma define o termo usabilidade
-                            e especifica o que deve ser considerado numa avaliação de usabilidade em termos de medidas
-                            de desempenho e satisfação do usuário. A ISO ainda cita como descrever o contexto de uso de
-                            um produto para hardware, software ou serviços. </p><br>
-
                         <!-- IMAGEM 04  -->
-                        <div class="text-center img-01 scrool">
+                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s" id="img-left">
                             <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 04 </strong> -
                                 ABNT NBR ISO 9241-11</div>
                             <div class="zoom">
@@ -158,12 +157,22 @@ include('layout/header.php');
                         </div>
                         <!-- Imagem 04 - End  (Audi)-->
 
-                        <br>
-                        <p class="scrool">De acordo com a norma:</p>
+                        <p class="wow fadeIn" data-wow-delay="0.3s" id="text-left">A ABNT NBR ISO 9241-11
+                            (<strong>Figura 04</strong>) é uma norma consolidada
+                            pela <a href="https://www.abnt.org.br/" target="_blank">ABNT – Associação Brasileira de
+                                Normas
+                                Técnicas</a> que tem como base a ISO 9241-11:1998. Esta norma define o termo usabilidade
+                            e especifica o que deve ser considerado numa avaliação de usabilidade em termos de medidas
+                            de desempenho e satisfação do usuário. A ISO ainda cita como descrever o contexto de uso de
+                            um produto para hardware, software ou serviços. </p><br>
+
+                        <br><br><br>
+
+                        <p class="wow fadeIn" data-wow-delay="0.3s">De acordo com a norma:</p>
 
                         <!-- CITAÇÃO -->
-                        <div class="bd-callout bd-callout-success fw-bold">
-                            <p class="scrool">
+                        <div class="bd-callout bd-callout-success fw-bold wow fadeIn" data-wow-delay="0.3s">
+                            <p>
                                 A usabilidade é a medida pela qual um produto pode ser usado por usuários
                                 específicos para alcançar objetivos específicos com efetividade, eficiência e
                                 satisfação em um contexto de uso específico (NBR 9241-11) .
@@ -171,11 +180,12 @@ include('layout/header.php');
                         </div><br>
 
                         <br>
-                        <p class="scrool">Para que o conceito fique, a medida é o valor resultante de uma medição. As
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Para que o conceito fique, a medida é o valor
+                            resultante de uma medição. As
                             três medidas
                             citadas pela norma são:</p>
 
-                        <ol class="list2-1 scrool">
+                        <ol class="list2-1 wow fadeIn" data-wow-delay="0.3s">
                             <li><strong>Efetividade:</strong> é a medida em
                                 que se verifica o quanto o usuário alcançou os objetivos iniciais de interação. Pode ser
                                 avaliada considerando a finalização de uma tarefa ou em termos de qualidade do resultado
@@ -189,20 +199,14 @@ include('layout/header.php');
                                 usuário sente ao utilizar a interface e qual o nível de aceitação.</li>
                         </ol>
 
-                        <p class="scrool">A <Strong>Figura 05</Strong> apresenta uma figura da norma que resume esse
-                            conjunto que forma
-                            a estrutura de usabilidade proposta pela norma. A norma apresenta também outras perspectivas
-                            da usabilidade como: facilidade de aprendizado; facilidade de memorização; e baixa taxa de
-                            erros.</p><br>
-
 
                         <!-- IMAGEM 05  -->
-                        <div class="text-center img-01 scrool">
+                        <div class="text-center img-01 scrool wow fadeIn" data-wow-delay="0.3s" id="img-left">
                             <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 05 </strong> -
                                 Estrutura de usabilidade</div>
                             <div class="zoom">
                                 <a href="imags/Figura05.png" data-bs-toggle="modal" data-bs-target="#Imagem05">
-                                    <img src="imgs/Figura05.png" alt="Estrutura de usabilidade">
+                                    <img src="imgs/Figura05.png" alt="Estrutura de usabilidade" id="img-Boxshadow">
                                 </a>
                             </div>
                             <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> NBR 9241-11..</p>
@@ -223,76 +227,125 @@ include('layout/header.php');
                         </div><br>
                         <!-- Imagem 05 - End  (Audi)-->
 
+                        <p class="wow fadeIn" data-wow-delay="0.3s" id="text-left">A <Strong>Figura 05</Strong>
+                            apresenta uma figura da norma que
+                            resume esse
+                            conjunto que forma
+                            a estrutura de usabilidade proposta pela norma. A norma apresenta também outras perspectivas
+                            da usabilidade como: facilidade de aprendizado; facilidade de memorização; e baixa taxa de
+                            erros.</p><br>
+
+                        <br><br><br><br><br>
+
                         <!-- INÍCIO DO SUBTÓPICO -->
                         <!-- subtopico título-->
-                        <h3 class="Subtopico fw-bolder" id="item2.2">2.2 - ISO/IEC 25000 (SQuaRE)</h3>
+                        <h3 class="Subtopico fw-bolder wow fadeIn" data-wow-delay="0.3s" id="item2.2">2.2 - ISO/IEC
+                            25000 (SQuaRE)</h3>
                         <!-- subtopico título -->
 
                         <br>
-                        <p class="scrool">A série de normas ISO/IEC 25000 ou, como é conhecida, SQuaRE (Requisitos e
+                        <p class="wow fadeIn" data-wow-delay="0.3s">A série de normas ISO/IEC 25000 ou, como é
+                            conhecida, SQuaRE (Requisitos e
                             Avaliação de
                             Qualidade de Sistemas e Software) segue na mesma linha de avaliação de software, porém,
                             diferente da ISO 9241-11, ela trata de outros âmbitos da <strong>avaliação da qualidade de
                                 linha de produtos de software</strong>. Esse conjunto de normas é dividida da seguinte
                             forma: </p>
 
-                        <ul class="list scrool">
-                            <li><i class="fa fa-dot-circle text-success"></i> ISO/IEC 2500n – Divisão de Gestão
-                                da Qualidade;</li>
-                            <li><i class="fa fa-dot-circle text-success"></i> ISO/IEC 2501n – Divisão de Modelo
-                                de Qualidade;</li>
-                            <li><i class="fa fa-dot-circle text-success"></i> ISO/IEC 2502n – Divisão de Medição
-                                de Qualidade;</li>
-                            <li><i class="fa fa-dot-circle text-success"></i> ISO/IEC 2503n – Divisão de
-                                Requisitos de Qualidade;</li>
-                            <li><i class="fa fa-dot-circle text-success"></i> ISO/IEC 2504n – Divisão de
-                                Avaliação da Qualidade.</li>
-                        </ul><br>
+                        <!-- IMAGEM COM CAIXAS DE TEXTO -->
+                        <div class="apresentacao">
+                            <div class="img_apresentacao wow animate__zoomIn">
+                                <img src="figuras/pessoa.png" alt="">
+                                <p class="FonteFigura FonteMenor text-secondary" id="text-freepik">
+                                    <strong>Fonte: </strong>
+                                    <a href="https://br.freepik.com/vetores-gratis/icone-de-personagem-professor-homem-isolado_74222494.htm#query=pessoa%20dando%20oi&position=2&from_view=keyword&track=ais&uuid=f62cddf1-0953-4fc6-81a7-0f1f56865b4a"
+                                        target="_blank" rel="noopener noreferrer"> <strong> Imagem retirada do
+                                            Freepik</strong></a>
+                                </p>
 
-                        <p class="scrool">A divisão de Medição de Qualidade (ISO/IEC 2501n) inclui um modelo de
+                            </div>
+                            <div>
+                                <!-- lista ordenada  -->
+                                <ul class="wow fadeIn" data-wow-delay="0.3s" id="txt_final">
+                                    <li class="wow animate__zoomIn texto_apresentacao_lista" data-wow-delay="0.3s"><i
+                                            class="bi bi-1-circle"></i> ISO/IEC 2500n – Divisão de Gestão
+                                        da Qualidade;
+                                    </li>
+                                    <li class="wow animate__zoomIn texto_apresentacao_lista" data-wow-delay="0.5s"><i
+                                            class="bi bi-2-circle"></i> ISO/IEC 2501n – Divisão de Modelo
+                                        de Qualidade;</li>
+                                    <li class="wow animate__zoomIn texto_apresentacao_lista" data-wow-delay="0.5s"><i
+                                            class="bi bi-3-circle"></i> ISO/IEC 2502n – Divisão de Medição
+                                        de Qualidade;</li>
+                                    <li class="wow animate__zoomIn texto_apresentacao_lista" data-wow-delay="0.5s"><i
+                                            class="bi bi-4-circle"></i>ISO/IEC 2503n – Divisão de
+                                        Requisitos de Qualidade;</li>
+                                    <li class="wow animate__zoomIn texto_apresentacao_lista" data-wow-delay="0.5s"><i
+                                            class="bi bi-5-circle"></i> ISO/IEC 2504n – Divisão de
+                                        Avaliação da Qualidade.</li>
+
+                                </ul>
+                                <!-- fim da lista ordenada  -->
+                            </div>
+                            <!-- IMAGEM COM CAIXAS DE TEXTO END-->
+                        </div>
+                        <br><br><br>
+
+
+                        <p class="wow fadeIn" data-wow-delay="0.3s">A divisão de Medição de Qualidade (ISO/IEC
+                            2501n)
+                            inclui um modelo de
                             referência para
                             medições da qualidade de um produto, definições matemáticas de medidas e orientações
                             práticas para sua aplicação. É nessa divisão que a norma estabelece usabilidade como
-                            característica de qualidade e define medições. A definição formal de usabilidade da norma é:
+                            característica de qualidade e define medições. A definição formal de usabilidade da
+                            norma é:
                         </p>
 
                         <!-- CITAÇÃO -->
-                        <div class="bd-callout bd-callout-success fw-bold">
-                            <p class="scrool">
+                        <div class="bd-callout bd-callout-success fw-bold wow fadeIn" data-wow-delay="0.3s">
+                            <p>
                                 Usabilidade - Grau em que um produto ou sistema pode ser usado por usuários
                                 específicos para atingir metas especificadas com eficácia, eficiência e satisfação
                                 em um contexto específico de uso.
                             </p>
                         </div>
+                        <br><br>
 
-                        <p class="scrool">Dentro desta especificação, a característica usabilidade é composta das
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Dentro desta especificação, a característica
+                            usabilidade é composta das
                             seguintes
                             subcaracterísticas:</p><br>
 
-                        <ul class="list scrool">
-                            <li><i class="fa fa-dot-circle text-success"></i> Reconhecimento de Adequabilidade;
-                            </li>
-                            <li><i class="fa fa-dot-circle text-success"></i> Aprendizagem;</li>
-                            <li><i class="fa fa-dot-circle text-success"></i> Operacionalidade;</li>
-                            <li><i class="fa fa-dot-circle text-success"></i> Proteção Contra Erros do Usuário;
-                            </li>
-                            <li><i class="fa fa-dot-circle text-success"></i> Estética da Interface do Usuário;
-                            </li>
-                            <li><i class="fa fa-dot-circle text-success"></i> Acessibilidade.</li>
-                        </ul>
 
-                        <p class="scrool">
-                            A norma, além de estabelecer um <strong>modelo de avaliação de produto</strong>, também
-                            estabelece um <strong>modelo para avaliação de uso</strong>, que também é considerado dentro
-                            do contexto de usabilidade. De acordo com a ISO/IEC 25010, a qualidade de uso se refere à
-                            capacidade do produto de software de permitir que os usuários atinjam metas com eficácia,
-                            produtividade, segurança e satisfação no contexto de uso do sistema. Para cada uma dessas
-                            características são definidos atributos de qualidade, como pode ser visto na <strong>Figura
-                                06</strong>.
-                        </p><br>
+                        <!-- CAIXAS DE TEXTO INTERATIVAS -->
+                        <div class="wow fadeIn" data-wow-delay="0.3s" id="txt_final">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col d-flex justify-content-center gap-3">
+                                        <a class="li_interativo wow fadeInLeft" data-wow-delay="0.1s"> Reconhecimento de
+                                            Adequabilidade</a>
+                                        <a class="li_interativo wow fadeInLeft" data-wow-delay="0.3s">Aprendizagem</a>
+                                        <a class="li_interativo wow fadeInLeft"
+                                            data-wow-delay="0.6s">Operacionalidade</a>
+                                        <a class="li_interativo wow fadeInLeft" data-wow-delay="0.6s">Acessibilidade</a>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col d-flex justify-content-center gap-3">
+                                            <a class="li_interativo wow fadeInLeft" data-wow-delay="0.8s">Proteção
+                                                Contra Erros do Usuário</a>
+                                            <a class="li_interativo wow fadeInLeft" data-wow-delay="0.9s">Estética da
+                                                Interface do Usuário</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- CAIXAS DE TEXTO INTERATIVAS END -->
 
+                        <br><br>
                         <!-- IMAGEM 06  -->
-                        <div class="text-center img-01 scrool">
+                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s" id="img-left">
                             <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 06 </strong> -
                                 Qualidade de uso em ISO/IEC 25010</div>
                             <div class="zoom">
@@ -300,12 +353,13 @@ include('layout/header.php');
                                     <img src="imgs/Figura06.png" alt="Qualidade de uso em ISO/IEC 25010">
                                 </a>
                             </div>
-                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> adaptado de ISO/IEC
+                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> adaptado de
+                                ISO/IEC
                                 25010.</p>
                         </div>
 
                         <!-- Imagem 06 - MODAL (Audi)-->
-                        <div class="modal fade text-center" id="Imagem06" tabindex="-1"
+                        <div class="modal fade text-center wow fadeIn" data-wow-delay="0.3s" id="Imagem06" tabindex="-1"
                             aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div
                                 class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
@@ -314,23 +368,40 @@ include('layout/header.php');
                                         alt="Qualidade de uso em ISO/IEC 25010">
                                 </div>
                                 <div class="modal-footer w-75 bg-light justify-content-center">
-                                    <p class="text-secondary"><strong>Figura 06 - </strong> Qualidade de uso em ISO/IEC
+                                    <p class="text-secondary"><strong>Figura 06 - </strong> Qualidade de uso em
+                                        ISO/IEC
                                         25010</p>
                                 </div>
                             </div>
                         </div><br>
                         <!-- Imagem 06 - End  (Audi)-->
 
-                        <br>
-                        <p class="scrool">Na divisão ISO/IEC 2504n da série de normas, a especificação define um
+                        <p class="wow fadeIn" data-wow-delay="0.3s"><br>
+                            A norma, além de estabelecer um <strong>modelo de avaliação de produto</strong>, também
+                            estabelece um <strong>modelo para avaliação de uso</strong>, que também é considerado
+                            dentro
+                            do contexto de usabilidade. De acordo com a ISO/IEC 25010, a qualidade de uso se refere
+                            à
+                            capacidade do produto de software de permitir que os usuários atinjam metas com
+                            eficácia,
+                            produtividade, segurança e satisfação no contexto de uso do sistema. Para cada uma
+                            dessas
+                            características são definidos atributos de qualidade, como pode ser visto na
+                            <strong>Figura
+                                06</strong>.
+                        </p>
+
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Na divisão ISO/IEC 2504n da série de normas, a
+                            especificação define um
                             <strong>modelo de
                                 referência de avaliação</strong>, isto é, como avaliar tudo isso que foi apresentado
                             utilizando como base as características e atributos. Essa norma da série apresenta uma
                             seleção das métricas de qualidade de usabilidade.
                         </p>
+                        <br><br>
 
                         <!-- CAIXA DE TEXTO SAIBA-MAIS -->
-                        <section class="container scrool">
+                        <section class="container wow fadeIn" data-wow-delay="0.3s">
                             <div class="accordion ">
                                 <section id="content">
                                     <div class="caixaprincipal" id="tituloSaibaMais">
@@ -344,9 +415,11 @@ include('layout/header.php');
                                         <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75">
                                                     Passe o mouse acima
                                                 </strong></strong></p>
-                                        <p class="txt-caixasecundaria">Ficou curioso sobre as outras características de
+                                        <p class="txt-caixasecundaria">Ficou curioso sobre as outras características
+                                            de
                                             qualidade de produto da SQuaRE? Veja na <strong>Figura 07</strong> quais
-                                            características de qualidade de produto são incluídas além de usabilidade.
+                                            características de qualidade de produto são incluídas além de
+                                            usabilidade.
                                         </p><!--caixa secundaria-->
                                     </div>
                                 </section>
@@ -354,7 +427,7 @@ include('layout/header.php');
                         <!-- FIM DA CAIXA SAIBA MAIS  -->
 
                         <!-- IMAGEM 07  -->
-                        <div class="text-center img-01 scrool">
+                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
                             <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 07 </strong> -
                                 Características de qualidade de produto em ISO/IEC 25010</div>
                             <div class="zoom">
@@ -363,7 +436,8 @@ include('layout/header.php');
                                         alt="Características de qualidade de produto em ISO/IEC 25010">
                                 </a>
                             </div>
-                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> ISO/IEC 25010.</p>
+                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> ISO/IEC 25010.
+                            </p>
                         </div>
 
                         <!-- Imagem 07 - MODAL (Audi)-->
@@ -376,7 +450,8 @@ include('layout/header.php');
                                         alt="Características de qualidade de produto em ISO/IEC 25010">
                                 </div>
                                 <div class="modal-footer w-75 bg-light justify-content-center">
-                                    <p class="text-secondary"><strong>Figura 07 - </strong> Características de qualidade
+                                    <p class="text-secondary"><strong>Figura 07 - </strong> Características de
+                                        qualidade
                                         de produto em ISO/IEC 25010</p>
                                 </div>
                             </div>
@@ -385,27 +460,37 @@ include('layout/header.php');
 
                         <!-- INÍCIO DO SUBTÓPICO -->
                         <!-- subtopico título-->
-                        <h3 class="Subtopico fw-bolder" id="item2.3">2.3 - Heurísticas de Nielsen</h3>
+                        <h3 class="Subtopico fw-bolder wow fadeIn" data-wow-delay="0.3s" id="item2.3">2.3 -
+                            Heurísticas
+                            de Nielsen</h3>
                         <!-- subtopico título -->
 
                         <br>
-                        <p class="scrool">Além das normas apresentadas, existem outras especificações que se relacionam
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Além das normas apresentadas, existem outras
+                            especificações que se relacionam
                             com a definição
-                            de Usabilidade. As heurísticas de Nielsen são mais didáticas para uma aplicação prática de
+                            de Usabilidade. As heurísticas de Nielsen são mais didáticas para uma aplicação prática
+                            de
                             usabilidade, sendo mais apreciadas e usadas no contexto de design de sistemas
                             computacionais. </p>
 
-                        <p class="scrool">Enquanto as normas buscam quantificar a usabilidade para definir qual o nível
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Enquanto as normas buscam quantificar a
+                            usabilidade
+                            para definir qual o nível
                             de conformidade
                             com um modelo de qualidade, as heurísticas tratam a usabilidade de forma mais ampla e
-                            aberta, considerando aspectos da psicologia cognitiva e experimental. As heurísticas não tem
-                            como objetivo encontrar um valor dentro de uma escala para a usabilidade. <strong>Esta é a
-                                melhor forma de trabalhar com usabilidade? Depende da aplicação</strong>. Conheça todas
+                            aberta, considerando aspectos da psicologia cognitiva e experimental. As heurísticas não
+                            tem
+                            como objetivo encontrar um valor dentro de uma escala para a usabilidade. <strong>Esta é
+                                a
+                                melhor forma de trabalhar com usabilidade? Depende da aplicação</strong>. Conheça
+                            todas
                             as definições e formatos para enfim decidir como irá utilizá-la no contexto de um
-                            determinado produto e seu processo. O foco deste curso será nas heurísticas de Nielsen.</p>
+                            determinado produto e seu processo. O foco deste curso será nas heurísticas de Nielsen.
+                        </p>
 
                         <!-- CAIXA DE TEXTO SAIBA-MAIS -->
-                        <section class="container">
+                        <section class="container wow fadeIn" data-wow-delay="0.3s">
                             <div class="accordion ">
                                 <section id="content">
                                     <div class="caixaprincipal" id="tituloSaibaMais">
@@ -420,14 +505,17 @@ include('layout/header.php');
                                                     Passe o mouse acima
                                                 </strong></strong></p>
                                         <p class="txt-caixasecundaria">É importante ressaltar que as heurísticas de
-                                            Nielsen não foram nem são as únicas a tratar da usabilidade. Como mostra o
-                                            trabalho de Abreu (2005), há outros critérios ergonômicos de usabilidade:
+                                            Nielsen não foram nem são as únicas a tratar da usabilidade. Como mostra
+                                            o
+                                            trabalho de Abreu (2005), há outros critérios ergonômicos de
+                                            usabilidade:
                                         </p>
 
                                         <ul class="list02">
                                             <ol class="txt-caixasecundaria">
                                                 <li><i class="fa fa-dot-circle text-success"></i> Ben
-                                                    Shneiderman (1986): “Oito regras de ouro do design de diálogo”;</li>
+                                                    Shneiderman (1986): “Oito regras de ouro do design de diálogo”;
+                                                </li>
                                                 <li><i class="fa fa-dot-circle text-success"></i> Donald Norman
                                                     (1988): “Princípios de orientação”;</li>
                                                 <li><i class="fa fa-dot-circle text-success"></i> Jakob Nielsen
@@ -442,12 +530,16 @@ include('layout/header.php');
                                             </ol>
                                         </ul><br>
 
-                                        <p class="txt-caixasecundaria">Neste trabalho, Abreu apresenta um comparativo
+                                        <p class="txt-caixasecundaria">Neste trabalho, Abreu apresenta um
+                                            comparativo
                                             rico de
-                                            23 critérios, indicando, por exemplo, o quão semelhantes são as “oito regras
+                                            23 critérios, indicando, por exemplo, o quão semelhantes são as “oito
+                                            regras
                                             de ouro” de Shneiderman com as heurísticas de usabilidade Nielsen. Esta
-                                            lista permitiu a identificação de recomendações provenientes de pesquisas
-                                            consolidadas em HCI culminando em 23 critérios ergonômicos de usabilidade
+                                            lista permitiu a identificação de recomendações provenientes de
+                                            pesquisas
+                                            consolidadas em HCI culminando em 23 critérios ergonômicos de
+                                            usabilidade
                                             para a avaliação de sistemas de telefones celulares.</p>
                                         <!--caixa secundaria-->
                                     </div>
@@ -456,20 +548,21 @@ include('layout/header.php');
                         <!-- FIM DA CAIXA SAIBA MAIS  -->
 
                         <br>
-                        <p class="scrool">Para Nielsen, </p>
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Para Nielsen, </p>
 
                         <!-- CITAÇÃO -->
-                        <div class="bd-callout bd-callout-success fw-bold fst-italic">
-                            <p class="scrool">
+                        <div class="bd-callout bd-callout-success fw-bold fst-italic wow fadeIn" data-wow-delay="0.3s">
+                            <p>
                                 A usabilidade é o atributo de qualidade que avalia se uma interface de
                                 usuário é fácil de usar. Usabilidade também se refere ao método utilizado para
                                 melhorar a facilidade de uso no processo de design.
                             </p>
                         </div><br>
 
-                        <p class="scrool">Nielsen complementa esta definição a partir de 5 fatores de usabilidade:</p>
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Nielsen complementa esta definição a partir de 5
+                            fatores de usabilidade:</p>
 
-                        <ol class="scrool">
+                        <ol class="wow fadeIn" data-wow-delay="0.3s">
                             <br>
                             <li><strong>Facilidade de aprendizado</strong> <em>(Learnability)</em>: Quão fácil é
                                 para os
@@ -514,22 +607,10 @@ include('layout/header.php');
                                 motivação, estética, criatividade, surpresa e desafio.</li>
                         </ol>
 
-                        <p class="scrool">Além destas, Nielsen ressalta uma característica adicional à usabilidade: a
-                            <strong>utilidade</strong>, que se refere à funcionalidade em si e possibilita
-                            questionar o
-                            que <strong>o usuário realmente precisa</strong>. Usabilidade e utilidade são
-                            igualmente
-                            importantes e, juntos, determinam se algo é útil, afinal <storng>pouco importa que
-                                algo seja
-                                fácil de usar se não for o que você deseja</storng>. Também não é bom que o
-                            sistema
-                            possa fazer o que você quer realizar em uma interface muito difícil de se utilizar.
-                            Veja um
-                            resumo disto na Figura 08.
-                        </p>
+                        <br>
 
                         <!-- IMAGEM 08  -->
-                        <div class="text-center img-01 scrool">
+                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s" id="img-left">
                             <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 08 </strong>
                                 - Utilidade e usabilidade</div>
                             <div class="zoom">
@@ -561,8 +642,24 @@ include('layout/header.php');
                         </div>
                         <!-- Imagem 08 - End -->
 
-                        <br>
-                        <p class="scrool">Em 1994 Nielsen publicou as 10 heurísticas de usabilidade, ainda hoje
+                        <p class="wow fadeIn" data-wow-delay="0.3s"><br>Além destas, Nielsen ressalta uma
+                            característica
+                            adicional à usabilidade: a
+                            <strong>utilidade</strong>, que se refere à funcionalidade em si e possibilita
+                            questionar o
+                            que <strong>o usuário realmente precisa</strong>. Usabilidade e utilidade são
+                            igualmente
+                            importantes e, juntos, determinam se algo é útil, afinal <storng>pouco importa que
+                                algo seja
+                                fácil de usar se não for o que você deseja</storng>. Também não é bom que o
+                            sistema
+                            possa fazer o que você quer realizar em uma interface muito difícil de se utilizar.
+                            Veja um
+                            resumo disto na Figura 08.
+                        </p>
+
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Em 1994 Nielsen publicou as 10 heurísticas de
+                            usabilidade, ainda hoje
                             bastante utilizadas. As
                             heurísticas de Nielsen, como são chamadas, são a base dos critérios de boas práticas
                             de
@@ -573,7 +670,7 @@ include('layout/header.php');
                             rápido e fácil de aplicar, que vamos explorar melhor na seção sobre avaliação. </p>
 
                         <!-- CAIXA DE TEXTO SAIBA-MAIS -->
-                        <section class="container">
+                        <section class="container wow fadeIn" data-wow-delay="0.3s">
                             <div class="accordion ">
                                 <section id="content">
                                     <div class="caixaprincipal" id="tituloSaibaMais">
@@ -588,7 +685,8 @@ include('layout/header.php');
                                                     Passe o mouse acima
                                                 </strong></strong></p>
                                         <p class="txt-caixasecundaria">De acordo com Nielsen, as heurísticas de
-                                            usabilidade propostas por ele são 10 princípios gerais para o design. Elas
+                                            usabilidade propostas por ele são 10 princípios gerais para o design.
+                                            Elas
                                             são chamadas de "heurísticas" <strong>porque são regras genéricas e não
                                                 diretrizes
                                                 específicas de usabilidade.</strong></p><!--caixa secundaria-->
@@ -597,13 +695,15 @@ include('layout/header.php');
                         </section>
                         <!-- FIM DA CAIXA SAIBA MAIS  -->
 
-                        <p class="srcool">Veja na <strong>Figura 09</strong> as 10 heurísticas de Nielsen
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Veja na <strong>Figura 09</strong> as 10
+                            heurísticas
+                            de Nielsen
                             de forma
                             resumida. Na próxima seção iremos analisar cada uma das heurísticas.</p>
 
 
                         <!-- IMAGEM 09  -->
-                        <div class="text-center img-01 scrool">
+                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
                             <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 09 </strong>
                                 - 10 heurísticas de Nielsen</div>
                             <div class="zoom">
@@ -625,7 +725,8 @@ include('layout/header.php');
                                     <img class="img-fluid" src="imgs/Figura09.png" alt="10 heurísticas de Nielsen">
                                 </div>
                                 <div class="modal-footer w-75 bg-light justify-content-center">
-                                    <p class="text-secondary"><strong>Figura 09 - </strong> 10 heurísticas de Nielsen
+                                    <p class="text-secondary"><strong>Figura 09 - </strong> 10 heurísticas de
+                                        Nielsen
                                     </p>
                                 </div>
                             </div>
@@ -635,15 +736,18 @@ include('layout/header.php');
                         <br>
                         <!-- INÍCIO DO SUBTÓPICO -->
                         <!-- subtopico título-->
-                        <h3 class="Subtopico fw-bolder" id="item2.4">2.4 - O que não é usual?</h3>
+                        <h3 class="Subtopico fw-bolder wow fadeIn" data-wow-delay="0.3s" id="item2.4">2.4 - O que
+                            não é
+                            usual?</h3>
                         <!-- subtopico título -->
 
-                        <p class="scrool">Antes de passarmos às heurísticas de forma detalhada, é interessante
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Antes de passarmos às heurísticas de forma
+                            detalhada, é interessante
                             reconhecer o que não é
                             usual e como podemos identificar onde a usabilidade foi negligenciada. </p>
 
                         <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
-                        <section class="container">
+                        <section class="container wow fadeIn" data-wow-delay="0.3s">
                             <div class="accordion ">
                                 <section id="content">
                                     <div class="caixaprincipal" id="titulofiqueatento">
@@ -654,37 +758,27 @@ include('layout/header.php');
                                         </div>
                                     </div> <!--caixa Principal-->
                                     <div class="accordion-content" id="fiqueatento"><!--caixa secundaria-->
-                                        <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong>
+                                        <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima
+                                            </strong>
                                         </p>
                                         <p class="txt-caixasecundaria">Assim como um musicista sofre com o desafinar
                                             generalizado da hora dos parabéns em festas de aniversário, pessoas que
-                                            estudam design UX tendem a sofrer e questionar as interfaces do dia a dia.
-                                            Antecipo que será difícil desconsiderar a torneira que não “abre pro lado
+                                            estudam design UX tendem a sofrer e questionar as interfaces do dia a
+                                            dia.
+                                            Antecipo que será difícil desconsiderar a torneira que não “abre pro
+                                            lado
                                             certo” ou a porta que “não indica como deve ser aberta” ou a máquina de
                                             lavar roupa que “tem programas de lavagem desnecessários e pouco
-                                            utilizados”. <strong>Usabilidade é um conhecimento prático, que pode atuar
+                                            utilizados”. <strong>Usabilidade é um conhecimento prático, que pode
+                                                atuar
                                                 na forma como você planeja sua vida, seu trabalho, suas atividades e
                                                 muito mais</strong>.</p>
                                 </section>
                         </section>
                         <!-- FIM DA CAIXA FIQUE ATENTO -->
 
-                        <p class="scrool">Um dos objetos cotidianos que chama muita atenção
-                            com relação à usabilidade é
-                            o elevador. Não é incomum pessoas passarem por experiências confusas em
-                            elevadores. Os elevadores em geral não possuem uma padronização de painel,
-                            dessa forma é comum encontrar um elevador que nos perdemos facilmente nas
-                            opções. Isso não seria um problema se os painéis fossem desenhados para
-                            facilitar a aprendizagem no uso.A <strong>Figura 10</strong> mostra um
-                            painel em que infringe o fator de <strong>segurança do uso</strong>,
-                            colocando uma mensagem para não entrar se a cabine não estiver bem
-                            posicionada. A mensagem, porém, está dentro do elevador, o que impede de
-                            evitar o real problema cuja mensagem está tentando evitar. O informe, apesar
-                            de ter um objetivo de segurança, perde o significado. </p>
-
-
                         <!-- IMAGEM 10  -->
-                        <div class="text-center img-01 scrool">
+                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s" id="img-left">
                             <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 10 </strong>
                                 - Painel do Elevador</div>
                             <div class="zoom">
@@ -710,17 +804,38 @@ include('layout/header.php');
                         </div><br>
                         <!-- Imagem 10 - End -->
 
+                        <p class="wow fadeIn" data-wow-delay="0.3s"><br>Um dos objetos cotidianos que chama muita
+                            atenção
+                            com relação à usabilidade é
+                            o elevador. Não é incomum pessoas passarem por experiências confusas em
+                            elevadores. Os elevadores em geral não possuem uma padronização de painel,
+                            dessa forma é comum encontrar um elevador que nos perdemos facilmente nas
+                            opções. Isso não seria um problema se os painéis fossem desenhados para
+                            facilitar a aprendizagem no uso.A <strong>Figura 10</strong> mostra um
+                            painel em que infringe o fator de <strong>segurança do uso</strong>,
+                            colocando uma mensagem para não entrar se a cabine não estiver bem
+                            posicionada. A mensagem, porém, está dentro do elevador, o que impede de
+                            evitar o real problema cuja mensagem está tentando evitar. O informe, apesar
+                            de ter um objetivo de segurança, perde o significado. </p>
+
+                        <br><br><br>
+
                         <div class="row">
                             <div class="col-md-6">
-                                <p class="scrool">Como outro exemplo, temos interfaces que apresentam códigos e
+                                <p class="wow fadeIn" data-wow-delay="0.3s">Como outro exemplo, temos interfaces que
+                                    apresentam códigos e
                                     mensagens não
-                                    decifráveis para indicar um erro. Na <strong>Figura 11</strong> vemos uma mensagem
+                                    decifráveis para indicar um erro. Na <strong>Figura 11</strong> vemos uma
+                                    mensagem
                                     de erro que se destaca na tela pelo seu tamanho e por não ser facilmente
-                                    compreendida. Esta foi uma mensagem retornada pelo aplicativo Uber. Neste exemplo,
+                                    compreendida. Esta foi uma mensagem retornada pelo aplicativo Uber. Neste
+                                    exemplo,
                                     vemos que problemas de usabilidade podem ocorrer também em aplicativos muito bem
                                     consolidados no mercado. Aplicativos móveis são feitos para rodar em muitas
-                                    plataformas, em muitos formatos de tela e com restrições distintas para cada tipo de
-                                    dispositivo. Garantir que não haja falhas no sistema e usabilidade para toda essa
+                                    plataformas, em muitos formatos de tela e com restrições distintas para cada
+                                    tipo de
+                                    dispositivo. Garantir que não haja falhas no sistema e usabilidade para toda
+                                    essa
                                     diversidade de dispositivos torna a aplicação de sistemas um desafio à equipe de
                                     desenvolvimento.</p>
                             </div>
@@ -729,8 +844,9 @@ include('layout/header.php');
                                 <!-- Titulo Figura -->
 
                                 <!-- IMAGEM 11  -->
-                                <div class="text-center img-01 scrool">
-                                    <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 11 </strong>
+                                <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
+                                    <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 11
+                                        </strong>
                                         - Mensagem de erro inapropriada</div>
                                     <div class="zoom">
                                         <a href="imgs/Figura11.png" data-bs-toggle="modal" data-bs-target="#Imagem11">
@@ -738,7 +854,8 @@ include('layout/header.php');
                                                 alt=" Mensagem de erro inapropriada" class="w-50">
                                         </a>
                                     </div>
-                                    <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> Autor.</p>
+                                    <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> Autor.
+                                    </p>
                                 </div>
 
                                 <!-- Imagem 11 - MODAL -->
@@ -762,20 +879,8 @@ include('layout/header.php');
                             </div>
                         </div>
 
-                        <p class="scrool">O próximo exemplo (<strong>Figura 12</strong>) mostra uma resposta inesperada
-                            do sistema que
-                            causou confusão. Uma plataforma de submissão de artigos científicos apresentou uma mensagem
-                            de sucesso de submissão que dizia <em>“The file has been uploaded”</em>, que significa “O
-                            arquivo foi carregado!” e indicaria que tinha conseguido realizar a submissão corretamente,
-                            como esperado. Porém, a mensagem está em vermelho. Na produção de interfaces é comum
-                            tratarmos o olhar “de relance”, em inglês <em>“at a glance”</em>, que significa aquele olhar
-                            rápido em algo. Um olhar de relance fez com que o texto fosse escondido pela mensagem que a
-                            cor transmitiu: a de erro. <strong>A cor vermelha deve sempre ser usada com cautela</strong>
-                            em interfaces para que não ocorra algo semelhante.</p>
-                        </p>
-
                         <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
-                        <section class="container">
+                        <section class="container wow fadeIn" data-wow-delay="0.3s">
                             <div class="accordion ">
                                 <section id="content">
                                     <div class="caixaprincipal" id="titulofiqueatento">
@@ -786,11 +891,13 @@ include('layout/header.php');
                                         </div>
                                     </div> <!--caixa Principal-->
                                     <div class="accordion-content" id="fiqueatento"><!--caixa secundaria-->
-                                        <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong>
+                                        <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima
+                                            </strong>
                                         </p>
                                         <p class="txt-caixasecundaria">As cores podem transmitir informações em
                                             interfaces. Seja estabelecendo a hierarquia do conteúdo ou indicando
-                                            informações, como erro. As cores também estão relacionadas a interfaces com
+                                            informações, como erro. As cores também estão relacionadas a interfaces
+                                            com
                                             relação à acessibilidade e devem, por exemplo, respeitar um nível de
                                             contraste aceitável para facilitar a leitura.</p>
                                     </div>
@@ -799,7 +906,7 @@ include('layout/header.php');
                         <!-- FIM DA CAIXA FIQUE ATENTO -->
 
                         <!-- IMAGEM 12  -->
-                        <div class="text-center img-01 scrool">
+                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s" id="img-left">
                             <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 12 </strong>
                                 - Mensagem de erro inapropriada</div>
                             <div class="zoom">
@@ -821,7 +928,8 @@ include('layout/header.php');
                                         alt=" Mensagem de ação realizada com sucesso com cor inesperada">
                                 </div>
                                 <div class="modal-footer w-100 bg-light justify-content-center">
-                                    <p class="text-secondary"><strong>Figura 12 - </strong> Mensagem de ação realizada
+                                    <p class="text-secondary"><strong>Figura 12 - </strong> Mensagem de ação
+                                        realizada
                                         com sucesso com cor inesperada
                                     </p>
                                 </div>
@@ -829,8 +937,27 @@ include('layout/header.php');
                         </div><br>
                         <!-- Imagem 12 - End -->
 
+                        <p class="wow fadeIn" data-wow-delay="0.3s"><br>O próximo exemplo (<strong>Figura 12</strong>)
+                            mostra uma resposta inesperada
+                            do sistema que
+                            causou confusão. Uma plataforma de submissão de artigos científicos apresentou uma
+                            mensagem
+                            de sucesso de submissão que dizia <em>“The file has been uploaded”</em>, que significa
+                            “O
+                            arquivo foi carregado!” e indicaria que tinha conseguido realizar a submissão
+                            corretamente,
+                            como esperado. Porém, a mensagem está em vermelho. Na produção de interfaces é comum
+                            tratarmos o olhar “de relance”, em inglês <em>“at a glance”</em>, que significa aquele
+                            olhar
+                            rápido em algo. Um olhar de relance fez com que o texto fosse escondido pela mensagem
+                            que a
+                            cor transmitiu: a de erro. <strong>A cor vermelha deve sempre ser usada com
+                                cautela</strong>
+                            em interfaces para que não ocorra algo semelhante.</p>
+                        </p>
+
                         <!-- CAIXA DE TEXTO CURIOSIDADE -->
-                        <section class="container">
+                        <section class="container wow fadeIn" data-wow-delay="0.3s">
                             <div class="accordion ">
                                 <section id="content">
                                     <div class="caixaprincipal" id="tituloCuriosidade">
@@ -855,7 +982,7 @@ include('layout/header.php');
                         <!-- FIM DA CAIXA DE TEXTO CURIOSIDADE -->
 
                         <!-- IMAGEM 13  -->
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
                             <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 13 </strong>
                                 - O tema de cor do material de base</div>
                             <div class="zoom">
@@ -863,7 +990,8 @@ include('layout/header.php');
                                     <img src="imgs/Figura13.png" alt="O tema de cor do material de base">
                                 </a>
                             </div>
-                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> Material Design.
+                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> Material
+                                Design.
                             </p>
                         </div>
 
@@ -877,7 +1005,8 @@ include('layout/header.php');
                                         alt="O tema de cor do material de base">
                                 </div>
                                 <div class="modal-footer w-75 bg-light justify-content-center">
-                                    <p class="text-secondary"><strong>Figura 13 - </strong> O tema de cor do material de
+                                    <p class="text-secondary"><strong>Figura 13 - </strong> O tema de cor do
+                                        material de
                                         base
                                     </p>
                                 </div>
@@ -896,19 +1025,19 @@ include('layout/header.php');
                     class="fa-solid fa-chevron-right"></i></a>
         </div>
 
-    <!-- BUTTON BACK TO TOP -->
-    <!-- INÍCIO DAS CONFIGURAÇÕES DO BOTÃO BACK TO TOP -->
-    <!-- BOTÃO BACK TO TOP COM UMA BARRA DE PROGRESSO -->
-    <div id="back_to_top">
-        <div id="btn_back">
-            <i id="icon_up" class="fa-solid fa-arrow-up"></i>
+        <!-- BUTTON BACK TO TOP -->
+        <!-- INÍCIO DAS CONFIGURAÇÕES DO BOTÃO BACK TO TOP -->
+        <!-- BOTÃO BACK TO TOP COM UMA BARRA DE PROGRESSO -->
+        <div id="back_to_top">
+            <div id="btn_back">
+                <i id="icon_up" class="fa-solid fa-arrow-up"></i>
+            </div>
         </div>
-    </div>
-    <!-- FIM DAS CONFIGURAÇÕES DO BOTÃO BACK TO TOP-->
+        <!-- FIM DAS CONFIGURAÇÕES DO BOTÃO BACK TO TOP-->
 
-    <?php
-    include('layout/footer.php');
-    ?>
+        <?php
+        include('layout/footer.php');
+        ?>
 
 
 </body>

@@ -29,14 +29,37 @@ include('layout/header.php');
                     <div class="col-md-10 col-sm-8 container-fluid">
 
                         <h2 class="Titulo fw-bolder wow fadeIn" data-wow-delay="0.3s">01 - Apresentação</h2>
+                        <br>
 
-                        <p><strong>Objetivo:</strong> Antes de iniciar este curso, é recomendado que
-                            veja curso “O que design ux?”, onde são apresentados os conceitos fundamentais de design UX.
-                            Ao longo deste material vamos utilizar o termo “design UX”, que é comumente utilizado em
-                            tecnologia da informação. UX é um acrônimo do termo inglês User eXperience, que em português
-                            é
-                            experiência do usuário.
-                        </p>
+                        <!-- Imagem de apresentação com texto introdutório -->
+                        <div class="apresentacao">
+
+                            <div class="img_apresentacao wow animate__zoomIn" data-wow-delay="0.3s">
+                                <img src="figuras/Group 10.png" alt="">
+                                <p class="FonteFigura FonteMenor text-secondary d-flex justify-content-start">
+                                    <strong>Fonte:Imagem retirada do Freepik</strong>
+                                </p>
+                            </div>
+                            <div>
+                                <!-- Parágrafo com a biblioteca de animação  -->
+                                <p class="wow fadeIn texto_apresentacao wow animate__zoomIn" data-wow-delay="0.3s">
+
+                                    <strong>Olá, Nome_Completo bem-vindo ao curso de UX Usabilidade na Prática.
+                                    </strong><br> Antes de iniciar este curso, é recomendado que
+                                    veja curso “O que design ux?”, onde são apresentados os conceitos fundamentais de
+                                    design UX.
+                                    Ao longo deste material vamos utilizar o termo “design UX”, que é comumente
+                                    utilizado em
+                                    tecnologia da informação. UX é um acrônimo do termo inglês User eXperience, que em
+                                    português
+                                    é
+                                    experiência do usuário.
+                                </p><br><br><br>
+
+                            </div>
+                        </div><br><br>
+                        <!-- Imagem de apresentação com texto introdutório end-->
+
 
                         <!-- CAIXA DE TEXTO IMPORTANTE -->
                         <section class="container wow fadeIn" data-wow-delay="0.3s">
@@ -65,19 +88,11 @@ include('layout/header.php');
                         </section>
 
                         <br>
-                        <p class="wow fadeIn" data-wow-delay="0.3s">Usabilidade deixou de ser um termo próprio do mundo do design de
-                            sistemas. Hoje é possível encontrá-lo escrito em caixas de produtos, como na
-                            <strong>Figura 01.</strong> Neste exemplo, o produto é um óculos 3D para
-                            realidade virtual
-                            ou aumentada da marca WARRIOR. O trecho apresentado na caixa em que
-                            considera-se usabilidade é: “Aberturas laterais para utilizar
-                            fone de ouvido e carregador durante o uso”, como você pode ler na
-                            <strong>Figura01.</strong>
-                        </p><br>
 
                         <!-- IMAGEM 01  -->
-                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
-                            <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 01 - </strong>Caixa de
+                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s" id="img-left">
+                            <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 01 - </strong>Caixa
+                                de
                                 óculos 3D
                                 Descrição de cima</div>
                             <div class="zoom">
@@ -102,6 +117,18 @@ include('layout/header.php');
                             </div>
                         </div>
                         <!-- Imagem 01 - End  (Audi)-->
+
+                        <p class="wow fadeIn" data-wow-delay="0.3s" id="text-left">Usabilidade deixou de ser um termo
+                            próprio do mundo
+                            do design de
+                            sistemas. Hoje é possível encontrá-lo escrito em caixas de produtos, como na
+                            <strong>Figura 01.</strong> Neste exemplo, o produto é um óculos 3D para
+                            realidade virtual
+                            ou aumentada da marca WARRIOR. O trecho apresentado na caixa em que
+                            considera-se usabilidade é: “Aberturas laterais para utilizar
+                            fone de ouvido e carregador durante o uso”, como você pode ler na
+                            <strong>Figura01.</strong>
+                        </p><br>
 
                         <!-- CAIXA DE TEXTO CURIOSIDADE -->
                         <section class="container wow fadeIn" data-wow-delay="0.3s">
@@ -169,13 +196,14 @@ include('layout/header.php');
                         <!-- Imagem 02 - End  (Audi)-->
 
                         <br>
-                        <p class="wow fadeIn" data-wow-delay="0.3s">A frase sobre usabilidade é curta a ponto de não entendermos qual a relação
+                        <p class="wow fadeIn" data-wow-delay="0.3s">A frase sobre usabilidade é curta a ponto de não
+                            entendermos qual a relação
                             dela com a essência do termo. O objetivo já é mais claro, a usabilidade como é apresentada é
                             considerada como uma vantagem do produto. Antes mesmo de conhecermos mais sobre usabilidade,
                             é possível se perguntar sobre alguns pontos:
                         </p><br>
 
-                        <ol class="wow fadeIn" data-wow-delay="0.3s"id="txt_final">
+                        <ol class="wow fadeIn" data-wow-delay="0.3s" id="txt_final">
                             <li>Quem decidiu agregar conceitos de usabilidade ao dispositivo?</li>
                             <li>Qual metodologia que envolve usabilidade foi utilizada para chegar na escolha desse
                                 comportamento?</li>
@@ -188,26 +216,54 @@ include('layout/header.php');
                             <li>Você se recordaria facilmente para que servem?</li>
                             <li>Seria possível reconhecer para que servem sem ler a caixa ou o manual?</li>
                         </ol>
-
+                        
                         <br>
-                        <p class="wow fadeIn" data-wow-delay="0.3s">Não vamos antecipar aqui definições formais de usabilidade, mas vamos trazer
-                            ao longo deste material as respostas para cada uma destas perguntas. Existem diversas
-                            características de qualidade que podemos aplicar aos sistemas e dispositivos. A decisão de
-                            acrescentar um nível de qualidade em alguma destas características pode ter impacto em como
-                            esse sistema ou dispositivo é aceito pelos seus usuários e pelo mercado. Vamos à teoria?
-                        </p>
+
+                        <!-- ACCORDION -->
+                        <div class="container wow animate__fadeInLeftBig" data-wow-delay="0.3s">
+                            <div class="accordion" id="accordionPanelsStayOpenExample">
+                                <div class="accordion-item" id="accordion-item-apresentacao">
+                                    <div class="accordion-header">
+                                        <button class="accordion-button text-light collapsed" type="button"
+                                            data-bs-toggle="collapse" id="accordion-botao-apresentacao"
+                                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                            aria-controls="panelsStayOpen-collapseTwo">
+                                            <h5>O que você verá agora? <span class="fw-lighter"><br>(Clique aqui
+                                                    para saber mais)</span></h5>
+                                        </button>
+                                    </div>
+                                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                        <div class="accordion-body01">
+                                            Não vamos antecipar aqui definições formais de
+                                            usabilidade, mas vamos trazer
+                                            ao longo deste material as respostas para cada uma destas perguntas. Existem
+                                            diversas
+                                            características de qualidade que podemos aplicar aos sistemas e
+                                            dispositivos. A decisão de
+                                            acrescentar um nível de qualidade em alguma destas características pode ter
+                                            impacto em como
+                                            esse sistema ou dispositivo é aceito pelos seus usuários e pelo mercado.
+                                            Vamos à teoria?
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ACCORDION END-->
+
 
                     </div>
                 </div>
-
+            </div>
         </section>
-        <!-- Botões de navegação -->
-        <div class="text-center">
-            <a href="index.php" class="btn btn-outline-success" role="button" aria-pressed="true"> <i
-                    class="fa-solid fa-chevron-left"></i> Voltar </a>
-            <a href="topico02.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
-                    class="fa-solid fa-chevron-right"></i></a>
-        </div>
+    </div>
+    <!-- Botões de navegação -->
+    <div class="text-center">
+        <a href="index.php" class="btn btn-outline-success" role="button" aria-pressed="true"> <i
+                class="fa-solid fa-chevron-left"></i> Voltar </a>
+        <a href="topico02.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
+                class="fa-solid fa-chevron-right"></i></a>
+    </div>
 
     <!-- BUTTON BACK TO TOP -->
     <!-- INÍCIO DAS CONFIGURAÇÕES DO BOTÃO BACK TO TOP -->
