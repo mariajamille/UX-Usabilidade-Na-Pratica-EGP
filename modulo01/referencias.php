@@ -30,7 +30,7 @@ include('layout/header.php');
 
                             <!-- COMEÇO REFERÊNCIAS  -->
 
-                            <h2 class="Titulo">REFERÊNCIAS</h2>
+                            <h2 class="Titulo"><i class="bi bi-book-half"></i> REFERÊNCIAS</h2>
 
                             <br>
 
@@ -70,28 +70,34 @@ include('layout/header.php');
                             </p>
                             <p class="Texto"> <i class="bi bi-book"></i> BARBOSA, Simone; SILVA, Bruno.
                                 <strong>Interação humano-computador.</strong>
-                                Elsevier Brasil, 2010. </p>
+                                Elsevier Brasil, 2010.
+                            </p>
                             <p class="Texto">NIELSEN, J. (1994, April 24). <strong>10 Usability Heuristics for User
                                     Interface Design</strong>. Retrieved November 16, 2020, from <a
                                     href="https://www.nngroup.com/articles/ten-usability-heuristics/"
                                     target="_blank">https://www.nngroup.com/articles/ten-usability-heuristics/</a>.</p>
 
-                            <p class="Texto"> <i class="bi bi-book"></i> Nielsen, J. (1994a). <strong>Enhancing the explanatory power of usability
+                            <p class="Texto"> <i class="bi bi-book"></i> Nielsen, J. (1994a). <strong>Enhancing the
+                                    explanatory power of usability
                                     heuristics</strong>. Proc. ACM CHI'94 Conf. (Boston, MA, April 24-28), 152-158.</p>
 
-                            <p class="Texto"> <i class="bi bi-book"></i> Nielsen, J. (1994b). <strong>Heuristic evaluation</strong>. In Nielsen, J.,
+                            <p class="Texto"> <i class="bi bi-book"></i> Nielsen, J. (1994b). <strong>Heuristic
+                                    evaluation</strong>. In Nielsen, J.,
                                 and Mack, R.L. (Eds.), Usability Inspection Methods, John Wiley & Sons, New York, NY.
                             </p>
 
-                            <p class="Texto"> <i class="bi bi-book"></i> Gordon, Kelley (March 1, 2020). <strong>5 Principles of Visual Design in
+                            <p class="Texto"> <i class="bi bi-book"></i> Gordon, Kelley (March 1, 2020). <strong>5
+                                    Principles of Visual Design in
                                     UX</strong>. Retrieved November 22, 2020, from <a
                                     href="https://www.nngroup.com/articles/principles-visual-design/"
                                     target="_blank">https://www.nngroup.com/articles/principles-visual-design/</a>. </p>
 
-                            <p class="Texto"> <i class="bi bi-book"></i> CARELMAN, Jacques. <strong>Catalogue d'objets introuvables</strong>.
+                            <p class="Texto"> <i class="bi bi-book"></i> CARELMAN, Jacques. <strong>Catalogue d'objets
+                                    introuvables</strong>.
                                 Balland, 1980.</p>
 
-                            <p class="Texto"> <i class="bi bi-book"></i> NORMAN, Donald A. <strong>O design do dia a dia</strong>. Editora Rocco,
+                            <p class="Texto"> <i class="bi bi-book"></i> NORMAN, Donald A. <strong>O design do dia a
+                                    dia</strong>. Editora Rocco,
                                 2018.</p>
 
 

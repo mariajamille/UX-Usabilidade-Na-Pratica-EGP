@@ -27,21 +27,23 @@ include('layout/header.php');
                     <div class="col-md-10 col-sm-8 container-fluid">
 
                         <!--  Título Pricipal -->
-                        <h2 class="Titulo fw-bolder"> 4 - Avaliação de Usabilidade</h2>
+                        <h2 class="Titulo fw-bolder wow fadeIn" data-wow-delay="0.3s"> 4 - Avaliação de Usabilidade</h2>
                         <!--  Título Principal -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">A usabilidade é passível de avaliação. Vamos entender o básico de
+                        <p class="wow fadeIn" data-wow-delay="0.3s">A usabilidade é passível de avaliação. Vamos
+                            entender o básico de
                             avaliações nas próximas subseções.
                         </p>
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item4.1"> 4.1 - Por que avaliar?</h3>
+                        <h3 class="Subtopico fw-bolder wow fadeIn" data-wow-delay="0.3s" id="item4.1"> 4.1 - Por que
+                            avaliar?</h3>
                         <!-- subtopico -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">Conhecer critérios de qualidade e seguir processos de fabricação que
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Conhecer critérios de qualidade e seguir processos de fabricação que
                             busquem criar produtos adequados a esses critérios nem sempre resultam
                             em produtos de qualidade. É necessário realizar avaliações do produto ao
                             final ou ao longo deste processo. Estas avaliações podem conter diferentes
@@ -50,7 +52,7 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">Avaliar a qualidade de uso e corrigir os problemas identificados
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Avaliar a qualidade de uso e corrigir os problemas identificados
                             contribuem para aumentar a produtividade dos usuários, diminuir o número e
                             a gravidade dos erros cometidos durante o uso, e aumentar a satisfação dos
                             usuários. Este impacto também se reflete em como o produto é aceito por
@@ -60,11 +62,11 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item4.2"> 4.2 - Como Avaliar</h3>
+                        <h3 class="Subtopico fw-bolder wow fadeIn" data-wow-delay="0.3s" id="item4.2"> 4.2 - Como Avaliar</h3>
                         <!-- subtopico -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool"> É possível avaliar a usabilidade tomando como base uma das definições
+                        <p class="swow fadeIn" data-wow-delay="0.3s"> É possível avaliar a usabilidade tomando como base uma das definições
                             apresentadas no capítulo 2 (Usabilidade) ou outras que não foram aqui
                             apresentadas. Isto é, se utilizar a definição da ISO/IEC 25.000 é possível
                             encontrar um método apropriado para medir as subcaracterísticas
@@ -74,7 +76,7 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">A avaliação pode ocorrer de três formas: Investigação, Inspeção e
+                        <p class="wow fadeIn" data-wow-delay="0.3s">A avaliação pode ocorrer de três formas: Investigação, Inspeção e
                             Observação. Veja as descrições de cada uma:
                         </p>
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
@@ -100,7 +102,7 @@ include('layout/header.php');
                         </ul>
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool"> Uma avaliação pode buscar respostas sobre pontos específicos, como:
+                        <p class="wow fadeIn" data-wow-delay="0.3s"> Uma avaliação pode buscar respostas sobre pontos específicos, como:
                         </p>
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
@@ -128,7 +130,7 @@ include('layout/header.php');
                         <!-- fim da lista  -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">Para realizar uma avaliação é necessário decidir como ela irá ocorrer, em
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Para realizar uma avaliação é necessário decidir como ela irá ocorrer, em
                             que contexto (laboratório ou real), quantas e quais pessoas irão participar,
                             quais dados irão ser coletados (quantitativos ou qualitativos), que método
                             será usado na análise dos dados e outros critérios fundamentais para que a
@@ -141,7 +143,7 @@ include('layout/header.php');
                         <!-- fim do subsubtopico  -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">A avaliação heurística, também chamada de inspeção heurística, é um
+                        <p class="wow fadeIn" data-wow-delay="0.3s">A avaliação heurística, também chamada de inspeção heurística, é um
                             método de avaliação de IHC criado para encontrar problemas de usabilidade
                             durante um processo interativo. Foi proposto juntamente com as heurísticas
                             de usabilidade de Nielsen com a finalidade de ser um <strong> método simples,
@@ -152,7 +154,7 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool"> Esse método orienta os avaliadores a realizarem uma inspeção
+                        <p class="wow fadeIn" data-wow-delay="0.3s"> Esse método orienta os avaliadores a realizarem uma inspeção
                             sistemática da interface seguindo atividades especificadas anteriormente. O avaliador
                             realiza as atividades ao mesmo tempo que busca problemas de
                             usabilidade baseados nas heurísticas.
@@ -160,7 +162,7 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">Para cada problema encontrado é comum estabelecer um nível de
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Para cada problema encontrado é comum estabelecer um nível de
                             severidade que segue a <strong>Tabela 01.</strong> Além do grau de severidade, o problema
                             pode conter descrição, sugestão de melhoria, local (tela) onde ocorreu e a
                             atividade relacionada.
@@ -169,7 +171,7 @@ include('layout/header.php');
 
                         <!-- IMAGEM NO SITE  -->
 
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
                             <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 1:</strong>
                                 Descrição de cima</p>
                             <div class="zoom">
@@ -192,7 +194,7 @@ include('layout/header.php');
                         <!-- Imagem - End-->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">Apesar de parecer óbvio, <strong> uma avaliação heurística encontra
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Apesar de parecer óbvio, <strong> uma avaliação heurística encontra
                                 problemas.</strong> Por que é importante ressaltar isto? Porque nem sempre uma
                             equipe ou um projeto está pronto para receber um conjunto de problemas.
                             Se estes problemas não forem analisados e corrigidos, esta avaliação pode ter
@@ -205,7 +207,7 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool"> Uma avaliação heurística pode utilizar-se de outras heurísticas ou regras.
+                        <p class="wow fadeIn" data-wow-delay="0.3s"> Uma avaliação heurística pode utilizar-se de outras heurísticas ou regras.
                             É comum existirem conjuntos específicos para cada tipo de sistema, por
                             exemplo, para aplicativos móveis ou sistemas de realidade virtual. Busque
                             sempre um mais apropriado ao sistema ou se baseie nos mais genéricos.
@@ -214,7 +216,7 @@ include('layout/header.php');
 
                         <!-- IMAGEM NO SITE  -->
 
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
                             <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 32:</strong>
                                 Interface frustrante da Bagaar</p>
                             <div class="zoom">
@@ -243,7 +245,7 @@ include('layout/header.php');
                         <!-- FIM DA IMAGEM NO SITE  -->
 
                         <!-- CAIXA DE TEXTO CURIOSIDADE -->
-                        <section class="container">
+                        <section class="container wow fadeIn" data-wow-delay="0.3s">
                             <div class="accordion ">
                                 <section id="content">
                                     <div class="caixaprincipal" id="tituloCuriosidade">
@@ -258,12 +260,13 @@ include('layout/header.php');
                                                     Passe o mouse acima
                                                 </strong></strong></p>
                                         <p class="txt-caixasecundaria">Abra e copie (ou baixe) esta planilha de suporte
-                                            à <a
-                                                href="https://docs.google.com/spreadsheets/d/1ebC2JqwTi7q7uxejL7TuhDoqoUGFVGthjwAu7B979ts/edit#gid=1283962207" target="_blank">avaliação
+                                            à <a href="https://docs.google.com/spreadsheets/d/1ebC2JqwTi7q7uxejL7TuhDoqoUGFVGthjwAu7B979ts/edit#gid=1283962207"
+                                                target="_blank">avaliação
                                                 heurística:</a>
                                             Avaliação Heurística.
                                             Realize uma avaliação heurística neste sistema: <a
-                                                href="https://userinyerface.com/" target="_blank"> User Inyerface - A worst
+                                                href="https://userinyerface.com/" target="_blank"> User Inyerface - A
+                                                worst
                                                 practice UI experiment.</a> Este é um site onde uma empresa de
                                             tecnologia,
                                             Bagaar, criou um excelente exemplo de interface frustrante.

@@ -27,17 +27,18 @@ include('layout/header.php');
                     <div class="col-md-10 col-sm-8 container-fluid">
 
                         <!--  Título Pricipal -->
-                        <h2 class="Titulo fw-bolder">3 - Heurísticas de Nielsen</h2>
+                        <h2 class="Titulo fw-bolder wow fadeIn" data-wow-delay="0.3s">3 - Heurísticas de Nielsen</h2>
 
                         <!-- paragrafo com scroll reveal  -->
-                        <p class="scrool">Como já foi dito anteriormente, Nielsen consolidou um conjunto de 10
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Como já foi dito anteriormente, Nielsen consolidou
+                            um conjunto de 10
                             heurísticas de usabilidade, que são amplamente utilizadas hoje [8]. No
                             subtópicos a seguir veremos em detalhes cada heurística de forma aplicada a
                             interfaces reais. A lista abaixo apresenta o título em português e em inglês
                             das heurísticas:
                         </p>
 
-                        <ol class="scrool" id="txt_final">
+                        <ol class="wow fadeIn" data-wow-delay="0.3s" id="txt_final">
                             <li>Visibilidade de qual estado estamos no sistema (Visibility of system
                                 status)</li>
                             <li> Correspondência entre o sistema e o mundo real (Match between
@@ -54,25 +55,17 @@ include('layout/header.php');
                             <li>Ajuda e documentação (Help and documentation)</li>
                         </ol>
 
+                        <br>
+
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item3.1">3.1 - Visibilidade de qual estado estamos no
+                        <h3 class="Subtopico fw-bolder wow fadeIn" data-wow-delay="0.3s" id="item3.1">3.1 - Visibilidade
+                            de qual estado estamos no
                             sistema</h3>
                         <!-- subtopico -->
 
-                        <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">O sistema deve informar continuamente ao usuário sobre o que ele está
-                            fazendo e a situação atual do sistema. Isto é, ele deve informar se há algum
-                            processamento que está sendo realizado internamente e informar, por
-                            exemplo, se uma requisição deu certo ou errado ou quanto tempo falta para
-                            finalizá-la. O que seria isto na prática? Uma forma simples de entender o
-                            feedback é o botão do elevador indicando em qual andar você e outras
-                            pessoas irão descer.<strong> Veja a Figura 14. </strong>
-                        </p>
-                        <!--  Fim do Parágrafo com a biblioteca de animação -->
-
                         <!-- IMAGEM NO SITE  -->
 
-                        <div class="text-center img-01 fig14">
+                        <div class="text-center img-01 fig14 wow fadeIn" data-wow-delay="0.3s" id="img-left">
                             <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 14:</strong>
                                 Botão indicando o andar no elevador</p>
                             <div class="zoom">
@@ -98,10 +91,23 @@ include('layout/header.php');
                         </div>
                         <!-- Imagem 01 - End  (Audi)-->
 
+                        <!-- Parágrafo com a biblioteca de animação  -->
+                        <p class="wow fadeIn" data-wow-delay="0.3s">O sistema deve informar continuamente ao usuário
+                            sobre o que ele está
+                            fazendo e a situação atual do sistema. Isto é, ele deve informar se há algum
+                            processamento que está sendo realizado internamente e informar, por
+                            exemplo, se uma requisição deu certo ou errado ou quanto tempo falta para
+                            finalizá-la. O que seria isto na prática? Uma forma simples de entender o
+                            feedback é o botão do elevador indicando em qual andar você e outras
+                            pessoas irão descer.<strong> Veja a Figura 14. </strong>
+                        </p>
+                        <!--  Fim do Parágrafo com a biblioteca de animação -->
+
                         <!-- FIM DA IMAGEM NO SITE  -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">Ainda no exemplo do elevador, suponha que você apertou o botão de
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Ainda no exemplo do elevador, suponha que você
+                            apertou o botão de
                             um andar e ele não ficou marcado, o que você faria? Provavelmente você
                             entenderia que houve um problema ao apertar o botão e apertaria
                             novamente. Se não tivesse esse retorno do sistema, como saberia se deu
@@ -110,20 +116,23 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">Essa informação sobre o estado do sistema deve ser dada o mais rápido
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Essa informação sobre o estado do sistema deve ser
+                            dada o mais rápido
                             possível. Além disso, deve ser clara e significativa. Por exemplo, não faz
                             sentido apresentar ao usuário que um dado do sistema está sendo salvo no
                             banco de dados da aplicação, já que para o usuário esta informação pode
                             não ser bem compreendida, por ser muito técnica. Neste caso, pedir para
                             aguardar e informar que está salvando seria o suficiente.
                         </p>
+
+                        <br><br>
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
-                        <p class="scrool">
+                        <p class="wow fadeIn" data-wow-delay="0.3s">
                             A <strong>Figura 15</strong> traz mais três exemplos de como dar visibilidade ao estado
                             do sistema, descritos abaixo:
                         </p>
 
-                        <ol class="scrool" id="txt_final">
+                        <ol class="wow fadeIn" data-wow-delay="0.3s" id="txt_final">
                             <li>Na primeira imagem, há uma informação sobre uma atualização salva
                                 com sucesso. Essa informação está bem posicionada ao lado do botão
                                 salvar, permitindo que seja visualizada caso a pessoa pense em salvar
@@ -142,7 +151,7 @@ include('layout/header.php');
 
                         <!-- IMAGEM NO SITE  -->
 
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
                             <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 15, 15.1 e
                                     15.2:</strong>
                                 Exemplos de como dar visibilidade ao estado do sistema</p>
@@ -151,12 +160,12 @@ include('layout/header.php');
                             <div class="container text-center">
                                 <div class="row">
 
-                                    <div class="zoom col">
+                                    <div class="zoom col wow fadeIn" data-wow-delay="0.3s">
                                         <a href="imgs/Figura15.png" data-bs-toggle="modal" data-bs-target="#Imagem15">
                                             <img src="imgs/Figura15.png" alt="Imagem" id="img-15">
                                         </a>
                                     </div>
-                                    <div class="zoom col">
+                                    <div class="zoom col wow fadeIn" data-wow-delay="0.3s">
                                         <a href="imgs/Figura15_1.png" data-bs-toggle="modal"
                                             data-bs-target="#Imagem15_1">
                                             <img src="imgs/Figura15_1.png" alt="Imagem" id="img-15_1">
@@ -164,7 +173,7 @@ include('layout/header.php');
                                     </div>
                                 </div>
                             </div>
-                            <div class="zoom img15_2">
+                            <div class="zoom img15_2 wow fadeIn" data-wow-delay="0.3s">
                                 <a href="imgs/Figura15_2.png" data-bs-toggle="modal" data-bs-target="#Imagem15_2">
                                     <img src="imgs/Figura15_2.png" alt="Imagem" id="img-15_2">
                                 </a>
@@ -221,7 +230,8 @@ include('layout/header.php');
                         <!-- FIM DA IMAGEM NO SITE  -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">Além do retorno de ações mais comuns, tenha atenção nas informações
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Além do retorno de ações mais comuns, tenha atenção
+                            nas informações
                             cruciais do sistema. De acordo com Nielsen, nenhuma ação com
                             consequências para os usuários deve ser realizada sem informá-los e isto é
                             necessário para estabelecer confiança no sistema.
@@ -229,13 +239,15 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item3.2">3.2 - Correspondência entre o sistema e o mundo
+                        <h3 class="Subtopico fw-bolder wow fadeIn" data-wow-delay="0.3s" id="item3.2">3.2 -
+                            Correspondência entre o sistema e o mundo
                             real
                         </h3>
                         <!-- subtopico -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">A terminologia utilizada nas interfaces deve ser baseada na linguagem
+                        <p class="wow fadeIn" data-wow-delay="0.3s">A terminologia utilizada nas interfaces deve ser
+                            baseada na linguagem
                             do usuário e não orientada ao sistema. As informações devem ser
                             organizadas conforme o modelo mental do usuário. Isto na prática significa
                             que devemos <strong> evitar termos técnicos ou termos específicos do negócio</strong>
@@ -245,7 +257,8 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">Suponha que você precisa criar uma interface que informa trajetos de
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Suponha que você precisa criar uma interface que
+                            informa trajetos de
                             ônibus exclusivo para sua cidade. Qual dos ícones da <strong> Figura 16 </strong> você
                             utilizaria? Se você mora em Fortaleza, que possui paradas como as da <strong> Figura
                                 17 </strong>, provavelmente escolheria a última opção, ou escolheria alguma das
@@ -255,7 +268,7 @@ include('layout/header.php');
 
                         <!-- IMAGEM NO SITE  -->
 
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
                             <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 16:</strong>
                                 Ícones para parada de ônibus</p>
                             <div class="zoom">
@@ -283,7 +296,7 @@ include('layout/header.php');
 
                         <!-- IMAGEM NO SITE  -->
 
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
                             <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 17 e 17.1:</strong>
                                 Paradas de ônibus em Fortaleza</p>
 
@@ -345,7 +358,8 @@ include('layout/header.php');
                         <!-- FIM DA IMAGEM NO SITE  -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">Por que ter esse cuidado em carregar esse nível de realidade no ícone?
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Por que ter esse cuidado em carregar esse nível de
+                            realidade no ícone?
                             Pelo <strong>modelo mental</strong> que temos dos objetos. Se você fez o curso “O que
                             design ux?”, deve lembrar que modelo mental é a <strong> representação do
                                 processo de pensamento de alguém para saber como algo funciona </strong> (ou
@@ -359,7 +373,8 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">A <strong> Figura 18 </strong> mostra outro exemplo em que a lixeira do
+                        <p class="wow fadeIn" data-wow-delay="0.3s">A <strong> Figura 18 </strong> mostra outro exemplo
+                            em que a lixeira do
                             Windows traz o
                             modelo mental de forma bem próxima do que se espera de uma lixeira,
                             mesmo que esta seja virtual e não precise ser um local físico, como proposto
@@ -369,7 +384,7 @@ include('layout/header.php');
 
                         <!-- IMAGEM NO SITE  -->
 
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
                             <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 18:</strong>
                                 Ícone da lixeira no Windows</p>
                             <div class="zoom">
@@ -400,7 +415,8 @@ include('layout/header.php');
                         <!-- FIM DA IMAGEM NO SITE  -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">A <strong> Figura 19 </strong> apresenta mais um exemplo, que vai fazer
+                        <p class="wow fadeIn" data-wow-delay="0.3s">A <strong> Figura 19 </strong> apresenta mais um
+                            exemplo, que vai fazer
                             relembrar
                             momentos passados àqueles que utilizaram computadores desde décadas
                             passadas: uma interface antiga do Winamp, um aplicativo para ouvir músicas
@@ -413,7 +429,7 @@ include('layout/header.php');
 
                         <!-- IMAGEM NO SITE  -->
 
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
                             <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 1:</strong>
                                 Representação
                                 do tempo na mente humana</p>
@@ -445,7 +461,7 @@ include('layout/header.php');
                         <!-- Imagem - End-->
 
                         <!-- CAIXA DE TEXTO CURIOSIDADE -->
-                        <section class="container">
+                        <section class="container wow fadeIn" data-wow-delay="0.3s">
                             <div class="accordion ">
                                 <section id="content">
                                     <div class="caixaprincipal" id="tituloCuriosidade">
@@ -472,7 +488,8 @@ include('layout/header.php');
                         <!-- FIM DA CAIXA DE TEXTO CURIOSIDADE -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">Esta heurística também diz respeito à <strong> ordem </strong> em que os
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Esta heurística também diz respeito à <strong> ordem
+                            </strong> em que os
                             objetos são
                             postos ou ocorrem. Informações devem aparecer em ordem cronológica e
                             natural, de acordo com as convenções do mundo real. Essa regra tem que
@@ -486,10 +503,12 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item3.3">3.3 - Liberdade de controle fácil pro usuário</h3>
+                        <h3 class="Subtopico fw-bolder wow fadeIn" data-wow-delay="0.3s" id="item3.3">3.3 - Liberdade de
+                            controle fácil pro usuário</h3>
                         <!-- subtopico -->
 
-                        <p class="scrool">O usuário deve controlar o sistema e <strong> poder a qualquer momento
+                        <p class="wow fadeIn" data-wow-delay="0.3s">O usuário deve controlar o sistema e <strong> poder
+                                a qualquer momento
                                 abortar uma tarefa ou desfazer uma operação para retornar ao estado
                                 anterior </strong>. É necessário deixar sempre claro como é possível retornar a um
                             estado anterior. Uma aplicação prática desta heurística, que é bastante
@@ -501,7 +520,7 @@ include('layout/header.php');
 
                         <!-- IMAGEM NO SITE  -->
 
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
                             <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 20:</strong>
                                 Atalho para desfazer uma ação</p>
                             <div class="zoom">
@@ -530,7 +549,8 @@ include('layout/header.php');
 
                         <!-- FIM DA IMAGEM NO SITE  -->
 
-                        <p class="scrool">Um outro exemplo, menos comum, é o processo de apagar mensagens
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Um outro exemplo, menos comum, é o processo de
+                            apagar mensagens
                             de aplicativos de conversas instantâneas, como <a
                                 href="https://www.whatsapp.com/?lang=pt_br"> Whatsapp </a> <strong> (Figura 19)
                             </strong>. Há um
@@ -542,7 +562,8 @@ include('layout/header.php');
                             exposta.
                         </p>
 
-                        <p class="scrool">Esse poder de retorno de uma ação cria confiabilidade no uso: é mais
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Esse poder de retorno de uma ação cria
+                            confiabilidade no uso: é mais
                             seguro saber que você pode apagar uma mensagem se enviar no grupo
                             errado. Entretanto, é interessante refletir sobre o impacto dessa ação no
                             processo no qual o sistema está envolvido.
@@ -550,7 +571,7 @@ include('layout/header.php');
 
                         <!-- IMAGEM NO SITE  -->
 
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
                             <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 21:</strong>
                                 Apagar mensagem no Whatsapp
                             </p>
@@ -566,7 +587,7 @@ include('layout/header.php');
                         </div>
 
                         <!-- Imagem - MODAL-->
-                        <div class="modal fade text-center" id="Imagem21" tabindex="-1"
+                        <div class="modal fade text-center wow fadeIn" data-wow-delay="0.3s" id="Imagem21" tabindex="-1"
                             aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div
                                 class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
@@ -582,16 +603,19 @@ include('layout/header.php');
                         <!-- Imagem - End-->
 
 
-                        <p class="scrool">De acordo com Nielsen, quando uma ação é fácil de desfazer, isso
+                        <p class="wow fadeIn" data-wow-delay="0.3s">De acordo com Nielsen, quando uma ação é fácil de
+                            desfazer, isso
                             fomenta um senso de liberdade e confiança com o sistema, dando controle a
                             quem o utiliza.
                         </p>
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item3.4">3.4 - Consistência e Padrões</h3>
+                        <h3 class="Subtopico fw-bolder wow fadeIn" data-wow-delay="0.3s" id="item3.4">3.4 - Consistência
+                            e Padrões</h3>
                         <!-- subtopico -->
 
-                        <p class="scrool"><strong>Um mesmo comando ou ação deve ter sempre o mesmo efeito. </strong>
+                        <p class="wow fadeIn" data-wow-delay="0.3s"><strong>Um mesmo comando ou ação deve ter sempre o
+                                mesmo efeito. </strong>
                             A
                             mesma operação deve ser apresentada na mesma localização e deve ser
                             formatada ou apresentada da mesma maneira para facilitar o
@@ -602,7 +626,8 @@ include('layout/header.php');
                             também aplicada aos termos utilizados como títulos e menus.
                         </p>
 
-                        <p class="scrool">Para desenvolvimento de interface sistemas, existem diversos padrões
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Para desenvolvimento de interface sistemas, existem
+                            diversos padrões
                             bem estabelecidos. Um destes é o Material Design <strong> (Figura 22) </strong> que
                             possui
                             regras de design para aplicações diversas e trata de componentes, cores e
@@ -611,7 +636,7 @@ include('layout/header.php');
 
                         <!-- IMAGEM NO SITE  -->
 
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
                             <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 22:</strong>
                                 Material Design
                             </p>
@@ -633,14 +658,16 @@ include('layout/header.php');
                                     <img class="img-fluid" src="imgs/Figura22.png" alt="Alt da imagem fica aqui">
                                 </div>
                                 <div class="modal-footer w-75 bg-light justify-content-center">
-                                    <p class="text-secondary"><strong>Fonte:</strong><a href="https://m3.material.io/" target="_blank">
+                                    <p class="text-secondary"><strong>Fonte:</strong><a href="https://m3.material.io/"
+                                            target="_blank">
                                             Material Design.</a></p>
                                 </div>
                             </div>
                         </div>
                         <!-- Imagem - End-->
 
-                        <p class="scrool">Utilizar padrões torna as interfaces mais fáceis de aprender. Sistemas que
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Utilizar padrões torna as interfaces mais fáceis de
+                            aprender. Sistemas que
                             seguem modelos conceituais bem estabelecidos são fáceis de usar. Apesar
                             disso, é comum se questionar se: é possível inovar seguindo padrões? Sim.
                             Tanto é possível, que o próprio Material Design apresenta exemplos de
@@ -649,7 +676,7 @@ include('layout/header.php');
                         </p>
 
                         <!-- CAIXA DE TEXTO SAIBA-MAIS -->
-                        <section class="container">
+                        <section class="container wow fadeIn" data-wow-delay="0.3s">
                             <div class="accordion ">
                                 <section id="content">
                                     <div class="caixaprincipal" id="tituloSaibaMais">
@@ -666,8 +693,8 @@ include('layout/header.php');
                                         <p class="txt-caixasecundaria">Conheça os exemplos de interfaces no Material
                                             Design, chamados de
                                             Material Studies, e veja como um padrão pode tomar diferentes formatos:
-                                            <a
-                                                href="https://m2.material.io/design/material-studies/about-our-material-studies.html" target="_blank">Material
+                                            <a href="https://m2.material.io/design/material-studies/about-our-material-studies.html"
+                                                target="_blank">Material
                                                 Studies.</a>
                                         </p><!--caixa secundaria-->
                                     </div>
@@ -677,11 +704,13 @@ include('layout/header.php');
 
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item3.5">3.5 - Prevenção de Erros
+                        <h3 class="Subtopico fw-bolder wow fadeIn" data-wow-delay="0.3s" id="item3.5">3.5 - Prevenção de
+                            Erros
                         </h3>
                         <!-- subtopico -->
 
-                        <p class="scrool">É imprescindível que se evite situações de erro para ter uma boa
+                        <p class="wow fadeIn" data-wow-delay="0.3s">É imprescindível que se evite situações de erro para
+                            ter uma boa
                             interação. Esta heurística trata de conhecer as <strong> situações que mais provocam
                                 erros e modificar a interface para que estes erros não ocorram </strong>. Por
                             exemplo,
@@ -690,7 +719,8 @@ include('layout/header.php');
                             uma opção de confirmar esta ação ou cancelar antes de executá-la.
                         </p>
 
-                        <p class="scrool">Um exemplo prático da prevenção de erros é o que acontece em
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Um exemplo prático da prevenção de erros é o que
+                            acontece em
                             cadastros quando os campos obrigatórios não são preenchidos ou são
                             preenchidos de forma incorreta. A <strong> Figura 23 </strong> apresenta esse tipo de
                             retorno
@@ -699,7 +729,7 @@ include('layout/header.php');
 
                         <!-- IMAGEM NO SITE  -->
 
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
                             <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 23:</strong>
                                 Exemplos de cadastro indicando possíveis erros</p>
                             <div class="zoom">
@@ -725,14 +755,15 @@ include('layout/header.php');
                         </div>
                         <!-- Imagem - End-->
 
-                        <p class="scrool">No exemplo da <strong> Figura 24 </strong>, vemos a prevenção de erro na
+                        <p class="wow fadeIn" data-wow-delay="0.3s">No exemplo da <strong> Figura 24 </strong>, vemos a
+                            prevenção de erro na
                             ortografia de
                             um termo buscado no buscador web da Google.
                         </p>
 
                         <!-- IMAGEM NO SITE  -->
 
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
                             <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 24:</strong>
                                 Exemplo de prevenção de erro em buscador web</p>
                             <div class="zoom">
@@ -760,7 +791,8 @@ include('layout/header.php');
 
                         <!-- FIM DA IMAGEM  -->
 
-                        <p class="scrool">De acordo com Nielsen, existem dois tipos de erros: <strong>deslizes
+                        <p class="wow fadeIn" data-wow-delay="0.3s">De acordo com Nielsen, existem dois tipos de erros:
+                            <strong>deslizes
                             </strong>(slips) e
                             <strong> erros </strong>(errors). Deslizes são erros inconscientes causados por
                             desatenção.
@@ -772,10 +804,12 @@ include('layout/header.php');
 
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item3.6">3.6 - Reconhecimento em vez de memorização</h3>
+                        <h3 class="Subtopico fw-bolder wow fadeIn" data-wow-delay="0.3s" id="item3.6">3.6 -
+                            Reconhecimento em vez de memorização</h3>
                         <!-- subtopico -->
 
-                        <p class="scrool"> Você conhece todos os programas da sua máquina de lavar roupa? Você
+                        <p class="wow fadeIn" data-wow-delay="0.3s"> Você conhece todos os programas da sua máquina de
+                            lavar roupa? Você
                             se recorda de como deve colocar o sabão, o amaciante e quanto tempo
                             levará para você retirar suas roupas limpas? Essa heurística irá atuar nestas
                             questões. Veja o exemplo da torneira da <strong>Figura 25</strong> . Imagine utilizá-la
@@ -788,7 +822,7 @@ include('layout/header.php');
 
                         <!-- IMAGEM NO SITE  -->
 
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
                             <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 25:</strong>
                                 Torneira com abertura diferenciada</p>
                             <div class="zoom">
@@ -817,7 +851,7 @@ include('layout/header.php');
                         <!-- Imagem - End-->
 
                         <!-- CAIXA DE TEXTO CURIOSIDADE -->
-                        <section class="container">
+                        <section class="container wow fadeIn" data-wow-delay="0.3s">
                             <div class="accordion ">
                                 <section id="content">
                                     <div class="caixaprincipal" id="tituloCuriosidade">
@@ -839,7 +873,8 @@ include('layout/header.php');
                                             quebrarem
                                             a lógica, isto é, fugir dos modelos mentais que temos dos objetos, os
                                             exemplos são divertidos. Conheça algumas peças do livro em <a
-                                                href="https://www.laboiteverte.fr/les-objets-introuvables-de-jacques-carelman/" target="_blank">“Les
+                                                href="https://www.laboiteverte.fr/les-objets-introuvables-de-jacques-carelman/"
+                                                target="_blank">“Les
                                                 objets
                                                 introuvables de Jacques Carelman”.</a>
                                         </p><!--caixa secundaria-->
@@ -849,7 +884,8 @@ include('layout/header.php');
                         <!-- FIM DA CAIXA DE TEXTO CURIOSIDADE -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool"> <strong> Objetos, ações e opções devem estar visíveis e devem ser
+                        <p class="wow fadeIn" data-wow-delay="0.3s"> <strong> Objetos, ações e opções devem estar
+                                visíveis e devem ser
                                 coerentes
                                 em sua apresentação</strong>. Por exemplo, instruções de uso do sistema devem ser
                             fáceis de serem encontradas ou facilmente recuperadas sempre que
@@ -861,7 +897,8 @@ include('layout/header.php');
 
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">Para aplicar o reconhecimento em vez de memorização, é possível
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Para aplicar o reconhecimento em vez de memorização,
+                            é possível
                             utilizar-se de padrões, como ícones comuns para determinadas ações. Uma
                             outra forma de aplicar o reconhecimento em vez de memorização, é entregar
                             opções em vez de pedir respostas abertas. Por exemplo, campos
@@ -874,7 +911,7 @@ include('layout/header.php');
 
                         <!-- IMAGEM NO SITE  -->
 
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
                             <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 26:</strong>
                                 Campo autocomplete</p>
                             <div class="zoom">
@@ -905,11 +942,13 @@ include('layout/header.php');
                         <!-- FIM DA IMAGEM NO SITE  -->
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item3.7">3.7 - Flexibilidade e Eficiência de Uso</h3>
+                        <h3 class="Subtopico fw-bolder wow fadeIn" data-wow-delay="0.3s" id="item3.7">3.7 -
+                            Flexibilidade e Eficiência de Uso</h3>
                         <!-- subtopico -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">A flexibilidade e eficiência de uso diz respeito a <strong> atalhos para
+                        <p class="wow fadeIn" data-wow-delay="0.3s">A flexibilidade e eficiência de uso diz respeito a
+                            <strong> atalhos para
                                 usuários
                                 experientes executarem as operações ou recuperarem informações mais
                                 rapidamente. </strong> A flexibilidade das interfaces tem a finalidade de tornar a
@@ -918,7 +957,7 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- lista ordenada  -->
-                        <ol class="scrool" id="txt_final">
+                        <ol class="wow fadeIn" data-wow-delay="0.3s" id="txt_final">
                             <li>Abreviações;</li>
                             <li>Teclas de função;</li>
                             <li>Duplo clique no mouse;</li>
@@ -928,8 +967,10 @@ include('layout/header.php');
                         <!-- fim da lista ordenada  -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">Um exemplo prático são os atalhos que utilizamos em sistemas para
-                            edição de texto, como <a href="https://www.microsoft.com/pt-br/microsoft-365/word" target="_blank">Microsoft
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Um exemplo prático são os atalhos que utilizamos em
+                            sistemas para
+                            edição de texto, como <a href="https://www.microsoft.com/pt-br/microsoft-365/word"
+                                target="_blank">Microsoft
                                 Word</a> . A <strong>Figura 27</strong> apresenta atalhos usados
                             com frequência no sistema. Quantos destes você sabe de cor?
                         </p>
@@ -937,7 +978,7 @@ include('layout/header.php');
 
                         <!-- IMAGEM NO SITE  -->
 
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
                             <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 27:</strong>
                                 Atalhos do Microsoft Word</p>
                             <div class="zoom">
@@ -946,7 +987,8 @@ include('layout/header.php');
                                 </a>
                             </div>
                             <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong><a
-                                    href="https://support.microsoft.com/pt-br/office/atalhos-de-teclado-do-word-95ef89dd-7142-4b50-afb2-f762f663ceb2" target="_blank">
+                                    href="https://support.microsoft.com/pt-br/office/atalhos-de-teclado-do-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+                                    target="_blank">
                                     Atalhos de teclado do Word - Suporte do Office .</a></p>
                         </div>
 
@@ -960,7 +1002,8 @@ include('layout/header.php');
                                 </div>
                                 <div class="modal-footer w-75 bg-light justify-content-center">
                                     <p class="text-secondary"><strong>Fonte:</strong><a
-                                            href="https://support.microsoft.com/pt-br/office/atalhos-de-teclado-do-word-95ef89dd-7142-4b50-afb2-f762f663ceb2" target="_blank">
+                                            href="https://support.microsoft.com/pt-br/office/atalhos-de-teclado-do-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+                                            target="_blank">
                                             Atalhos de teclado do Word - Suporte do Office .</a></p>
                                 </div>
                             </div>
@@ -970,11 +1013,13 @@ include('layout/header.php');
                         <!-- FIM DA IMAGEM NO SITE  -->
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item3.8">3.8 - Estética e design minimalista</h3>
+                        <h3 class="Subtopico fw-bolder" id="item3.8 wow fadeIn" data-wow-delay="0.3s">3.8 - Estética e
+                            design minimalista</h3>
                         <!-- subtopico -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">As <strong>interfaces não devem conter informações irrelevantes ou
+                        <p class="wow fadeIn" data-wow-delay="0.3s">As <strong>interfaces não devem conter informações
+                                irrelevantes ou
                                 raramente utilizadas</strong> . É necessário compreender que informações o usuário
                             necessita e quais
                             opções devem estar disponíveis no momento, para entregar
@@ -983,7 +1028,8 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">Para isto, os elementos visuais da interface devem apoiar os objetivos
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Para isto, os elementos visuais da interface devem
+                            apoiar os objetivos
                             principais do usuário. Além disso, a sequência da interação e o acesso aos
                             objetos e operações devem ser compatíveis com o modo pelo qual o usuário
                             realiza suas tarefas.
@@ -992,7 +1038,8 @@ include('layout/header.php');
 
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">Um bom exemplo de evolução de interface que buscou entregar uma
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Um bom exemplo de evolução de interface que buscou
+                            entregar uma
                             estética e design minimalistas é a interface do buscador Google. Veja na
                             <strong>Figura 28</strong> a evolução da interface do Google ao longo dos anos. É
                             possível
@@ -1004,7 +1051,7 @@ include('layout/header.php');
 
                         <!-- IMAGEM NO SITE  -->
 
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
                             <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 28:</strong>
                                 Evolução da interface do buscador Google</p>
                             <div class="zoom">
@@ -1013,7 +1060,8 @@ include('layout/header.php');
                                 </a>
                             </div>
                             <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong><a
-                                    href="https://hackernoon.com/the-past-present-and-the-future-of-design-thinking-2a07d02193c7" target="_blank">Hackernoon.</a>
+                                    href="https://hackernoon.com/the-past-present-and-the-future-of-design-thinking-2a07d02193c7"
+                                    target="_blank">Hackernoon.</a>
                             </p>
                         </div>
 
@@ -1027,7 +1075,8 @@ include('layout/header.php');
                                 </div>
                                 <div class="modal-footer w-75 bg-light justify-content-center">
                                     <p class="text-secondary"><strong>Fonte:</strong><a
-                                            href="https://hackernoon.com/the-past-present-and-the-future-of-design-thinking-2a07d02193c7" target="_blank">Hackernoon.</a>
+                                            href="https://hackernoon.com/the-past-present-and-the-future-of-design-thinking-2a07d02193c7"
+                                            target="_blank">Hackernoon.</a>
                                     </p>
                                 </div>
                             </div>
@@ -1043,7 +1092,8 @@ include('layout/header.php');
                         <!-- subtopico -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">As mensagens que interagem com usuários devem ser expressas em
+                        <p class="wow fadeIn" data-wow-delay="0.3s">As mensagens que interagem com usuários devem ser
+                            expressas em
                             linguagem simples (sem utilização de códigos), indicando o problema e
                             sugerindo uma solução. É essencial <strong>ajudar o usuário a entender e resolver
                                 um erro do sistema</strong> . Para isto, a interface não deve culpá-lo ou
@@ -1053,14 +1103,15 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- lista ordenada  -->
-                        <ol class="scrool" id="txt_final">
+                        <ol class="wow fadeIn" data-wow-delay="0.3s" id="txt_final">
                             <li>sejam <strong>claras e simples</strong> de serem entendidas e</li>
                             <li>ofereçam uma <strong> forma de se recuperar do erro.</strong></li>
                         </ol>
                         <!-- fim da lista ordenada  -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">Além do texto, o visual do erro também deve ser bem apresentado e
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Além do texto, o visual do erro também deve ser bem
+                            apresentado e
                             destacado. É comum utilizar a cor vermelha para indicar campos preenchidos
                             de forma incorreta ou não preenchidos. Por este motivo, tenha atenção no
                             uso do vermelho para componentes na sua interface, principalmente em
@@ -1070,7 +1121,8 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">É também importante que as mensagens de erro satisfaçam seus
+                        <p class="wow fadeIn" data-wow-delay="0.3s">É também importante que as mensagens de erro
+                            satisfaçam seus
                             usuários, ou pelo menos não os assustem. A <strong>Figura 29</strong> apresenta um
                             exemplo clássico de interface indevida para um vírus detectado. O modal era
                             utilizado em uma versão antiga do software antivírus <a
@@ -1088,7 +1140,7 @@ include('layout/header.php');
 
                         <!-- IMAGEM NO SITE  -->
 
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
                             <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 29:</strong>
                                 Interface antiga de detecção do antivírus AVG</p>
                             <div class="zoom">
@@ -1116,7 +1168,8 @@ include('layout/header.php');
 
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool"> Apesar de estas instruções serem fundamentais, não é incomum ver
+                        <p class="wow fadeIn" data-wow-delay="0.3s"> Apesar de estas instruções serem fundamentais, não
+                            é incomum ver
                             mensagens que as infringem. O impacto disto pode ser enorme e irreversível.
                             Don Norman, em seu famoso livro “O Design do Dia-a-dia”, afirma que seres
                             humanos não erram sempre, mas erram com frequência quando as coisas que
@@ -1125,7 +1178,7 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- CAIXA DE TEXTO SAIBA-MAIS -->
-                        <section class="container">
+                        <section class="container wow fadeIn" data-wow-delay="0.3s">
                             <div class="accordion ">
                                 <section id="content">
                                     <div class="caixaprincipal" id="tituloSaibaMais">
@@ -1165,13 +1218,14 @@ include('layout/header.php');
 
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool col paragrafo">Uma abordagem interessante para
+                        <p class="wow fadeIn" data-wow-delay="0.3s col paragrafo">Uma abordagem interessante para
                             mensagens de erro, é torná-la mais
                             amigável e interativa, diferente da que
                             vimos na interface antiga do AVG <strong>(Figura
                                 27).</strong> Veja o exemplo da página de erro 404
                             do Dribbble na <strong> Figura 30 </strong> ou clicando no
-                            link: <a href="https://dribbble.com/shots/3429843--Reality" target="_blank">mensagem de erro do
+                            link: <a href="https://dribbble.com/shots/3429843--Reality" target="_blank">mensagem de erro
+                                do
                                 Dribbble</a>
                             .
                         </p>
@@ -1179,7 +1233,7 @@ include('layout/header.php');
 
                         <!-- IMAGEM NO SITE  -->
 
-                        <div class="text-center img-01 col">
+                        <div class="text-center img-01 col wow fadeIn" data-wow-delay="0.3s">
                             <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 30:</strong>
                                 Erro 404 do Dribbble</p>
                             <div class="zoom">
@@ -1210,7 +1264,7 @@ include('layout/header.php');
 
 
                         <!-- CAIXA DE TEXTO CURIOSIDADE -->
-                        <section class="container">
+                        <section class="container wow fadeIn" data-wow-delay="0.3s">
                             <div class="accordion ">
                                 <section id="content">
                                     <div class="caixaprincipal" id="tituloCuriosidade">
@@ -1246,10 +1300,12 @@ include('layout/header.php');
                         <!-- FIM DA CAIXA DE TEXTO CURIOSIDADE -->
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item3.10">3.10 - Ajuda e Documentação</h3>
+                        <h3 class="Subtopico fw-bolder wow fadeIn" data-wow-delay="0.3s" id="item3.10">3.10 - Ajuda e
+                            Documentação</h3>
                         <!-- subtopico -->
 
-                        <p class="scrool">O ideal é que o sistema não precise de documentação extra para que
+                        <p class="wow fadeIn" data-wow-delay="0.3s">O ideal é que o sistema não precise de documentação
+                            extra para que
                             seja utilizado. Usabilidade em sua essência é justamente a interface ser auto
                             explicável. <strong> Quando necessário, porém, é importante que este conteúdo
                                 seja também fácil de usar e entender. </strong> Além disso, deve ser fácil de
@@ -1258,7 +1314,8 @@ include('layout/header.php');
                         </p>
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
-                        <p class="scrool">O título desta heurística lembra longos documentos de instruções, como
+                        <p class="wow fadeIn" data-wow-delay="0.3s">O título desta heurística lembra longos documentos
+                            de instruções, como
                             bulas de remédios ou os antigos manuais de instruções que recebíamos com
                             uma TV nova. Entretanto, vale lembrar que esta heurística não diz respeito a
                             todo tipo de documentação de software. Ela trata de <strong> informações de ajuda
@@ -1269,7 +1326,8 @@ include('layout/header.php');
                         </p>
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
-                        <p class="scrool">A forma de aplicação contextual é considerada pelos especialistas
+                        <p class="wow fadeIn" data-wow-delay="0.3s">A forma de aplicação contextual é considerada pelos
+                            especialistas
                             como a forma mais apropriada. Esse formato acontece quando a
                             informação de ajuda para uma atividade aparece no momento desta
                             atividade e não fica em um local separado, como em uma tela de ajuda. Veja
@@ -1285,7 +1343,7 @@ include('layout/header.php');
 
                         <!-- IMAGEM NO SITE  -->
 
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
                             <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 31:</strong>
                                 Exemplo de ajuda contextual no iFood</p>
                             <div class="zoom">
@@ -1306,8 +1364,8 @@ include('layout/header.php');
                                     <img class="img-fluid " src="imgs/Figura31.jpg" alt="Alt da imagem fica aqui">
                                 </div>
                                 <div class="modal-footer w-50 bg-light justify-content-center">
-                                    <p class="text-secondary"><strong>Fonte:</strong><a
-                                            href="https://www.ifood.com.br/" target="_blank">iFood.</a></p>
+                                    <p class="text-secondary"><strong>Fonte:</strong><a href="https://www.ifood.com.br/"
+                                            target="_blank">iFood.</a></p>
                                 </div>
                             </div>
                         </div>

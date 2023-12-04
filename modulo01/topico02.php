@@ -35,14 +35,38 @@ include('layout/header.php');
                         <h2 class="Titulo fw-bolder">2 - Usabilidade</h2>
                         <br>
 
-                        <br>
-                        <p class="wow fadeIn" data-wow-delay="0.3s">Você já conhecia o termo usabilidade? Se você fez o
-                            curso de “O que design
-                            ux?” se deparou
-                            com o termo algumas vezes no material. Vamos recordar? Em 1994, as Heurísticas de Nielsen
-                            trouxeram critérios de boas práticas de usabilidade e apresentaram um método de avaliação de
-                            inspeção para garantir sua aplicação. Porém, antes desse período, já se utilizava o termo
-                            precursor da usabilidade: a <strong>ergonomia</strong>. </p>
+
+                        <!-- IMAGEM COM CAIXAS DE TEXTO -->
+                        <div class="apresentacao">
+                            <div class="img_apresentacao wow animate__zoomIn">
+                                <img src="figuras/Group 11.png" alt="">
+                                <p class="FonteFigura FonteMenor text-secondary" id="text-freepik">
+                                    <strong>Fonte: </strong>
+                                    <a href="https://br.freepik.com/vetores-gratis/icone-de-personagem-professor-homem-isolado_74222494.htm#query=pessoa%20dando%20oi&position=2&from_view=keyword&track=ais&uuid=f62cddf1-0953-4fc6-81a7-0f1f56865b4a"
+                                        target="_blank" rel="noopener noreferrer"> <strong> Imagem retirada do
+                                            Freepik</strong></a>
+                                </p>
+                            </div>
+
+                            <!-- Parágrafo com a biblioteca de animação  -->
+                            <p class="wow fadeIn texto_apresentacao2 wow animate__zoomIn" data-wow-delay="0.3s">
+                                <strong>Você já conhecia o termo usabilidade?
+                                    Se você fez o
+                                    curso de “O que design
+                                    ux?” se deparou
+                                    com o termo algumas vezes no material. Vamos recordar? Em 1994, as Heurísticas
+                                    de Nielsen
+                                    trouxeram critérios de boas práticas de usabilidade e apresentaram um método de
+                                    avaliação de
+                                    inspeção para garantir sua aplicação. Porém, antes desse período, já se
+                                    utilizava o termo
+                                    precursor da usabilidade: a <strong>ergonomia</strong>.</strong>
+                                <strong></strong>
+                            </p><br><br><br>
+
+                        </div>
+                        <!-- IMAGEM COM CAIXAS DE TEXTO END-->
+
 
                         <p class="wow fadeIn" data-wow-delay="0.3s">Quando imaginamos ergonomia, pensamos em cadeiras
                             ajustadas, visores na altura
@@ -287,8 +311,8 @@ include('layout/header.php');
                                 </ul>
                                 <!-- fim da lista ordenada  -->
                             </div>
-                            <!-- IMAGEM COM CAIXAS DE TEXTO END-->
                         </div>
+                        <!-- IMAGEM COM CAIXAS DE TEXTO END-->
                         <br><br><br>
 
 
@@ -562,8 +586,122 @@ include('layout/header.php');
                         <p class="wow fadeIn" data-wow-delay="0.3s">Nielsen complementa esta definição a partir de 5
                             fatores de usabilidade:</p>
 
+                        <div class="accordion wow fadeIn" data-wow-delay="0.3s" id="accordionExample">
+                            <div class="accordion-item">
+                                <div class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Facilidade de aprendizado <em>(Learnability)</em>
+                                    </button>
+                                </div>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>Quão fácil é
+                                        para os
+                                        usuários realizarem tarefas básicas na primeira vez que se deparam com o design
+                                        da
+                                        interface? De forma prática, este fator diz respeito ao tempo que o usuário leva
+                                        para
+                                        aprender a realizar as principais atividades ou um conjunto mais amplo de
+                                        atividades do
+                                        sistema.</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Facilidade de recordação <em>(Memorability)</em>
+                                    </button>
+                                </div>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>Quando os
+                                            usuários
+                                            retornam ao sistema após um período sem usá-lo, com que facilidade eles
+                                            podem
+                                            restabelecer a proficiência de uso? Para avaliar este fator, é possível
+                                            medir a
+                                            porcentagem de tarefas que um usuário conseguiu lembrar ao usar uma
+                                            aplicação
+                                            que
+                                            utiliza com baixa frequência.</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <strong>Eficiência </strong> <em> (Efficiency)</em>:
+                                    </button>
+                                </div>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>Depois de aprender como
+                                            interagir com
+                                            uma interface, com que rapidez os usuários podem executar as tarefas? Sobre
+                                            este
+                                            fator,
+                                            é possível medir o tempo gasto para completar uma tarefa e a porcentagem de
+                                            completude
+                                            da tarefa.</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapseThree">
+                                        Segurança no uso <em>(Errors)</em>:
+                                    </button>
+                                </div>
+                                <div id="collapse4" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>Quantos erros os usuários
+                                            cometem,
+                                            quão graves são esses erros e com que facilidade eles podem se recuperar dos
+                                            erros? Esse
+                                            fator é bastante explorado nas avaliações que encontram problemas de
+                                            usabilidade, onde é
+                                            importante analisar se a interface auxilia o usuário a se recuperar de uma
+                                            situação
+                                            problemática.</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapseThree">
+                                        Satisfação do usuário <em> (Satisfaction)</em>
+                                    </button>
+                                </div>
+                                <div id="collapse5" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong> É prazeroso
+                                            utilizar uma
+                                            interface? A satisfação do usuário envolve prazer, diversão, entretenimento,
+                                            interesse,
+                                            motivação, estética, criatividade, surpresa e desafio.</strong>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+
                         <ol class="wow fadeIn" data-wow-delay="0.3s">
-                            <br>
+                            <!-- <br>
                             <li><strong>Facilidade de aprendizado</strong> <em>(Learnability)</em>: Quão fácil é
                                 para os
                                 usuários realizarem tarefas básicas na primeira vez que se deparam com o design
@@ -573,24 +711,24 @@ include('layout/header.php');
                                 aprender a realizar as principais atividades ou um conjunto mais amplo de
                                 atividades do
                                 sistema.</li>
-                            <br>
-                            <li><strong>Facilidade de recordação</strong> <em>(Memorability)</em>: Quando os
+                            <br> -->
+                            <!-- <li><strong>Facilidade de recordação</strong> <em>(Memorability)</em>: Quando os
                                 usuários
                                 retornam ao sistema após um período sem usá-lo, com que facilidade eles podem
                                 restabelecer a proficiência de uso? Para avaliar este fator, é possível medir a
                                 porcentagem de tarefas que um usuário conseguiu lembrar ao usar uma aplicação
                                 que
                                 utiliza com baixa frequência. </li>
-                            <br>
-                            <li><strong>Eficiência</strong><em> (Efficiency)</em>: Depois de aprender como
+                            <br> -->
+                            <!-- <li><strong>Eficiência</strong><em> (Efficiency)</em>: Depois de aprender como
                                 interagir com
                                 uma interface, com que rapidez os usuários podem executar as tarefas? Sobre este
                                 fator,
                                 é possível medir o tempo gasto para completar uma tarefa e a porcentagem de
                                 completude
                                 da tarefa.</li>
-                            <br>
-                            <li><strong>Segurança no uso</strong> <em>(Errors)</em>: Quantos erros os usuários
+                            <br> -->
+                            <!-- <li><strong>Segurança no uso</strong> <em>(Errors)</em>: Quantos erros os usuários
                                 cometem,
                                 quão graves são esses erros e com que facilidade eles podem se recuperar dos
                                 erros? Esse
@@ -599,420 +737,422 @@ include('layout/header.php');
                                 importante analisar se a interface auxilia o usuário a se recuperar de uma
                                 situação
                                 problemática. </li>
-                            <br>
-                            <li><strong>Satisfação do usuário</strong> <em>(Satisfaction)</em>: É prazeroso
+                            <br> -->
+                            <!-- <li><strong>Satisfação do usuário</strong> <em>(Satisfaction)</em>: É prazeroso
                                 utilizar uma
                                 interface? A satisfação do usuário envolve prazer, diversão, entretenimento,
                                 interesse,
                                 motivação, estética, criatividade, surpresa e desafio.</li>
-                        </ol>
+                        </ol> -->
 
-                        <br>
+                            <br>
 
-                        <!-- IMAGEM 08  -->
-                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s" id="img-left">
-                            <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 08 </strong>
-                                - Utilidade e usabilidade</div>
-                            <div class="zoom">
-                                <a href="imgs/Figura08.png" data-bs-toggle="modal" data-bs-target="#Imagem08">
-                                    <img src="imgs/Figura08.png"
-                                        alt="Características de qualidade de produto em ISO/IEC 25010">
-                                </a>
-                            </div>
-                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> autor com
-                                base em o
-                                que o usuário realmente precisa.</p>
-                        </div>
-
-                        <!-- Imagem 08 - MODAL -->
-                        <div class="modal fade text-center" id="Imagem08" tabindex="-1"
-                            aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered modal-lg">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <img class="img-fluid" src="imgs/Figura08.png"
-                                            alt="Qualidade de uso em ISO/IEC 25010">
-                                    </div>
-                                    <div class="modal-footer text-center">
-                                        <p class="TituloFigura"><strong>Figura 08</strong> - Utilidade e
-                                            usabilidade</p>
-                                    </div>
+                            <!-- IMAGEM 08  -->
+                            <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s" id="img-left">
+                                <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 08 </strong>
+                                    - Utilidade e usabilidade</div>
+                                <div class="zoom">
+                                    <a href="imgs/Figura08.png" data-bs-toggle="modal" data-bs-target="#Imagem08">
+                                        <img src="imgs/Figura08.png"
+                                            alt="Características de qualidade de produto em ISO/IEC 25010">
+                                    </a>
                                 </div>
+                                <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> autor com
+                                    base em o
+                                    que o usuário realmente precisa.</p>
                             </div>
-                        </div>
-                        <!-- Imagem 08 - End -->
 
-                        <p class="wow fadeIn" data-wow-delay="0.3s"><br>Além destas, Nielsen ressalta uma
-                            característica
-                            adicional à usabilidade: a
-                            <strong>utilidade</strong>, que se refere à funcionalidade em si e possibilita
-                            questionar o
-                            que <strong>o usuário realmente precisa</strong>. Usabilidade e utilidade são
-                            igualmente
-                            importantes e, juntos, determinam se algo é útil, afinal <storng>pouco importa que
-                                algo seja
-                                fácil de usar se não for o que você deseja</storng>. Também não é bom que o
-                            sistema
-                            possa fazer o que você quer realizar em uma interface muito difícil de se utilizar.
-                            Veja um
-                            resumo disto na Figura 08.
-                        </p>
-
-                        <p class="wow fadeIn" data-wow-delay="0.3s">Em 1994 Nielsen publicou as 10 heurísticas de
-                            usabilidade, ainda hoje
-                            bastante utilizadas. As
-                            heurísticas de Nielsen, como são chamadas, são a base dos critérios de boas práticas
-                            de
-                            usabilidade. As heurísticas são utilizadas em vários momentos do processo de design.
-                            Junto
-                            com as heurísticas, Nielsen divulgou um método de inspeção de usabilidade que era
-                            barato,
-                            rápido e fácil de aplicar, que vamos explorar melhor na seção sobre avaliação. </p>
-
-                        <!-- CAIXA DE TEXTO SAIBA-MAIS -->
-                        <section class="container wow fadeIn" data-wow-delay="0.3s">
-                            <div class="accordion ">
-                                <section id="content">
-                                    <div class="caixaprincipal" id="tituloSaibaMais">
-                                        <div class="div_teste">
-                                            <div><i class="fa-solid fa-plus"></i> SAIBA MAIS </div>
-
-                                            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                            <!-- Imagem 08 - MODAL -->
+                            <div class="modal fade text-center" id="Imagem08" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <img class="img-fluid" src="imgs/Figura08.png"
+                                                alt="Qualidade de uso em ISO/IEC 25010">
                                         </div>
-                                    </div> <!--caixa Principal-->
-                                    <div class="accordion-content" id="saibamais">
-                                        <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75">
-                                                    Passe o mouse acima
-                                                </strong></strong></p>
-                                        <p class="txt-caixasecundaria">De acordo com Nielsen, as heurísticas de
-                                            usabilidade propostas por ele são 10 princípios gerais para o design.
-                                            Elas
-                                            são chamadas de "heurísticas" <strong>porque são regras genéricas e não
-                                                diretrizes
-                                                específicas de usabilidade.</strong></p><!--caixa secundaria-->
-                                    </div>
-                                </section>
-                        </section>
-                        <!-- FIM DA CAIXA SAIBA MAIS  -->
-
-                        <p class="wow fadeIn" data-wow-delay="0.3s">Veja na <strong>Figura 09</strong> as 10
-                            heurísticas
-                            de Nielsen
-                            de forma
-                            resumida. Na próxima seção iremos analisar cada uma das heurísticas.</p>
-
-
-                        <!-- IMAGEM 09  -->
-                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
-                            <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 09 </strong>
-                                - 10 heurísticas de Nielsen</div>
-                            <div class="zoom">
-                                <a href="imgs/Figura09.png" data-bs-toggle="modal" data-bs-target="#Imagem09">
-                                    <img src="imgs/Figura09.png" alt=" 10 heurísticas de Nielsen">
-                                </a>
-                            </div>
-                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> <a
-                                    href="https://medium.com/signainfo/entendendo-as-10-heur%C3%ADsticas-de-nielsen-para-melhorar-a-experi%C3%AAncia-do-usu%C3%A1rio-86f3c14c0586"
-                                    target="_blank">Medium</a>.</p>
-                        </div>
-
-                        <!-- Imagem 09 - MODAL -->
-                        <div class="modal fade text-center" id="Imagem09" tabindex="-1"
-                            aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div
-                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                                <div class="modal-content w-75">
-                                    <img class="img-fluid" src="imgs/Figura09.png" alt="10 heurísticas de Nielsen">
-                                </div>
-                                <div class="modal-footer w-75 bg-light justify-content-center">
-                                    <p class="text-secondary"><strong>Figura 09 - </strong> 10 heurísticas de
-                                        Nielsen
-                                    </p>
-                                </div>
-                            </div>
-                        </div><br>
-                        <!-- Imagem 09 - End -->
-
-                        <br>
-                        <!-- INÍCIO DO SUBTÓPICO -->
-                        <!-- subtopico título-->
-                        <h3 class="Subtopico fw-bolder wow fadeIn" data-wow-delay="0.3s" id="item2.4">2.4 - O que
-                            não é
-                            usual?</h3>
-                        <!-- subtopico título -->
-
-                        <p class="wow fadeIn" data-wow-delay="0.3s">Antes de passarmos às heurísticas de forma
-                            detalhada, é interessante
-                            reconhecer o que não é
-                            usual e como podemos identificar onde a usabilidade foi negligenciada. </p>
-
-                        <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
-                        <section class="container wow fadeIn" data-wow-delay="0.3s">
-                            <div class="accordion ">
-                                <section id="content">
-                                    <div class="caixaprincipal" id="titulofiqueatento">
-                                        <div class="div_teste">
-                                            <div><i class="fa-solid fa-person-circle-exclamation"></i> FIQUE ATENTO
-                                            </div>
-                                            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-                                        </div>
-                                    </div> <!--caixa Principal-->
-                                    <div class="accordion-content" id="fiqueatento"><!--caixa secundaria-->
-                                        <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima
-                                            </strong>
-                                        </p>
-                                        <p class="txt-caixasecundaria">Assim como um musicista sofre com o desafinar
-                                            generalizado da hora dos parabéns em festas de aniversário, pessoas que
-                                            estudam design UX tendem a sofrer e questionar as interfaces do dia a
-                                            dia.
-                                            Antecipo que será difícil desconsiderar a torneira que não “abre pro
-                                            lado
-                                            certo” ou a porta que “não indica como deve ser aberta” ou a máquina de
-                                            lavar roupa que “tem programas de lavagem desnecessários e pouco
-                                            utilizados”. <strong>Usabilidade é um conhecimento prático, que pode
-                                                atuar
-                                                na forma como você planeja sua vida, seu trabalho, suas atividades e
-                                                muito mais</strong>.</p>
-                                </section>
-                        </section>
-                        <!-- FIM DA CAIXA FIQUE ATENTO -->
-
-                        <!-- IMAGEM 10  -->
-                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s" id="img-left">
-                            <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 10 </strong>
-                                - Painel do Elevador</div>
-                            <div class="zoom">
-                                <a href="imgs/Figura10.png" data-bs-toggle="modal" data-bs-target="#Imagem10">
-                                    <img src="imgs/Figura10.png" alt="Painel do Elevador">
-                                </a>
-                            </div>
-                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> autor.</p>
-                        </div>
-
-                        <!-- Imagem 10 - MODAL -->
-                        <div class="modal fade text-center" id="Imagem10" tabindex="-1"
-                            aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div
-                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                                <div class="modal-content w-75">
-                                    <img class="img-fluid" src="imgs/Figura10.png" alt="Painel do Elevador">
-                                </div>
-                                <div class="modal-footer w-75 bg-light justify-content-center">
-                                    <p class="text-secondary"><strong>Figura 10 - </strong> Painel do Elevador</p>
-                                </div>
-                            </div>
-                        </div><br>
-                        <!-- Imagem 10 - End -->
-
-                        <p class="wow fadeIn" data-wow-delay="0.3s"><br>Um dos objetos cotidianos que chama muita
-                            atenção
-                            com relação à usabilidade é
-                            o elevador. Não é incomum pessoas passarem por experiências confusas em
-                            elevadores. Os elevadores em geral não possuem uma padronização de painel,
-                            dessa forma é comum encontrar um elevador que nos perdemos facilmente nas
-                            opções. Isso não seria um problema se os painéis fossem desenhados para
-                            facilitar a aprendizagem no uso.A <strong>Figura 10</strong> mostra um
-                            painel em que infringe o fator de <strong>segurança do uso</strong>,
-                            colocando uma mensagem para não entrar se a cabine não estiver bem
-                            posicionada. A mensagem, porém, está dentro do elevador, o que impede de
-                            evitar o real problema cuja mensagem está tentando evitar. O informe, apesar
-                            de ter um objetivo de segurança, perde o significado. </p>
-
-                        <br><br><br>
-
-                        <div class="row">
-                            <div class="col-md-6">
-                                <p class="wow fadeIn" data-wow-delay="0.3s">Como outro exemplo, temos interfaces que
-                                    apresentam códigos e
-                                    mensagens não
-                                    decifráveis para indicar um erro. Na <strong>Figura 11</strong> vemos uma
-                                    mensagem
-                                    de erro que se destaca na tela pelo seu tamanho e por não ser facilmente
-                                    compreendida. Esta foi uma mensagem retornada pelo aplicativo Uber. Neste
-                                    exemplo,
-                                    vemos que problemas de usabilidade podem ocorrer também em aplicativos muito bem
-                                    consolidados no mercado. Aplicativos móveis são feitos para rodar em muitas
-                                    plataformas, em muitos formatos de tela e com restrições distintas para cada
-                                    tipo de
-                                    dispositivo. Garantir que não haja falhas no sistema e usabilidade para toda
-                                    essa
-                                    diversidade de dispositivos torna a aplicação de sistemas um desafio à equipe de
-                                    desenvolvimento.</p>
-                            </div>
-
-                            <div class="col-md-6">
-                                <!-- Titulo Figura -->
-
-                                <!-- IMAGEM 11  -->
-                                <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
-                                    <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 11
-                                        </strong>
-                                        - Mensagem de erro inapropriada</div>
-                                    <div class="zoom">
-                                        <a href="imgs/Figura11.png" data-bs-toggle="modal" data-bs-target="#Imagem11">
-                                            <img src="imgs/Figura11.png" id="img-modal11"
-                                                alt=" Mensagem de erro inapropriada" class="w-50">
-                                        </a>
-                                    </div>
-                                    <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> Autor.
-                                    </p>
-                                </div>
-
-                                <!-- Imagem 11 - MODAL -->
-                                <div class="modal fade text-center" id="Imagem11" tabindex="-1"
-                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div
-                                        class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column w-25">
-                                        <div class="modal-content">
-                                            <img class="img-fluid" src="imgs/Figura11.png"
-                                                alt="10 heurísticas de Nielsen">
-                                        </div>
-                                        <div class="modal-footer w-100 bg-light justify-content-center">
-                                            <p class="text-secondary"><strong>Figura 11 - </strong> Mensagem de erro
-                                                inapropriada
-                                            </p>
+                                        <div class="modal-footer text-center">
+                                            <p class="TituloFigura"><strong>Figura 08</strong> - Utilidade e
+                                                usabilidade</p>
                                         </div>
                                     </div>
-                                </div><br>
-                                <!-- Imagem 11 - End -->
-
-                            </div>
-                        </div>
-
-                        <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
-                        <section class="container wow fadeIn" data-wow-delay="0.3s">
-                            <div class="accordion ">
-                                <section id="content">
-                                    <div class="caixaprincipal" id="titulofiqueatento">
-                                        <div class="div_teste">
-                                            <div><i class="fa-solid fa-person-circle-exclamation"></i> FIQUE ATENTO
-                                            </div>
-                                            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-                                        </div>
-                                    </div> <!--caixa Principal-->
-                                    <div class="accordion-content" id="fiqueatento"><!--caixa secundaria-->
-                                        <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima
-                                            </strong>
-                                        </p>
-                                        <p class="txt-caixasecundaria">As cores podem transmitir informações em
-                                            interfaces. Seja estabelecendo a hierarquia do conteúdo ou indicando
-                                            informações, como erro. As cores também estão relacionadas a interfaces
-                                            com
-                                            relação à acessibilidade e devem, por exemplo, respeitar um nível de
-                                            contraste aceitável para facilitar a leitura.</p>
-                                    </div>
-                                </section>
-                        </section>
-                        <!-- FIM DA CAIXA FIQUE ATENTO -->
-
-                        <!-- IMAGEM 12  -->
-                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s" id="img-left">
-                            <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 12 </strong>
-                                - Mensagem de erro inapropriada</div>
-                            <div class="zoom">
-                                <a href="imgs/Figura12.png" data-bs-toggle="modal" data-bs-target="#Imagem12">
-                                    <img src="imgs/Figura12.png" class="w-100"
-                                        alt="Mensagem de ação realizada com sucesso com cor inesperada">
-                                </a>
-                            </div>
-                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> Autor.</p>
-                        </div>
-
-                        <!-- Imagem 12 - MODAL -->
-                        <div class="modal fade text-center" id="Imagem12" tabindex="-1"
-                            aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div
-                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                                <div class="modal-content w-100">
-                                    <img class="img-fluid" src="imgs/Figura12.png"
-                                        alt=" Mensagem de ação realizada com sucesso com cor inesperada">
-                                </div>
-                                <div class="modal-footer w-100 bg-light justify-content-center">
-                                    <p class="text-secondary"><strong>Figura 12 - </strong> Mensagem de ação
-                                        realizada
-                                        com sucesso com cor inesperada
-                                    </p>
                                 </div>
                             </div>
-                        </div><br>
-                        <!-- Imagem 12 - End -->
+                            <!-- Imagem 08 - End -->
 
-                        <p class="wow fadeIn" data-wow-delay="0.3s"><br>O próximo exemplo (<strong>Figura 12</strong>)
-                            mostra uma resposta inesperada
-                            do sistema que
-                            causou confusão. Uma plataforma de submissão de artigos científicos apresentou uma
-                            mensagem
-                            de sucesso de submissão que dizia <em>“The file has been uploaded”</em>, que significa
-                            “O
-                            arquivo foi carregado!” e indicaria que tinha conseguido realizar a submissão
-                            corretamente,
-                            como esperado. Porém, a mensagem está em vermelho. Na produção de interfaces é comum
-                            tratarmos o olhar “de relance”, em inglês <em>“at a glance”</em>, que significa aquele
-                            olhar
-                            rápido em algo. Um olhar de relance fez com que o texto fosse escondido pela mensagem
-                            que a
-                            cor transmitiu: a de erro. <strong>A cor vermelha deve sempre ser usada com
-                                cautela</strong>
-                            em interfaces para que não ocorra algo semelhante.</p>
-                        </p>
-
-                        <!-- CAIXA DE TEXTO CURIOSIDADE -->
-                        <section class="container wow fadeIn" data-wow-delay="0.3s">
-                            <div class="accordion ">
-                                <section id="content">
-                                    <div class="caixaprincipal" id="tituloCuriosidade">
-                                        <div class="div_teste">
-                                            <div><i class="fa-solid fa-question"></i> CURIOSIDADE </div>
-
-                                            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-                                        </div>
-                                    </div> <!--caixa Principal-->
-                                    <div class="accordion-content" id="Curiosidade">
-                                        <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75">
-                                                    Passe o mouse acima
-                                                </strong></strong></p>
-                                        <p class="txt-caixasecundaria">Veja na Figura 13 como o padrão <a
-                                                href="https://material.io/design/color/the-color-system.html"
-                                                target="_blank">Material Design</a>, para construção de interfaces,
-                                            organiza as cores utilizadas em aplicativos.</p>
-                                        <!--caixa secundaria-->
-                                    </div>
-                                </section>
-                        </section>
-                        <!-- FIM DA CAIXA DE TEXTO CURIOSIDADE -->
-
-                        <!-- IMAGEM 13  -->
-                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
-                            <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 13 </strong>
-                                - O tema de cor do material de base</div>
-                            <div class="zoom">
-                                <a href="imgs/Figura13.png" data-bs-toggle="modal" data-bs-target="#Imagem13">
-                                    <img src="imgs/Figura13.png" alt="O tema de cor do material de base">
-                                </a>
-                            </div>
-                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> Material
-                                Design.
+                            <p class="wow fadeIn" data-wow-delay="0.3s"><br>Além destas, Nielsen ressalta uma
+                                característica
+                                adicional à usabilidade: a
+                                <strong>utilidade</strong>, que se refere à funcionalidade em si e possibilita
+                                questionar o
+                                que <strong>o usuário realmente precisa</strong>. Usabilidade e utilidade são
+                                igualmente
+                                importantes e, juntos, determinam se algo é útil, afinal <storng>pouco importa que
+                                    algo seja
+                                    fácil de usar se não for o que você deseja</storng>. Também não é bom que o
+                                sistema
+                                possa fazer o que você quer realizar em uma interface muito difícil de se utilizar.
+                                Veja um
+                                resumo disto na Figura 08.
                             </p>
-                        </div>
 
-                        <!-- Imagem 12 - MODAL -->
-                        <div class="modal fade text-center" id="Imagem13" tabindex="-1"
-                            aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div
-                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                                <div class="modal-content w-75">
-                                    <img class="img-fluid" src="imgs/Figura13.png"
-                                        alt="O tema de cor do material de base">
+                            <p class="wow fadeIn" data-wow-delay="0.3s">Em 1994 Nielsen publicou as 10 heurísticas de
+                                usabilidade, ainda hoje
+                                bastante utilizadas. As
+                                heurísticas de Nielsen, como são chamadas, são a base dos critérios de boas práticas
+                                de
+                                usabilidade. As heurísticas são utilizadas em vários momentos do processo de design.
+                                Junto
+                                com as heurísticas, Nielsen divulgou um método de inspeção de usabilidade que era
+                                barato,
+                                rápido e fácil de aplicar, que vamos explorar melhor na seção sobre avaliação. </p>
+
+                            <!-- CAIXA DE TEXTO SAIBA-MAIS -->
+                            <section class="container wow fadeIn" data-wow-delay="0.3s">
+                                <div class="accordion ">
+                                    <section id="content">
+                                        <div class="caixaprincipal" id="tituloSaibaMais">
+                                            <div class="div_teste">
+                                                <div><i class="fa-solid fa-plus"></i> SAIBA MAIS </div>
+
+                                                <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                                            </div>
+                                        </div> <!--caixa Principal-->
+                                        <div class="accordion-content" id="saibamais">
+                                            <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75">
+                                                        Passe o mouse acima
+                                                    </strong></strong></p>
+                                            <p class="txt-caixasecundaria">De acordo com Nielsen, as heurísticas de
+                                                usabilidade propostas por ele são 10 princípios gerais para o design.
+                                                Elas
+                                                são chamadas de "heurísticas" <strong>porque são regras genéricas e não
+                                                    diretrizes
+                                                    específicas de usabilidade.</strong></p><!--caixa secundaria-->
+                                        </div>
+                                    </section>
+                            </section>
+                            <!-- FIM DA CAIXA SAIBA MAIS  -->
+
+                            <p class="wow fadeIn" data-wow-delay="0.3s">Veja na <strong>Figura 09</strong> as 10
+                                heurísticas
+                                de Nielsen
+                                de forma
+                                resumida. Na próxima seção iremos analisar cada uma das heurísticas.</p>
+
+
+                            <!-- IMAGEM 09  -->
+                            <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
+                                <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 09 </strong>
+                                    - 10 heurísticas de Nielsen</div>
+                                <div class="zoom">
+                                    <a href="imgs/Figura09.png" data-bs-toggle="modal" data-bs-target="#Imagem09">
+                                        <img src="imgs/Figura09.png" alt=" 10 heurísticas de Nielsen">
+                                    </a>
                                 </div>
-                                <div class="modal-footer w-75 bg-light justify-content-center">
-                                    <p class="text-secondary"><strong>Figura 13 - </strong> O tema de cor do
-                                        material de
-                                        base
-                                    </p>
+                                <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> <a
+                                        href="https://medium.com/signainfo/entendendo-as-10-heur%C3%ADsticas-de-nielsen-para-melhorar-a-experi%C3%AAncia-do-usu%C3%A1rio-86f3c14c0586"
+                                        target="_blank">Medium</a>.</p>
+                            </div>
+
+                            <!-- Imagem 09 - MODAL -->
+                            <div class="modal fade text-center" id="Imagem09" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div
+                                    class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                    <div class="modal-content w-75">
+                                        <img class="img-fluid" src="imgs/Figura09.png" alt="10 heurísticas de Nielsen">
+                                    </div>
+                                    <div class="modal-footer w-75 bg-light justify-content-center">
+                                        <p class="text-secondary"><strong>Figura 09 - </strong> 10 heurísticas de
+                                            Nielsen
+                                        </p>
+                                    </div>
+                                </div>
+                            </div><br>
+                            <!-- Imagem 09 - End -->
+
+                            <br>
+                            <!-- INÍCIO DO SUBTÓPICO -->
+                            <!-- subtopico título-->
+                            <h3 class="Subtopico fw-bolder wow fadeIn" data-wow-delay="0.3s" id="item2.4">2.4 - O que
+                                não é
+                                usual?</h3>
+                            <!-- subtopico título -->
+
+                            <p class="wow fadeIn" data-wow-delay="0.3s">Antes de passarmos às heurísticas de forma
+                                detalhada, é interessante
+                                reconhecer o que não é
+                                usual e como podemos identificar onde a usabilidade foi negligenciada. </p>
+
+                            <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
+                            <section class="container wow fadeIn" data-wow-delay="0.3s">
+                                <div class="accordion ">
+                                    <section id="content">
+                                        <div class="caixaprincipal" id="titulofiqueatento">
+                                            <div class="div_teste">
+                                                <div><i class="fa-solid fa-person-circle-exclamation"></i> FIQUE ATENTO
+                                                </div>
+                                                <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                                            </div>
+                                        </div> <!--caixa Principal-->
+                                        <div class="accordion-content" id="fiqueatento"><!--caixa secundaria-->
+                                            <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima
+                                                </strong>
+                                            </p>
+                                            <p class="txt-caixasecundaria">Assim como um musicista sofre com o desafinar
+                                                generalizado da hora dos parabéns em festas de aniversário, pessoas que
+                                                estudam design UX tendem a sofrer e questionar as interfaces do dia a
+                                                dia.
+                                                Antecipo que será difícil desconsiderar a torneira que não “abre pro
+                                                lado
+                                                certo” ou a porta que “não indica como deve ser aberta” ou a máquina de
+                                                lavar roupa que “tem programas de lavagem desnecessários e pouco
+                                                utilizados”. <strong>Usabilidade é um conhecimento prático, que pode
+                                                    atuar
+                                                    na forma como você planeja sua vida, seu trabalho, suas atividades e
+                                                    muito mais</strong>.</p>
+                                    </section>
+                            </section>
+                            <!-- FIM DA CAIXA FIQUE ATENTO -->
+
+                            <!-- IMAGEM 10  -->
+                            <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s" id="img-left">
+                                <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 10 </strong>
+                                    - Painel do Elevador</div>
+                                <div class="zoom">
+                                    <a href="imgs/Figura10.png" data-bs-toggle="modal" data-bs-target="#Imagem10">
+                                        <img src="imgs/Figura10.png" alt="Painel do Elevador">
+                                    </a>
+                                </div>
+                                <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> autor.</p>
+                            </div>
+
+                            <!-- Imagem 10 - MODAL -->
+                            <div class="modal fade text-center" id="Imagem10" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div
+                                    class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                    <div class="modal-content w-75">
+                                        <img class="img-fluid" src="imgs/Figura10.png" alt="Painel do Elevador">
+                                    </div>
+                                    <div class="modal-footer w-75 bg-light justify-content-center">
+                                        <p class="text-secondary"><strong>Figura 10 - </strong> Painel do Elevador</p>
+                                    </div>
+                                </div>
+                            </div><br>
+                            <!-- Imagem 10 - End -->
+
+                            <p class="wow fadeIn" data-wow-delay="0.3s"><br>Um dos objetos cotidianos que chama muita
+                                atenção
+                                com relação à usabilidade é
+                                o elevador. Não é incomum pessoas passarem por experiências confusas em
+                                elevadores. Os elevadores em geral não possuem uma padronização de painel,
+                                dessa forma é comum encontrar um elevador que nos perdemos facilmente nas
+                                opções. Isso não seria um problema se os painéis fossem desenhados para
+                                facilitar a aprendizagem no uso.A <strong>Figura 10</strong> mostra um
+                                painel em que infringe o fator de <strong>segurança do uso</strong>,
+                                colocando uma mensagem para não entrar se a cabine não estiver bem
+                                posicionada. A mensagem, porém, está dentro do elevador, o que impede de
+                                evitar o real problema cuja mensagem está tentando evitar. O informe, apesar
+                                de ter um objetivo de segurança, perde o significado. </p>
+
+                            <br><br><br>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p class="wow fadeIn" data-wow-delay="0.3s">Como outro exemplo, temos interfaces que
+                                        apresentam códigos e
+                                        mensagens não
+                                        decifráveis para indicar um erro. Na <strong>Figura 11</strong> vemos uma
+                                        mensagem
+                                        de erro que se destaca na tela pelo seu tamanho e por não ser facilmente
+                                        compreendida. Esta foi uma mensagem retornada pelo aplicativo Uber. Neste
+                                        exemplo,
+                                        vemos que problemas de usabilidade podem ocorrer também em aplicativos muito bem
+                                        consolidados no mercado. Aplicativos móveis são feitos para rodar em muitas
+                                        plataformas, em muitos formatos de tela e com restrições distintas para cada
+                                        tipo de
+                                        dispositivo. Garantir que não haja falhas no sistema e usabilidade para toda
+                                        essa
+                                        diversidade de dispositivos torna a aplicação de sistemas um desafio à equipe de
+                                        desenvolvimento.</p>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <!-- Titulo Figura -->
+
+                                    <!-- IMAGEM 11  -->
+                                    <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
+                                        <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 11
+                                            </strong>
+                                            - Mensagem de erro inapropriada</div>
+                                        <div class="zoom">
+                                            <a href="imgs/Figura11.png" data-bs-toggle="modal"
+                                                data-bs-target="#Imagem11">
+                                                <img src="imgs/Figura11.png" id="img-modal11"
+                                                    alt=" Mensagem de erro inapropriada" class="w-50">
+                                            </a>
+                                        </div>
+                                        <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> Autor.
+                                        </p>
+                                    </div>
+
+                                    <!-- Imagem 11 - MODAL -->
+                                    <div class="modal fade text-center" id="Imagem11" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div
+                                            class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column w-25">
+                                            <div class="modal-content">
+                                                <img class="img-fluid" src="imgs/Figura11.png"
+                                                    alt="10 heurísticas de Nielsen">
+                                            </div>
+                                            <div class="modal-footer w-100 bg-light justify-content-center">
+                                                <p class="text-secondary"><strong>Figura 11 - </strong> Mensagem de erro
+                                                    inapropriada
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div><br>
+                                    <!-- Imagem 11 - End -->
+
                                 </div>
                             </div>
-                        </div><br>
-                        <!-- Imagem 13 - End -->
+
+                            <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
+                            <section class="container wow fadeIn" data-wow-delay="0.3s">
+                                <div class="accordion ">
+                                    <section id="content">
+                                        <div class="caixaprincipal" id="titulofiqueatento">
+                                            <div class="div_teste">
+                                                <div><i class="fa-solid fa-person-circle-exclamation"></i> FIQUE ATENTO
+                                                </div>
+                                                <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                                            </div>
+                                        </div> <!--caixa Principal-->
+                                        <div class="accordion-content" id="fiqueatento"><!--caixa secundaria-->
+                                            <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima
+                                                </strong>
+                                            </p>
+                                            <p class="txt-caixasecundaria">As cores podem transmitir informações em
+                                                interfaces. Seja estabelecendo a hierarquia do conteúdo ou indicando
+                                                informações, como erro. As cores também estão relacionadas a interfaces
+                                                com
+                                                relação à acessibilidade e devem, por exemplo, respeitar um nível de
+                                                contraste aceitável para facilitar a leitura.</p>
+                                        </div>
+                                    </section>
+                            </section>
+                            <!-- FIM DA CAIXA FIQUE ATENTO -->
+
+                            <!-- IMAGEM 12  -->
+                            <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s" id="img-left">
+                                <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 12 </strong>
+                                    - Mensagem de erro inapropriada</div>
+                                <div class="zoom">
+                                    <a href="imgs/Figura12.png" data-bs-toggle="modal" data-bs-target="#Imagem12">
+                                        <img src="imgs/Figura12.png" class="w-100"
+                                            alt="Mensagem de ação realizada com sucesso com cor inesperada">
+                                    </a>
+                                </div>
+                                <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> Autor.</p>
+                            </div>
+
+                            <!-- Imagem 12 - MODAL -->
+                            <div class="modal fade text-center" id="Imagem12" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div
+                                    class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                    <div class="modal-content w-100">
+                                        <img class="img-fluid" src="imgs/Figura12.png"
+                                            alt=" Mensagem de ação realizada com sucesso com cor inesperada">
+                                    </div>
+                                    <div class="modal-footer w-100 bg-light justify-content-center">
+                                        <p class="text-secondary"><strong>Figura 12 - </strong> Mensagem de ação
+                                            realizada
+                                            com sucesso com cor inesperada
+                                        </p>
+                                    </div>
+                                </div>
+                            </div><br>
+                            <!-- Imagem 12 - End -->
+
+                            <p class="wow fadeIn" data-wow-delay="0.3s"><br>O próximo exemplo (<strong>Figura
+                                    12</strong>)
+                                mostra uma resposta inesperada
+                                do sistema que
+                                causou confusão. Uma plataforma de submissão de artigos científicos apresentou uma
+                                mensagem
+                                de sucesso de submissão que dizia <em>“The file has been uploaded”</em>, que significa
+                                “O
+                                arquivo foi carregado!” e indicaria que tinha conseguido realizar a submissão
+                                corretamente,
+                                como esperado. Porém, a mensagem está em vermelho. Na produção de interfaces é comum
+                                tratarmos o olhar “de relance”, em inglês <em>“at a glance”</em>, que significa aquele
+                                olhar
+                                rápido em algo. Um olhar de relance fez com que o texto fosse escondido pela mensagem
+                                que a
+                                cor transmitiu: a de erro. <strong>A cor vermelha deve sempre ser usada com
+                                    cautela</strong>
+                                em interfaces para que não ocorra algo semelhante.</p>
+                            </p>
+
+                            <!-- CAIXA DE TEXTO CURIOSIDADE -->
+                            <section class="container wow fadeIn" data-wow-delay="0.3s">
+                                <div class="accordion ">
+                                    <section id="content">
+                                        <div class="caixaprincipal" id="tituloCuriosidade">
+                                            <div class="div_teste">
+                                                <div><i class="fa-solid fa-question"></i> CURIOSIDADE </div>
+
+                                                <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                                            </div>
+                                        </div> <!--caixa Principal-->
+                                        <div class="accordion-content" id="Curiosidade">
+                                            <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75">
+                                                        Passe o mouse acima
+                                                    </strong></strong></p>
+                                            <p class="txt-caixasecundaria">Veja na Figura 13 como o padrão <a
+                                                    href="https://material.io/design/color/the-color-system.html"
+                                                    target="_blank">Material Design</a>, para construção de interfaces,
+                                                organiza as cores utilizadas em aplicativos.</p>
+                                            <!--caixa secundaria-->
+                                        </div>
+                                    </section>
+                            </section>
+                            <!-- FIM DA CAIXA DE TEXTO CURIOSIDADE -->
+
+                            <!-- IMAGEM 13  -->
+                            <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
+                                <div class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 13 </strong>
+                                    - O tema de cor do material de base</div>
+                                <div class="zoom">
+                                    <a href="imgs/Figura13.png" data-bs-toggle="modal" data-bs-target="#Imagem13">
+                                        <img src="imgs/Figura13.png" alt="O tema de cor do material de base">
+                                    </a>
+                                </div>
+                                <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> Material
+                                    Design.
+                                </p>
+                            </div>
+
+                            <!-- Imagem 12 - MODAL -->
+                            <div class="modal fade text-center" id="Imagem13" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div
+                                    class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                    <div class="modal-content w-75">
+                                        <img class="img-fluid" src="imgs/Figura13.png"
+                                            alt="O tema de cor do material de base">
+                                    </div>
+                                    <div class="modal-footer w-75 bg-light justify-content-center">
+                                        <p class="text-secondary"><strong>Figura 13 - </strong> O tema de cor do
+                                            material de
+                                            base
+                                        </p>
+                                    </div>
+                                </div>
+                            </div><br>
+                            <!-- Imagem 13 - End -->
 
                     </div>
                 </div>
