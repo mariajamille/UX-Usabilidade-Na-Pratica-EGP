@@ -29,10 +29,121 @@ include('layout/header.php');
                         <!--  Título Pricipal -->
                         <h2 class="Titulo fw-bolder wow fadeIn" data-wow-delay="0.3s">3 - Heurísticas de Nielsen</h2>
 
+
+                        <!-- começo do Quiz botao -->
+                        <div class="start_btn wow animate__bounceInLeft" data-wow-delay="0.4s"><button
+                                data-bs-target="#exampleModalToggle" id="btn-game" data-bs-toggle="modal"><i
+                                    class="icone fa-solid fa-puzzle-piece"></i>TESTE SEUS
+                                CONHECIMENTOS</button></div>
+
+                        <!-- ######################################## GAME DE EMBARALHAR PALAVRAS ##################################### -->
+                        <div id="game" class="wow fadeIn" data-wow-delay="0.3s">
+                            <!-- MODAL 1 - INSTRUÇÕES DO JOGO -->
+                            <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                                aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-3" id="exampleModalToggleLabel"><i
+                                                    class="fa-solid fa-pen-clip"></i>
+                                                Instruções do
+                                                Teste</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body fw-normal" id="instrucoes">
+
+                                            1. Você deverá descobrir qual é a palavraque está embaralhada;<br><br>
+                                            2. Haverá uma dica para lhe auxiliar;<br><br>
+                                            3. Ao concluir clique em confirmar;<br><br>
+                                            4. Este teste não influenciará na avaliação final.<br><br>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button class="btn" id="btn-game" data-bs-target="#exampleModalToggle2"
+                                                data-bs-toggle="modal">Continuar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- MODAL 2 - INÍCIO DO JOGO -->
+                            <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
+                                aria-labelledby="exampleModalToggleLabel2" tabindex="-1" data-bs-keyboard="false">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-3" id="exampleModalToggleLabel2"><i
+                                                    class="fa-solid fa-gamepad"></i>
+                                                Palavra
+                                                Embaralhada</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="content">
+                                                <div class="word"></div>
+                                                <div class="details">
+                                                    <div class="hint"> <span></span></div>
+                                                </div>
+
+                                                <input type="text" spellcheck="false" placeholder="Escreva a palavra"
+                                                    id="palavras-respostas">
+
+                                                <div class="buttons">
+                                                    <button class="btn-game" id="refresh-word">Embaralhar</button>
+                                                    <button class="btn-game" id="check-word">Confirmar</button>
+
+                                                    <div id="divTransparente" class="escondida"></div>
+                                                    <div id="d2" class="escondida" data-bs-dismiss="modal"></div>
+
+                                                    <!-- MODAIS DAS RESPOSTAS -->
+                                                    <!-- MODAL QUANDO A CAIXA DE RESPOSTA ESTIVER VAZIA -->
+                                                    <div id="modal-js">
+                                                        <dialog class="modal01">
+                                                            <i id="close01" class="bi bi-x"></i>
+                                                            <div class="text-center">
+                                                                <img src="imgs/opps.png" class="img-fluid"
+                                                                    alt="Imagem indicando que a caixa de resposta está vazia.">
+                                                            </div>
+                                                        </dialog>
+                                                    </div>
+
+                                                    <!-- MODAL QUANDO A RESPOSTA ESTIVER CORRETA -->
+                                                    <div id="modal-js">
+                                                        <dialog class="modal02">
+                                                            <i id="close02" class="bi bi-x" data-bs-dismiss="modal"></i>
+                                                            <div class="text-center">
+                                                                <img src="imgs/parabens.png" class="img-fluid"
+                                                                    alt="Imagem indicando que você acertou a resposta.">
+                                                            </div>
+                                                        </dialog>
+                                                    </div>
+
+                                                    <!-- MODAL QUANDO A RESPOSTA ESTIVER ERRADA-->
+                                                    <div id="modal-js">
+                                                        <dialog class="modal03">
+                                                            <i id="close03" class="bi bi-x"></i>
+                                                            <div class="text-center">
+                                                                <img src="imgs/que-pena.png" class="img-fluid"
+                                                                    alt="Imagem indicando que você errou a resposta.">
+                                                            </div>
+                                                        </dialog>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <br><br>
+                        <!-- ######################################## GAME DE EMBARALHAR PALAVRAS END ##################################### -->
+
                         <!-- paragrafo com scroll reveal  -->
                         <p class="wow fadeIn" data-wow-delay="0.3s">Como já foi dito anteriormente, Nielsen consolidou
                             um conjunto de 10
-                            heurísticas de usabilidade, que são amplamente utilizadas hoje [8]. No
+                            heurísticas de usabilidade, que são amplamente utilizadas hoje. No
                             subtópicos a seguir veremos em detalhes cada heurística de forma aplicada a
                             interfaces reais. A lista abaixo apresenta o título em português e em inglês
                             das heurísticas:
@@ -228,6 +339,7 @@ include('layout/header.php');
                         <!-- Imagem 01 - End  (Audi)-->
 
                         <!-- FIM DA IMAGEM NO SITE  -->
+
 
                         <!-- Parágrafo com a biblioteca de animação  -->
                         <p class="wow fadeIn" data-wow-delay="0.3s">Além do retorno de ações mais comuns, tenha atenção
@@ -896,22 +1008,9 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
 
-                        <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="wow fadeIn" data-wow-delay="0.3s">Para aplicar o reconhecimento em vez de memorização,
-                            é possível
-                            utilizar-se de padrões, como ícones comuns para determinadas ações. Uma
-                            outra forma de aplicar o reconhecimento em vez de memorização, é entregar
-                            opções em vez de pedir respostas abertas. Por exemplo, campos
-                            autocomplete, que completam o que está sendo digitado. Ao mostrar os
-                            elementos de diálogo, o design de uma interface permite que o usuário faça
-                            suas escolhas sem a necessidade de lembrar um termo específico. Veja um
-                            exemplo deste componente na <strong>Figura 26.</strong>
-                        </p>
-                        <!--  Fim do Parágrafo com a biblioteca de animação -->
-
                         <!-- IMAGEM NO SITE  -->
 
-                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
+                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s" id="img-left">
                             <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 26:</strong>
                                 Campo autocomplete</p>
                             <div class="zoom">
@@ -938,8 +1037,21 @@ include('layout/header.php');
                             </div>
                         </div>
                         <!-- Imagem - End-->
-
                         <!-- FIM DA IMAGEM NO SITE  -->
+
+                                              <!-- Parágrafo com a biblioteca de animação  -->
+                                              <p class="wow fadeIn" data-wow-delay="0.3s"><br><br>Para aplicar o reconhecimento em vez de memorização,
+                            é possível
+                            utilizar-se de padrões, como ícones comuns para determinadas ações. Uma
+                            outra forma de aplicar o reconhecimento em vez de memorização, é entregar
+                            opções em vez de pedir respostas abertas. Por exemplo, campos
+                            autocomplete, que completam o que está sendo digitado. Ao mostrar os
+                            elementos de diálogo, o design de uma interface permite que o usuário faça
+                            suas escolhas sem a necessidade de lembrar um termo específico. Veja um
+                            exemplo deste componente na <strong>Figura 26.</strong>
+                        </p>
+                        <!--  Fim do Parágrafo com a biblioteca de animação -->
+                        <br><br><br>
 
                         <!-- subtopico -->
                         <h3 class="Subtopico fw-bolder wow fadeIn" data-wow-delay="0.3s" id="item3.7">3.7 -
@@ -956,428 +1068,442 @@ include('layout/header.php');
                         </p>
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
-                        <!-- lista ordenada  -->
-                        <ol class="wow fadeIn" data-wow-delay="0.3s" id="txt_final">
-                            <li>Abreviações;</li>
-                            <li>Teclas de função;</li>
-                            <li>Duplo clique no mouse;</li>
-                            <li>Customizações;</li>
-                            <li>Função de volta em sistemas hipertexto e outros.</li>
-                        </ol>
-                        <!-- fim da lista ordenada  -->
-
-                        <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="wow fadeIn" data-wow-delay="0.3s">Um exemplo prático são os atalhos que utilizamos em
-                            sistemas para
-                            edição de texto, como <a href="https://www.microsoft.com/pt-br/microsoft-365/word"
-                                target="_blank">Microsoft
-                                Word</a> . A <strong>Figura 27</strong> apresenta atalhos usados
-                            com frequência no sistema. Quantos destes você sabe de cor?
-                        </p>
-                        <!--  Fim do Parágrafo com a biblioteca de animação -->
-
-                        <!-- IMAGEM NO SITE  -->
-
-                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
-                            <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 27:</strong>
-                                Atalhos do Microsoft Word</p>
-                            <div class="zoom">
-                                <a href="imgs/Figura27.png" data-bs-toggle="modal" data-bs-target="#Imagem27">
-                                    <img src="imgs/Figura27.png" alt="Imagem" id="img-27">
-                                </a>
-                            </div>
-                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong><a
-                                    href="https://support.microsoft.com/pt-br/office/atalhos-de-teclado-do-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
-                                    target="_blank">
-                                    Atalhos de teclado do Word - Suporte do Office .</a></p>
-                        </div>
-
-                        <!-- Imagem - MODAL-->
-                        <div class="modal fade text-center" id="Imagem27" tabindex="-1"
-                            aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div
-                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                                <div class="modal-content w-75">
-                                    <img class="img-fluid" src="imgs/Figura27.png" alt="Alt da imagem fica aqui">
-                                </div>
-                                <div class="modal-footer w-75 bg-light justify-content-center">
-                                    <p class="text-secondary"><strong>Fonte:</strong><a
-                                            href="https://support.microsoft.com/pt-br/office/atalhos-de-teclado-do-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
-                                            target="_blank">
-                                            Atalhos de teclado do Word - Suporte do Office .</a></p>
+                        <!-- CAIXAS DE TEXTO INTERATIVAS -->
+                        <div class="wow fadeIn" data-wow-delay="0.3s" id="txt_final">
+                            <div class="row">
+                                <div class="col d-flex justify-content-center gap-3">
+                                    <a class="li_interativo wow fadeInLeft" data-wow-delay="0.1s">Abreviações</a>
+                                    <a class="li_interativo wow fadeInLeft" data-wow-delay="0.3s">Teclas de função</a>
+                                    <a class="li_interativo wow fadeInLeft" data-wow-delay="0.6s">Duplo clique no
+                                        mouse</a>
                                 </div>
                             </div>
+
+                            <div class="row">
+                                    <div class="col d-flex justify-content-center gap-3">
+                            <a class="li_interativo wow fadeInLeft" data-wow-delay="0.6s">Customizações</a>
+                            <a class="li_interativo wow fadeInLeft" data-wow-delay="0.6s">Função de volta em
+                                sistemas
+                                hipertexto e outros</a>
                         </div>
-                        <!-- Imagem - End-->
-
-                        <!-- FIM DA IMAGEM NO SITE  -->
-
-                        <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item3.8 wow fadeIn" data-wow-delay="0.3s">3.8 - Estética e
-                            design minimalista</h3>
-                        <!-- subtopico -->
-
-                        <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="wow fadeIn" data-wow-delay="0.3s">As <strong>interfaces não devem conter informações
-                                irrelevantes ou
-                                raramente utilizadas</strong> . É necessário compreender que informações o usuário
-                            necessita e quais
-                            opções devem estar disponíveis no momento, para entregar
-                            somente o suficiente, nem mais, nem menos.
-                        </p>
-                        <!--  Fim do Parágrafo com a biblioteca de animação -->
-
-                        <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="wow fadeIn" data-wow-delay="0.3s">Para isto, os elementos visuais da interface devem
-                            apoiar os objetivos
-                            principais do usuário. Além disso, a sequência da interação e o acesso aos
-                            objetos e operações devem ser compatíveis com o modo pelo qual o usuário
-                            realiza suas tarefas.
-                        </p>
-                        <!--  Fim do Parágrafo com a biblioteca de animação -->
-
-
-                        <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="wow fadeIn" data-wow-delay="0.3s">Um bom exemplo de evolução de interface que buscou
-                            entregar uma
-                            estética e design minimalistas é a interface do buscador Google. Veja na
-                            <strong>Figura 28</strong> a evolução da interface do Google ao longo dos anos. É
-                            possível
-                            ver que houve uma redução visual de informações e nos elementos da
-                            interface que tornou cada nova versão mais minimalista e focada em sua
-                            função principal: buscar algo na Internet.
-                        </p>
-                        <!--  Fim do Parágrafo com a biblioteca de animação -->
-
-                        <!-- IMAGEM NO SITE  -->
-
-                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
-                            <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 28:</strong>
-                                Evolução da interface do buscador Google</p>
-                            <div class="zoom">
-                                <a href="imgs/Figura28.png" data-bs-toggle="modal" data-bs-target="#Imagem28">
-                                    <img src="imgs/Figura28.png" alt="Imagem" id="img-28">
-                                </a>
-                            </div>
-                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong><a
-                                    href="https://hackernoon.com/the-past-present-and-the-future-of-design-thinking-2a07d02193c7"
-                                    target="_blank">Hackernoon.</a>
-                            </p>
                         </div>
+                    
+                    <!-- CAIXAS DE TEXTO INTERATIVAS END -->
+                    <br><br>
 
-                        <!-- Imagem - MODAL-->
-                        <div class="modal fade text-center" id="Imagem28" tabindex="-1"
-                            aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div
-                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                                <div class="modal-content w-75">
-                                    <img class="img-fluid" src="imgs/Figura28.png" alt="Alt da imagem fica aqui">
-                                </div>
-                                <div class="modal-footer w-75 bg-light justify-content-center">
-                                    <p class="text-secondary"><strong>Fonte:</strong><a
-                                            href="https://hackernoon.com/the-past-present-and-the-future-of-design-thinking-2a07d02193c7"
-                                            target="_blank">Hackernoon.</a>
-                                    </p>
-                                </div>
-                            </div>
+                    <!-- Parágrafo com a biblioteca de animação  -->
+                    <p class="wow fadeIn" data-wow-delay="0.3s">Um exemplo prático são os atalhos que utilizamos em
+                        sistemas para
+                        edição de texto, como <a href="https://www.microsoft.com/pt-br/microsoft-365/word"
+                            target="_blank">Microsoft
+                            Word</a> . A <strong>Figura 27</strong> apresenta atalhos usados
+                        com frequência no sistema. Quantos destes você sabe de cor?
+                    </p>
+                    <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+                    <!-- IMAGEM NO SITE  -->
+
+                    <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
+                        <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 27:</strong>
+                            Atalhos do Microsoft Word</p>
+                        <div class="zoom">
+                            <a href="imgs/Figura27.png" data-bs-toggle="modal" data-bs-target="#Imagem27">
+                                <img src="imgs/Figura27.png" alt="Imagem" id="img-27">
+                            </a>
                         </div>
-                        <!-- Imagem - End-->
-
-                        <!-- FIM DA IMAGEM NO SITE  -->
-
-                        <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item3.9">3.9 - Ajude os Usuários a Reconhecerem,
-                            Diagnosticarem e
-                            Recuperarem-se de Erros</h3>
-                        <!-- subtopico -->
-
-                        <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="wow fadeIn" data-wow-delay="0.3s">As mensagens que interagem com usuários devem ser
-                            expressas em
-                            linguagem simples (sem utilização de códigos), indicando o problema e
-                            sugerindo uma solução. É essencial <strong>ajudar o usuário a entender e resolver
-                                um erro do sistema</strong> . Para isto, a interface não deve culpá-lo ou
-                            intimidá-lo.
-                            Sobre as mensagens de erro, é importante que mensagens de erro:
-                        </p>
-                        <!--  Fim do Parágrafo com a biblioteca de animação -->
-
-                        <!-- lista ordenada  -->
-                        <ol class="wow fadeIn" data-wow-delay="0.3s" id="txt_final">
-                            <li>sejam <strong>claras e simples</strong> de serem entendidas e</li>
-                            <li>ofereçam uma <strong> forma de se recuperar do erro.</strong></li>
-                        </ol>
-                        <!-- fim da lista ordenada  -->
-
-                        <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="wow fadeIn" data-wow-delay="0.3s">Além do texto, o visual do erro também deve ser bem
-                            apresentado e
-                            destacado. É comum utilizar a cor vermelha para indicar campos preenchidos
-                            de forma incorreta ou não preenchidos. Por este motivo, tenha atenção no
-                            uso do vermelho para componentes na sua interface, principalmente em
-                            mensagens de retorno de uma ação. Discutimos uma situação deste
-                            problema no sub-tópico <strong> 02.4 - O que não é usual?, Figura 10.</strong>
-                        </p>
-                        <!--  Fim do Parágrafo com a biblioteca de animação -->
-
-                        <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="wow fadeIn" data-wow-delay="0.3s">É também importante que as mensagens de erro
-                            satisfaçam seus
-                            usuários, ou pelo menos não os assustem. A <strong>Figura 29</strong> apresenta um
-                            exemplo clássico de interface indevida para um vírus detectado. O modal era
-                            utilizado em uma versão antiga do software antivírus <a
-                                href="https://www.avg.com/pt-br/homepage#pc" target="_blank">AVG</a> . O problema,
-                            detecção de um vírus, está apresentado de forma clara e a solução mais
-                            rápida está no botão Move to Vault, que traduzido é mover para quarentena.
-                            Apesar de ter um valor sentimental daqueles que utilizaram computadores
-                            nas décadas de 90 e no início dos anos 2000, essa interface pode ser mais
-                            assustadora do que o necessário para um usuário despreparado. Não é justo
-                            julgar uma interface antiga com o que conhecemos e utilizamos hoje em
-                            usabilidade, mas ilustra bem como podemos apresentar melhor mensagens
-                            de erro. Medo é o sentimento ideal para resolver problemas?
-                        </p>
-                        <!--  Fim do Parágrafo com a biblioteca de animação -->
-
-                        <!-- IMAGEM NO SITE  -->
-
-                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
-                            <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 29:</strong>
-                                Interface antiga de detecção do antivírus AVG</p>
-                            <div class="zoom">
-                                <a href="imgs/Figura29.png" data-bs-toggle="modal" data-bs-target="#Imagem29">
-                                    <img src="imgs/Figura29.png" alt="Imagem" id="img-29">
-                                </a>
-                            </div>
-                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> Dribbble.</p>
-                        </div>
-
-                        <!-- Imagem - MODAL-->
-                        <div class="modal fade text-center" id="Imagem29" tabindex="-1"
-                            aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div
-                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                                <div class="modal-content w-75">
-                                    <img class="img-fluid" src="imgs/Figura29.png" alt="Alt da imagem fica aqui">
-                                </div>
-                                <div class="modal-footer w-75 bg-light justify-content-center">
-                                    <p class="text-secondary"><strong>Fonte:</strong> Dribbble.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Imagem - End-->
-
-
-                        <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="wow fadeIn" data-wow-delay="0.3s"> Apesar de estas instruções serem fundamentais, não
-                            é incomum ver
-                            mensagens que as infringem. O impacto disto pode ser enorme e irreversível.
-                            Don Norman, em seu famoso livro “O Design do Dia-a-dia”, afirma que seres
-                            humanos não erram sempre, mas erram com frequência quando as coisas que
-                            usam são mal concebidas e mal projetadas.
-                        </p>
-                        <!--  Fim do Parágrafo com a biblioteca de animação -->
-
-                        <!-- CAIXA DE TEXTO SAIBA-MAIS -->
-                        <section class="container wow fadeIn" data-wow-delay="0.3s">
-                            <div class="accordion ">
-                                <section id="content">
-                                    <div class="caixaprincipal" id="tituloSaibaMais">
-                                        <div class="div_teste">
-                                            <div><i class="fa-solid fa-plus"></i> SAIBA MAIS </div>
-
-                                            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-                                        </div>
-                                    </div> <!--caixa Principal-->
-                                    <div class="accordion-content" id="saibamais">
-                                        <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75">
-                                                    Passe o mouse acima
-                                                </strong></strong></p>
-                                        <p class="txt-caixasecundaria">Projetar interfaces pode ser essencial para
-                                            um
-                                            uso sem erros. Para
-                                            exemplificar isto, Norman apresentou resultados de uma análise sua em
-                                            acidentes industriais. No desastre que aconteceu na usina nuclear Three
-                                            Mile
-                                            Island, a culpa do acidente foi atribuída às pessoas que operavam a
-                                            máquina
-                                            e fizeram um diagnóstico errôneo do problema. Em sua análise, Norman
-                                            verificou que na verdade houve uma série de problemas mecânicos que para
-                                            correção deveriam verificar até luzes que indicavam o problema exato
-                                            atrás
-                                            do painel de controle, isto é, de difícil acesso. Ele então concluiu que
-                                            <strong> “houve
-                                                falha de equipamento combinada com grave erro de design”. </strong>
-                                            Depois
-                                            desse exemplo, parece justo lidar com o mea-culpa do design de sistemas?
-                                        </p>
-                                        <!--caixa secundaria-->
-                                    </div>
-                                </section>
-                        </section>
-                        <!-- FIM DA CAIXA SAIBA MAIS  -->
-
-
-                        <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="wow fadeIn" data-wow-delay="0.3s col paragrafo">Uma abordagem interessante para
-                            mensagens de erro, é torná-la mais
-                            amigável e interativa, diferente da que
-                            vimos na interface antiga do AVG <strong>(Figura
-                                27).</strong> Veja o exemplo da página de erro 404
-                            do Dribbble na <strong> Figura 30 </strong> ou clicando no
-                            link: <a href="https://dribbble.com/shots/3429843--Reality" target="_blank">mensagem de erro
-                                do
-                                Dribbble</a>
-                            .
-                        </p>
-                        <!--  Fim do Parágrafo com a biblioteca de animação -->
-
-                        <!-- IMAGEM NO SITE  -->
-
-                        <div class="text-center img-01 col wow fadeIn" data-wow-delay="0.3s">
-                            <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 30:</strong>
-                                Erro 404 do Dribbble</p>
-                            <div class="zoom">
-                                <a href="imgs/Figura30.jpg" data-bs-toggle="modal" data-bs-target="#Imagem30">
-                                    <img class="w-50" src="imgs/Figura30.jpg" alt="Imagem" id="img-30">
-                                </a>
-                            </div>
-                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>Dribbble.
-                            </p>
-                        </div>
-
-                        <!-- Imagem - MODAL-->
-                        <div class="modal fade text-center" id="Imagem30" tabindex="-1"
-                            aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div
-                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                                <div class="modal-content w-75">
-                                    <img class="img-fluid" src="imgs/Figura30.jpg" alt="Alt da imagem fica aqui">
-                                </div>
-                                <div class="modal-footer w-75 bg-light justify-content-center">
-                                    <p class="text-secondary"><strong>Fonte:</strong>Dribbble.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Imagem - End-->
-
-                        <!-- FIM DA IMAGEM NO SITE  -->
-
-
-                        <!-- CAIXA DE TEXTO CURIOSIDADE -->
-                        <section class="container wow fadeIn" data-wow-delay="0.3s">
-                            <div class="accordion ">
-                                <section id="content">
-                                    <div class="caixaprincipal" id="tituloCuriosidade">
-                                        <div class="div_teste">
-                                            <div><i class="fa-solid fa-question"></i> CURIOSIDADE </div>
-
-                                            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-                                        </div>
-                                    </div> <!--caixa Principal-->
-                                    <div class="accordion-content" id="Curiosidade">
-                                        <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75">
-                                                    Passe o mouse acima
-                                                </strong></strong></p>
-                                        <p class="txt-caixasecundaria">O erro 404 significa Not Found, em
-                                            português
-                                            “não
-                                            encontrado”. Esta
-                                            falha aparece quando a URL (link) pesquisada não foi encontrada no
-                                            domínio
-                                            buscado, o que também chamamos de link quebrado. Uma causa comum
-                                            para esse erro é a digitação errada, mas também pode acontecer
-                                            quando há
-                                            links desatualizados nas páginas. Outros erros comuns em navegação
-                                            são
-                                            400 - Bad Request, que indica problema na conexão; 401 -
-                                            Authorization
-                                            Required e 403 - Forbidden, que indicam problema de permissão de
-                                            acesso.
-                                        </p><!--caixa secundaria-->
-                                    </div>
-                                </section>
-                        </section>
-                        <!-- FIM DA CAIXA DE TEXTO CURIOSIDADE -->
-
-                        <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder wow fadeIn" data-wow-delay="0.3s" id="item3.10">3.10 - Ajuda e
-                            Documentação</h3>
-                        <!-- subtopico -->
-
-                        <p class="wow fadeIn" data-wow-delay="0.3s">O ideal é que o sistema não precise de documentação
-                            extra para que
-                            seja utilizado. Usabilidade em sua essência é justamente a interface ser auto
-                            explicável. <strong> Quando necessário, porém, é importante que este conteúdo
-                                seja também fácil de usar e entender. </strong> Além disso, deve ser fácil de
-                            ser
-                            encontrado e se for longo deve ser fácil de pesquisar algo dentro dele.
-                        </p>
-                        <!--  Fim do Parágrafo com a biblioteca de animação -->
-
-                        <p class="wow fadeIn" data-wow-delay="0.3s">O título desta heurística lembra longos documentos
-                            de instruções, como
-                            bulas de remédios ou os antigos manuais de instruções que recebíamos com
-                            uma TV nova. Entretanto, vale lembrar que esta heurística não diz respeito a
-                            todo tipo de documentação de software. Ela trata de <strong> informações de ajuda
-                                na interação com usuário </strong>, que devem ser concisas e diretas. Não há
-                            espaço
-                            nessa comunicação para informações extras ou complexas, como uma
-                            documentação técnica da equipe de desenvolvimento.
-                        </p>
-                        <!--  Fim do Parágrafo com a biblioteca de animação -->
-
-                        <p class="wow fadeIn" data-wow-delay="0.3s">A forma de aplicação contextual é considerada pelos
-                            especialistas
-                            como a forma mais apropriada. Esse formato acontece quando a
-                            informação de ajuda para uma atividade aparece no momento desta
-                            atividade e não fica em um local separado, como em uma tela de ajuda. Veja
-                            na <strong> Figura 31 </strong> um exemplo prático de ajuda contextual. No exemplo
-                            vemos
-                            um modal de ajuda que explica sobre um campo específico da adição do
-                            cartão de crédito. Essa informação é contextual pois se encontra no local
-                            onde o próprio cartão está adicionado, como pode ser visto na tela de fundo.
-                            Desta forma não é necessário sair desta tela e parar a atividade para tirar uma
-                            dúvida.
-                        </p>
-                        <!--  Fim do Parágrafo com a biblioteca de animação -->
-
-                        <!-- IMAGEM NO SITE  -->
-
-                        <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
-                            <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 31:</strong>
-                                Exemplo de ajuda contextual no iFood</p>
-                            <div class="zoom">
-                                <a href="imgs/Figura31.jpg" data-bs-toggle="modal" data-bs-target="#Imagem31">
-                                    <img class="w-50" src="imgs/Figura31.jpg" alt="Imagem" id="img-31">
-                                </a>
-                            </div>
-                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong><a
-                                    href="https://www.ifood.com.br/" target="_blank">iFood.</a></p>
-                        </div>
-
-                        <!-- Imagem - MODAL-->
-                        <div class="modal fade text-center" id="Imagem31" tabindex="-1"
-                            aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div
-                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                                <div class="modal-content w-50">
-                                    <img class="img-fluid " src="imgs/Figura31.jpg" alt="Alt da imagem fica aqui">
-                                </div>
-                                <div class="modal-footer w-50 bg-light justify-content-center">
-                                    <p class="text-secondary"><strong>Fonte:</strong><a href="https://www.ifood.com.br/"
-                                            target="_blank">iFood.</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Imagem - End-->
-
-                        <!-- FIM DA IMAGEM NO SITE  -->
-
-
+                        <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong><a
+                                href="https://support.microsoft.com/pt-br/office/atalhos-de-teclado-do-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+                                target="_blank">
+                                Atalhos de teclado do Word - Suporte do Office .</a></p>
                     </div>
+
+                    <!-- Imagem - MODAL-->
+                    <div class="modal fade text-center" id="Imagem27" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div
+                            class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                            <div class="modal-content w-75">
+                                <img class="img-fluid" src="imgs/Figura27.png" alt="Alt da imagem fica aqui">
+                            </div>
+                            <div class="modal-footer w-75 bg-light justify-content-center">
+                                <p class="text-secondary"><strong>Fonte:</strong><a
+                                        href="https://support.microsoft.com/pt-br/office/atalhos-de-teclado-do-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+                                        target="_blank">
+                                        Atalhos de teclado do Word - Suporte do Office .</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Imagem - End-->
+
+                    <!-- FIM DA IMAGEM NO SITE  -->
+
+                    <!-- subtopico -->
+                    <h3 class="Subtopico fw-bolder" id="item3.8 wow fadeIn" data-wow-delay="0.3s">3.8 - Estética e
+                        design minimalista</h3>
+                    <!-- subtopico -->
+
+                    <!-- Parágrafo com a biblioteca de animação  -->
+                    <p class="wow fadeIn" data-wow-delay="0.3s">As <strong>interfaces não devem conter informações
+                            irrelevantes ou
+                            raramente utilizadas</strong> . É necessário compreender que informações o usuário
+                        necessita e quais
+                        opções devem estar disponíveis no momento, para entregar
+                        somente o suficiente, nem mais, nem menos.
+                    </p>
+                    <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+                    <!-- Parágrafo com a biblioteca de animação  -->
+                    <p class="wow fadeIn" data-wow-delay="0.3s">Para isto, os elementos visuais da interface devem
+                        apoiar os objetivos
+                        principais do usuário. Além disso, a sequência da interação e o acesso aos
+                        objetos e operações devem ser compatíveis com o modo pelo qual o usuário
+                        realiza suas tarefas.
+                    </p>
+                    <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+
+                    <!-- Parágrafo com a biblioteca de animação  -->
+                    <p class="wow fadeIn" data-wow-delay="0.3s">Um bom exemplo de evolução de interface que buscou
+                        entregar uma
+                        estética e design minimalistas é a interface do buscador Google. Veja na
+                        <strong>Figura 28</strong> a evolução da interface do Google ao longo dos anos. É
+                        possível
+                        ver que houve uma redução visual de informações e nos elementos da
+                        interface que tornou cada nova versão mais minimalista e focada em sua
+                        função principal: buscar algo na Internet.
+                    </p>
+                    <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+                    <!-- IMAGEM NO SITE  -->
+
+                    <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
+                        <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 28:</strong>
+                            Evolução da interface do buscador Google</p>
+                        <div class="zoom">
+                            <a href="imgs/Figura28.png" data-bs-toggle="modal" data-bs-target="#Imagem28">
+                                <img src="imgs/Figura28.png" alt="Imagem" id="img-28">
+                            </a>
+                        </div>
+                        <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong><a
+                                href="https://hackernoon.com/the-past-present-and-the-future-of-design-thinking-2a07d02193c7"
+                                target="_blank">Hackernoon.</a>
+                        </p>
+                    </div>
+
+                    <!-- Imagem - MODAL-->
+                    <div class="modal fade text-center" id="Imagem28" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div
+                            class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                            <div class="modal-content w-75">
+                                <img class="img-fluid" src="imgs/Figura28.png" alt="Alt da imagem fica aqui">
+                            </div>
+                            <div class="modal-footer w-75 bg-light justify-content-center">
+                                <p class="text-secondary"><strong>Fonte:</strong><a
+                                        href="https://hackernoon.com/the-past-present-and-the-future-of-design-thinking-2a07d02193c7"
+                                        target="_blank">Hackernoon.</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Imagem - End-->
+
+                    <!-- FIM DA IMAGEM NO SITE  -->
+
+                    <!-- subtopico -->
+                    <h3 class="Subtopico fw-bolder" id="item3.9">3.9 - Ajude os Usuários a Reconhecerem,
+                        Diagnosticarem e
+                        Recuperarem-se de Erros</h3>
+                    <!-- subtopico -->
+
+                    <!-- Parágrafo com a biblioteca de animação  -->
+                    <p class="wow fadeIn" data-wow-delay="0.3s">As mensagens que interagem com usuários devem ser
+                        expressas em
+                        linguagem simples (sem utilização de códigos), indicando o problema e
+                        sugerindo uma solução. É essencial <strong>ajudar o usuário a entender e resolver
+                            um erro do sistema</strong> . Para isto, a interface não deve culpá-lo ou
+                        intimidá-lo.
+                        Sobre as mensagens de erro, é importante que mensagens de erro:
+                    </p>
+                    <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+                    <!-- lista ordenada  -->
+                    <ol class="wow fadeIn" data-wow-delay="0.3s" id="txt_final">
+                        <li>sejam <strong>claras e simples</strong> de serem entendidas e</li>
+                        <li>ofereçam uma <strong> forma de se recuperar do erro.</strong></li>
+                    </ol>
+                    <!-- fim da lista ordenada  -->
+
+                    <!-- Parágrafo com a biblioteca de animação  -->
+                    <p class="wow fadeIn" data-wow-delay="0.3s">Além do texto, o visual do erro também deve ser bem
+                        apresentado e
+                        destacado. É comum utilizar a cor vermelha para indicar campos preenchidos
+                        de forma incorreta ou não preenchidos. Por este motivo, tenha atenção no
+                        uso do vermelho para componentes na sua interface, principalmente em
+                        mensagens de retorno de uma ação. Discutimos uma situação deste
+                        problema no sub-tópico <strong> 02.4 - O que não é usual?, Figura 10.</strong>
+                    </p>
+                    <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+                    <!-- Parágrafo com a biblioteca de animação  -->
+                    <p class="wow fadeIn" data-wow-delay="0.3s">É também importante que as mensagens de erro
+                        satisfaçam seus
+                        usuários, ou pelo menos não os assustem. A <strong>Figura 29</strong> apresenta um
+                        exemplo clássico de interface indevida para um vírus detectado. O modal era
+                        utilizado em uma versão antiga do software antivírus <a
+                            href="https://www.avg.com/pt-br/homepage#pc" target="_blank">AVG</a> . O problema,
+                        detecção de um vírus, está apresentado de forma clara e a solução mais
+                        rápida está no botão Move to Vault, que traduzido é mover para quarentena.
+                        Apesar de ter um valor sentimental daqueles que utilizaram computadores
+                        nas décadas de 90 e no início dos anos 2000, essa interface pode ser mais
+                        assustadora do que o necessário para um usuário despreparado. Não é justo
+                        julgar uma interface antiga com o que conhecemos e utilizamos hoje em
+                        usabilidade, mas ilustra bem como podemos apresentar melhor mensagens
+                        de erro. Medo é o sentimento ideal para resolver problemas?
+                    </p>
+                    <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+                    <!-- IMAGEM NO SITE  -->
+
+                    <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s">
+                        <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 29:</strong>
+                            Interface antiga de detecção do antivírus AVG</p>
+                        <div class="zoom">
+                            <a href="imgs/Figura29.png" data-bs-toggle="modal" data-bs-target="#Imagem29">
+                                <img src="imgs/Figura29.png" alt="Imagem" id="img-29">
+                            </a>
+                        </div>
+                        <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> Dribbble.</p>
+                    </div>
+
+                    <!-- Imagem - MODAL-->
+                    <div class="modal fade text-center" id="Imagem29" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div
+                            class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                            <div class="modal-content w-75">
+                                <img class="img-fluid" src="imgs/Figura29.png" alt="Alt da imagem fica aqui">
+                            </div>
+                            <div class="modal-footer w-75 bg-light justify-content-center">
+                                <p class="text-secondary"><strong>Fonte:</strong> Dribbble.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Imagem - End-->
+
+
+                    <!-- Parágrafo com a biblioteca de animação  -->
+                    <p class="wow fadeIn" data-wow-delay="0.3s"> Apesar de estas instruções serem fundamentais, não
+                        é incomum ver
+                        mensagens que as infringem. O impacto disto pode ser enorme e irreversível.
+                        Don Norman, em seu famoso livro “O Design do Dia-a-dia”, afirma que seres
+                        humanos não erram sempre, mas erram com frequência quando as coisas que
+                        usam são mal concebidas e mal projetadas.
+                    </p>
+                    <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+                    <!-- CAIXA DE TEXTO SAIBA-MAIS -->
+                    <section class="container wow fadeIn" data-wow-delay="0.3s">
+                        <div class="accordion ">
+                            <section id="content">
+                                <div class="caixaprincipal" id="tituloSaibaMais">
+                                    <div class="div_teste">
+                                        <div><i class="fa-solid fa-plus"></i> SAIBA MAIS </div>
+
+                                        <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                                    </div>
+                                </div> <!--caixa Principal-->
+                                <div class="accordion-content" id="saibamais">
+                                    <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75">
+                                                Passe o mouse acima
+                                            </strong></strong></p>
+                                    <p class="txt-caixasecundaria">Projetar interfaces pode ser essencial para
+                                        um
+                                        uso sem erros. Para
+                                        exemplificar isto, Norman apresentou resultados de uma análise sua em
+                                        acidentes industriais. No desastre que aconteceu na usina nuclear Three
+                                        Mile
+                                        Island, a culpa do acidente foi atribuída às pessoas que operavam a
+                                        máquina
+                                        e fizeram um diagnóstico errôneo do problema. Em sua análise, Norman
+                                        verificou que na verdade houve uma série de problemas mecânicos que para
+                                        correção deveriam verificar até luzes que indicavam o problema exato
+                                        atrás
+                                        do painel de controle, isto é, de difícil acesso. Ele então concluiu que
+                                        <strong> “houve
+                                            falha de equipamento combinada com grave erro de design”. </strong>
+                                        Depois
+                                        desse exemplo, parece justo lidar com o mea-culpa do design de sistemas?
+                                    </p>
+                                    <!--caixa secundaria-->
+                                </div>
+                            </section>
+                    </section>
+                    <!-- FIM DA CAIXA SAIBA MAIS  -->
+
+
+                    <!-- Parágrafo com a biblioteca de animação  -->
+                    <p class="wow fadeIn" data-wow-delay="0.3s col paragrafo">Uma abordagem interessante para
+                        mensagens de erro, é torná-la mais
+                        amigável e interativa, diferente da que
+                        vimos na interface antiga do AVG <strong>(Figura
+                            27).</strong> Veja o exemplo da página de erro 404
+                        do Dribbble na <strong> Figura 30 </strong> ou clicando no
+                        link: <a href="https://dribbble.com/shots/3429843--Reality" target="_blank">mensagem de erro
+                            do
+                            Dribbble</a>
+                        .
+                    </p>
+                    <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+                    <!-- IMAGEM NO SITE  -->
+
+                    <div class="text-center img-01 col wow fadeIn" data-wow-delay="0.3s">
+                        <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 30:</strong>
+                            Erro 404 do Dribbble</p>
+                        <div class="zoom">
+                            <a href="imgs/Figura30.jpg" data-bs-toggle="modal" data-bs-target="#Imagem30">
+                                <img class="w-50" src="imgs/Figura30.jpg" alt="Imagem" id="img-30">
+                            </a>
+                        </div>
+                        <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>Dribbble.
+                        </p>
+                    </div>
+
+                    <!-- Imagem - MODAL-->
+                    <div class="modal fade text-center" id="Imagem30" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div
+                            class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                            <div class="modal-content w-75">
+                                <img class="img-fluid" src="imgs/Figura30.jpg" alt="Alt da imagem fica aqui">
+                            </div>
+                            <div class="modal-footer w-75 bg-light justify-content-center">
+                                <p class="text-secondary"><strong>Fonte:</strong>Dribbble.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Imagem - End-->
+
+                    <!-- FIM DA IMAGEM NO SITE  -->
+
+
+                    <!-- CAIXA DE TEXTO CURIOSIDADE -->
+                    <section class="container wow fadeIn" data-wow-delay="0.3s">
+                        <div class="accordion ">
+                            <section id="content">
+                                <div class="caixaprincipal" id="tituloCuriosidade">
+                                    <div class="div_teste">
+                                        <div><i class="fa-solid fa-question"></i> CURIOSIDADE </div>
+
+                                        <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                                    </div>
+                                </div> <!--caixa Principal-->
+                                <div class="accordion-content" id="Curiosidade">
+                                    <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75">
+                                                Passe o mouse acima
+                                            </strong></strong></p>
+                                    <p class="txt-caixasecundaria">O erro 404 significa Not Found, em
+                                        português
+                                        “não
+                                        encontrado”. Esta
+                                        falha aparece quando a URL (link) pesquisada não foi encontrada no
+                                        domínio
+                                        buscado, o que também chamamos de link quebrado. Uma causa comum
+                                        para esse erro é a digitação errada, mas também pode acontecer
+                                        quando há
+                                        links desatualizados nas páginas. Outros erros comuns em navegação
+                                        são
+                                        400 - Bad Request, que indica problema na conexão; 401 -
+                                        Authorization
+                                        Required e 403 - Forbidden, que indicam problema de permissão de
+                                        acesso.
+                                    </p><!--caixa secundaria-->
+                                </div>
+                            </section>
+                    </section>
+                    <!-- FIM DA CAIXA DE TEXTO CURIOSIDADE -->
+
+                    <!-- subtopico -->
+                    <h3 class="Subtopico fw-bolder wow fadeIn" data-wow-delay="0.3s" id="item3.10">3.10 - Ajuda e
+                        Documentação</h3>
+                    <!-- subtopico -->
+
+                    <p class="wow fadeIn" data-wow-delay="0.3s">O ideal é que o sistema não precise de documentação
+                        extra para que
+                        seja utilizado. Usabilidade em sua essência é justamente a interface ser auto
+                        explicável. <strong> Quando necessário, porém, é importante que este conteúdo
+                            seja também fácil de usar e entender. </strong> Além disso, deve ser fácil de
+                        ser
+                        encontrado e se for longo deve ser fácil de pesquisar algo dentro dele.
+                    </p>
+                    <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+
+                    <!-- IMAGEM NO SITE  -->
+
+                    <div class="text-center img-01 wow fadeIn" data-wow-delay="0.3s" id="img-left">
+                        <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 31:</strong>
+                            Exemplo de ajuda contextual no iFood</p>
+                        <div class="zoom">
+                            <a href="imgs/Figura31.jpg" data-bs-toggle="modal" data-bs-target="#Imagem31">
+                                <img class="w-50" src="imgs/Figura31.jpg" alt="Imagem" id="img-31">
+                            </a>
+                        </div>
+                        <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong><a
+                                href="https://www.ifood.com.br/" target="_blank">iFood.</a></p>
+                    </div>
+
+                    <!-- Imagem - MODAL-->
+                    <div class="modal fade text-center" id="Imagem31" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div
+                            class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                            <div class="modal-content w-50">
+                                <img class="img-fluid " src="imgs/Figura31.jpg" alt="Alt da imagem fica aqui">
+                            </div>
+                            <div class="modal-footer w-50 bg-light justify-content-center">
+                                <p class="text-secondary"><strong>Fonte:</strong><a href="https://www.ifood.com.br/"
+                                        target="_blank">iFood.</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Imagem - End-->
+
+                    <!-- FIM DA IMAGEM NO SITE  -->
+
+                    <p class="wow fadeIn" data-wow-delay="0.3s">O título desta heurística lembra longos documentos
+                        de instruções, como
+                        bulas de remédios ou os antigos manuais de instruções que recebíamos com
+                        uma TV nova. Entretanto, vale lembrar que esta heurística não diz respeito a
+                        todo tipo de documentação de software. Ela trata de <strong> informações de ajuda
+                            na interação com usuário </strong>, que devem ser concisas e diretas. Não há
+                        espaço
+                        nessa comunicação para informações extras ou complexas, como uma
+                        documentação técnica da equipe de desenvolvimento.
+                    </p>
+                    <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+                    <p class="wow fadeIn" data-wow-delay="0.3s">A forma de aplicação contextual é considerada pelos
+                        especialistas
+                        como a forma mais apropriada. Esse formato acontece quando a
+                        informação de ajuda para uma atividade aparece no momento desta
+                        atividade e não fica em um local separado, como em uma tela de ajuda. Veja
+                        na <strong> Figura 31 </strong> um exemplo prático de ajuda contextual. No exemplo
+                        vemos
+                        um modal de ajuda que explica sobre um campo específico da adição do
+                        cartão de crédito. Essa informação é contextual pois se encontra no local
+                        onde o próprio cartão está adicionado, como pode ser visto na tela de fundo.
+                        Desta forma não é necessário sair desta tela e parar a atividade para tirar uma
+                        dúvida.
+                    </p>
+                    <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+
                 </div>
             </div>
-        </section>
+    </div>
+    </section>
     </div>
 
     <!-- Botões de navegação -->

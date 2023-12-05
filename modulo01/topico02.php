@@ -39,10 +39,10 @@ include('layout/header.php');
                         <!-- IMAGEM COM CAIXAS DE TEXTO -->
                         <div class="apresentacao">
                             <div class="img_apresentacao wow animate__zoomIn">
-                                <img src="figuras/Group 11.png" alt="">
+                                <img src="figuras/Group 8.png" alt="">
                                 <p class="FonteFigura FonteMenor text-secondary" id="text-freepik">
                                     <strong>Fonte: </strong>
-                                    <a href="https://br.freepik.com/vetores-gratis/icone-de-personagem-professor-homem-isolado_74222494.htm#query=pessoa%20dando%20oi&position=2&from_view=keyword&track=ais&uuid=f62cddf1-0953-4fc6-81a7-0f1f56865b4a"
+                                    <a href="https://www.freepik.com/free-vector/multiracial-people-avatars_7085153.htm#query=vetor%20pessoa&position=4&from_view=search&track=ais&uuid=79596f3d-29a6-40ff-9f85-91826a1fce27"
                                         target="_blank" rel="noopener noreferrer"> <strong> Imagem retirada do
                                             Freepik</strong></a>
                                 </p>
@@ -307,7 +307,6 @@ include('layout/header.php');
                                     <li class="wow animate__zoomIn texto_apresentacao_lista" data-wow-delay="0.5s"><i
                                             class="bi bi-5-circle"></i> ISO/IEC 2504n – Divisão de
                                         Avaliação da Qualidade.</li>
-
                                 </ul>
                                 <!-- fim da lista ordenada  -->
                             </div>
@@ -586,33 +585,46 @@ include('layout/header.php');
                         <p class="wow fadeIn" data-wow-delay="0.3s">Nielsen complementa esta definição a partir de 5
                             fatores de usabilidade:</p>
 
+                        <!-- ACCORDION INFORMATIVO -->
+                        <!-- caixa informativa -->
+                        <div class="d-flex justify-content-center">
+                            <p class="wow fadeIn li_interativo2" id="informacao-card" data-wow-delay="0.3s"><i
+                                    class="fa-solid fa-circle-info"></i> Clique nas caixas abaixo para saber mais
+                            </p>
+                        </div>
+                        <!-- caixa informativa end-->
+
                         <div class="accordion wow fadeIn" data-wow-delay="0.3s" id="accordionExample">
                             <div class="accordion-item">
                                 <div class="accordion-header">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+                                        id="accordion-botao-apresentacao">
                                         Facilidade de aprendizado <em>(Learnability)</em>
                                     </button>
                                 </div>
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
+                                    <div class="accordion-body" id="acordion-estilizado">
                                         <strong>Quão fácil é
-                                        para os
-                                        usuários realizarem tarefas básicas na primeira vez que se deparam com o design
-                                        da
-                                        interface? De forma prática, este fator diz respeito ao tempo que o usuário leva
-                                        para
-                                        aprender a realizar as principais atividades ou um conjunto mais amplo de
-                                        atividades do
-                                        sistema.</strong>
+                                            para os
+                                            usuários realizarem tarefas básicas na primeira vez que se deparam com o
+                                            design
+                                            da
+                                            interface? De forma prática, este fator diz respeito ao tempo que o usuário
+                                            leva
+                                            para
+                                            aprender a realizar as principais atividades ou um conjunto mais amplo de
+                                            atividades do
+                                            sistema.</strong>
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item">
                                 <div class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
+                                        id="accordion-botao-apresentacao">
                                         Facilidade de recordação <em>(Memorability)</em>
                                     </button>
                                 </div>
@@ -636,8 +648,8 @@ include('layout/header.php');
                                 <div class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">
-                                        <strong>Eficiência </strong> <em> (Efficiency)</em>:
+                                        aria-controls="collapseThree" id="accordion-botao-apresentacao">
+                                        Eficiência <em> (Efficiency)</em>:
                                     </button>
                                 </div>
                                 <div id="collapseThree" class="accordion-collapse collapse"
@@ -657,7 +669,8 @@ include('layout/header.php');
                             <div class="accordion-item">
                                 <div class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapseThree">
+                                        data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapseThree"
+                                        id="accordion-botao-apresentacao">
                                         Segurança no uso <em>(Errors)</em>:
                                     </button>
                                 </div>
@@ -679,7 +692,8 @@ include('layout/header.php');
                             <div class="accordion-item">
                                 <div class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapseThree">
+                                        data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapseThree"
+                                        id="accordion-botao-apresentacao">
                                         Satisfação do usuário <em> (Satisfaction)</em>
                                     </button>
                                 </div>
@@ -694,56 +708,7 @@ include('layout/header.php');
                                     </div>
                                 </div>
                             </div>
-
-
-
-                        </div>
-
-
-                        <ol class="wow fadeIn" data-wow-delay="0.3s">
-                            <!-- <br>
-                            <li><strong>Facilidade de aprendizado</strong> <em>(Learnability)</em>: Quão fácil é
-                                para os
-                                usuários realizarem tarefas básicas na primeira vez que se deparam com o design
-                                da
-                                interface? De forma prática, este fator diz respeito ao tempo que o usuário leva
-                                para
-                                aprender a realizar as principais atividades ou um conjunto mais amplo de
-                                atividades do
-                                sistema.</li>
-                            <br> -->
-                            <!-- <li><strong>Facilidade de recordação</strong> <em>(Memorability)</em>: Quando os
-                                usuários
-                                retornam ao sistema após um período sem usá-lo, com que facilidade eles podem
-                                restabelecer a proficiência de uso? Para avaliar este fator, é possível medir a
-                                porcentagem de tarefas que um usuário conseguiu lembrar ao usar uma aplicação
-                                que
-                                utiliza com baixa frequência. </li>
-                            <br> -->
-                            <!-- <li><strong>Eficiência</strong><em> (Efficiency)</em>: Depois de aprender como
-                                interagir com
-                                uma interface, com que rapidez os usuários podem executar as tarefas? Sobre este
-                                fator,
-                                é possível medir o tempo gasto para completar uma tarefa e a porcentagem de
-                                completude
-                                da tarefa.</li>
-                            <br> -->
-                            <!-- <li><strong>Segurança no uso</strong> <em>(Errors)</em>: Quantos erros os usuários
-                                cometem,
-                                quão graves são esses erros e com que facilidade eles podem se recuperar dos
-                                erros? Esse
-                                fator é bastante explorado nas avaliações que encontram problemas de
-                                usabilidade, onde é
-                                importante analisar se a interface auxilia o usuário a se recuperar de uma
-                                situação
-                                problemática. </li>
-                            <br> -->
-                            <!-- <li><strong>Satisfação do usuário</strong> <em>(Satisfaction)</em>: É prazeroso
-                                utilizar uma
-                                interface? A satisfação do usuário envolve prazer, diversão, entretenimento,
-                                interesse,
-                                motivação, estética, criatividade, surpresa e desafio.</li>
-                        </ol> -->
+                            <!-- ACCORDION INFORMATIVO END-->
 
                             <br>
 
@@ -1154,8 +1119,8 @@ include('layout/header.php');
                             </div><br>
                             <!-- Imagem 13 - End -->
 
+                        </div>
                     </div>
-                </div>
         </section>
         <!-- Botões de navegação -->
         <div class="text-center">

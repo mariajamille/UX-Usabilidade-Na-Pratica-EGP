@@ -671,14 +671,14 @@ strong {
 
 /* clique para mais informações */
 .li_interativo2 {
-    background-color: #1989f1;
+    background-image: linear-gradient(to right, #2db39e, #26a737);
     color: #ffff;
     width: fit-content;
-    padding: 8px;
+    padding: 10px;
     border-radius: 2px;
     margin-right: 2rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
@@ -1008,6 +1008,8 @@ hr {
 
 #accordion-botao-apresentacao {
     background-image: linear-gradient(to right, #2db39e, #26a737);
+    color: white;
+    font-size: 1.1rem;
 }
 
 .accordion-body01 {

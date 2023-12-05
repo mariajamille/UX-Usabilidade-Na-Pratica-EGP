@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
     <!-- nosso css -->
-   <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/games.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/modulo01.css">
 
     <!-- link do font awesome  -->
@@ -21,6 +22,7 @@
 
     <!-- link do script -->
     <script src="../assets/js/script.js" defer></script>
+    <script src="../assets/js/game-embaralhar-palavra.js" defer></script>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="http://ava.egp.ce.gov.br/2018/desv/logo/favicon.png" />
@@ -38,5 +40,5 @@
         new WOW().init();
     </script>
 
-        <title>EGPCE | UX - Usabilidade na Prática - Módulo 01</title>
+    <title>EGPCE | UX - Usabilidade na Prática - Módulo 01</title>
 </head>
